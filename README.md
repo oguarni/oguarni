@@ -1,81 +1,81 @@
 <div align="center">
-<h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
+  <h3>Hi, I'm Gabriel Guarnieri! 👋</h3>
 
-<h4>
-🔒 DevSecOps & Cloud Security | AWS, Python, Terraform 
+  <h4>
+    🔒 DevSecOps & Cloud Security | AWS, Python, Terraform <br/>
+    ⚖️ Critical Infrastructure & Compliance | QA Automation <br/>
+    🛡️ Creator of <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(9.7/10 Distinguished Research in IaC Security)</i>
+  </h4>
 
-
-
-
-⚖️ Infraestrutura Crítica & Compliance | QA Automation 
-
-
-
-
-🛡️ Autor do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Pesquisa & Inovação em IaC Security)</i>
-</h4>
-
-<a href="https://oguarni.github.io">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Portf%C3%B3lio%2520%2526%2520Links-000000%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" />
-</a>
-<a href="https://www.linkedin.com/in/oguarni/">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" />
-</a>
+  <a href="https://oguarni.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/oguarni/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </div>
 
-🚀 Sobre mim
+<br/>
 
-Graduando em Engenharia de Software (UTFPR) com competência dual em Infraestrutura de Alta Disponibilidade e Segurança Ofensiva. Especialista em DevSecOps, unindo rigor regulatório (background em Provimento 74/CNJ) com automação moderna de nuvem.
+## 🚀 About Me
 
-🔭 Pesquisa Atual: TerraSafe — Scanner de segurança para Terraform projetado com abordagem híbrida (Machine Learning + Análise Determinística).
+I am a **Software Engineering** undergraduate (UTFPR) operating at the intersection of **Regulatory Compliance** and **Modern Cloud Security**.
 
-Status: Em implementação final como TCC2.
+My core value proposition is **"Dual Competence"**: I bridge the gap between strict regulatory standards (Provimento 74/CNJ, LGPD) and agile DevSecOps pipelines. I don't just secure infrastructure; I ensure it meets critical business and legal requirements.
 
-Validação: Nota 9.7/10 na defesa da proposta de pesquisa (TCC1).
+* 🔭 **Current Research**: **TerraSafe** — A Hybrid Security Scanner for Terraform (Machine Learning + Deterministic Analysis).
+* 🏆 **Validation**: Awarded **Grade 9.7/10** for technical depth and market relevance.
+* 🎯 **Focus**: Shift-Left Security, eliminating vulnerabilities at the source.
+* 💼 **Background**: From managing critical registry office infrastructure (99% uptime) to Cloud Data Engineering at AWS.
 
-🎯 Foco: Eliminar vulnerabilidades na fonte (Shift-Left) e garantir compliance em ambientes críticos.
+---
 
-💼 Experiência: De gestão de infraestrutura cartorária crítica à engenharia de dados na AWS.
+## 💎 Featured Project: TerraSafe
 
-🛠️ Arsenal Técnico
+> **The Problem**: 66% of enterprise cloud breaches stem from IaC misconfigurations, with standard tools missing novel attack vectors.
+
+**TerraSafe** is a security scanner designed to solve this by combining:
+1.  **Deterministic Layer**: Rule-based detection (Regex/AST) for known patterns.
+2.  **Machine Learning Layer**: Unsupervised **Isolation Forest** to detect zero-day configuration anomalies.
+
+**Impact**: Extends detection surface beyond static rules, reducing false positives and blocking insecure deployments in CI/CD.
+
+---
+
+## 🛠️ Technical Arsenal
 
 <div align="center">
 
-Segurança & Compliance
-
-Cloud & Infraestrutura
-
-Core & Automação
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/TerraSafe-Academic_Research-green" />
-
-
-
-Bandit • Safety • GitLeaks
-
-
-
-Provimento 74 • LGPD
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/AWS-232F3E%3Flogo%3Damazon-aws%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/Terraform-7B42BC%3Flogo%3Dterraform%26logoColor%3Dwhite" />
-
-
-
-Docker • Linux Hardening
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Flogo%3Dpython%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/TypeScript-3178C6%3Flogo%3Dtypescript%26logoColor%3Dwhite" />
-
-
-
-Cypress • GitHub Actions
+| **Security & Compliance** | **Cloud & Infrastructure** | **Core & Automation** |
+| :---: | :---: | :---: |
+| <img src="https://img.shields.io/badge/TerraSafe-Research-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" /> |
+| **Bandit • Safety • GitLeaks** | **Terraform • Docker** | **TypeScript • Bash** |
+| Provimento 74 • GDPR/LGPD | Linux Hardening • IAM | Cypress • GitHub Actions |
 
 </div>
 
-📊 Métricas & Atividade
+---
+
+## 💼 Experience Highlights
+
+### **Infrastructure & Compliance Analyst** | *Registry Office*
+* **Critical Compliance**: Managed IT infrastructure under **Provimento 74 (CNJ)** mandates.
+* **Zero Findings**: Achieved 100% compliance in Judiciary audits (TJPR) for digital certificates and audit trails.
+* **Resilience**: Maintained **99%+ availability** for critical registration systems.
+
+### **Cloud Data Engineering Intern** | *Compass UOL*
+* **AWS Native**: Built serverless pipelines using **AWS Lambda**, **S3**, and **IAM**.
+* **Big Data**: Processed large-scale datasets with **PySpark** and SQL in distributed environments.
+
+### **Full Stack Developer Intern** | *Procfy*
+* **Feature Delivery**: Implemented granular search and data visualization features using **Ruby on Rails**.
+* **Quality**: Enforced code quality with automated testing and database integrity checks.
+
+---
 
 <div align="center">
-<a href="https://github.com/oguarni">
-<img height="160em" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Doguarni%26show_icons%3Dtrue%26theme%3Ddark%26hide_border%3Dtrue%26count_private%3Dtrue%26include_all_commits%3Dtrue" />
-<img height="160em" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Doguarni%26layout%3Dcompact%26theme%3Ddark%26hide_border%3Dtrue%26langs_count%3D6" />
-</a>
+  <a href="https://github.com/oguarni">
+    <img height="160em" src="https://github-readme-stats.vercel.app/api?username=oguarni&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
+    <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oguarni&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+  </a>
 </div>
