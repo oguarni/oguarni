@@ -1,14 +1,14 @@
 <div align="center">
-  <h3>Hi, I'm Gabriel Guarnieri! 👋</h3>
+  <h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
 
   <h4>
     🔒 DevSecOps & Cloud Security | AWS, Python, Terraform <br/>
-    ⚖️ Critical Infrastructure & Compliance | QA Automation <br/>
-    🛡️ Creator of <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(9.7/10 Distinguished Research in IaC Security)</i>
+    ⚖️ Infraestrutura Crítica & Compliance | QA Automation <br/>
+    🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Nota 9.7/10 Pesquisa em Segurança IaC)</i>
   </h4>
 
   <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -17,59 +17,59 @@
 
 <br/>
 
-## 🚀 About Me
+## 🚀 Sobre Mim
 
-I am a **Software Engineering** undergraduate (UTFPR) operating at the intersection of **Regulatory Compliance** and **Modern Cloud Security**.
+Sou graduando em **Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem Moderna**.
 
-My core value proposition is **"Dual Competence"**: I bridge the gap between strict regulatory standards (Provimento 74/CNJ, LGPD) and agile DevSecOps pipelines. I don't just secure infrastructure; I ensure it meets critical business and legal requirements.
+Minha proposta de valor é a **"Competência Dual"**: Eu conecto rigorosos padrões regulatórios (Provimento 74/CNJ, LGPD) com pipelines ágeis de DevSecOps. Não apenas protejo a infraestrutura; garanto que ela atenda aos requisitos críticos de negócio e jurídicos.
 
-* 🔭 **Current Research**: **TerraSafe** — A Hybrid Security Scanner for Terraform (Machine Learning + Deterministic Analysis).
-* 🏆 **Validation**: Awarded **Grade 9.7/10** for technical depth and market relevance.
-* 🎯 **Focus**: Shift-Left Security, eliminating vulnerabilities at the source.
-* 💼 **Background**: From managing critical registry office infrastructure (99% uptime) to Cloud Data Engineering at AWS.
-
----
-
-## 💎 Featured Project: TerraSafe
-
-> **The Problem**: 66% of enterprise cloud breaches stem from IaC misconfigurations, with standard tools missing novel attack vectors.
-
-**TerraSafe** is a security scanner designed to solve this by combining:
-1.  **Deterministic Layer**: Rule-based detection (Regex/AST) for known patterns.
-2.  **Machine Learning Layer**: Unsupervised **Isolation Forest** to detect zero-day configuration anomalies.
-
-**Impact**: Extends detection surface beyond static rules, reducing false positives and blocking insecure deployments in CI/CD.
+* 🔭 **Pesquisa Atual**: **TerraSafe** — Um Scanner de Segurança Híbrido para Terraform (Machine Learning + Análise Determinística).
+* 🏆 **Validação**: **Nota 9.7/10** pela profundidade técnica e relevância de mercado.
+* 🎯 **Foco**: Segurança Shift-Left, eliminando vulnerabilidades na fonte.
+* 💼 **Experiência**: De gestão de infraestrutura cartorária crítica (99% de disponibilidade) à Engenharia de Dados Cloud na AWS.
 
 ---
 
-## 🛠️ Technical Arsenal
+## 💎 Projeto em Destaque: TerraSafe
+
+> **O Problema**: 66% das violações em nuvem empresarial originam-se de configurações incorretas de IaC, com ferramentas padrão falhando em detectar novos vetores de ataque.
+
+**TerraSafe** é um scanner de segurança projetado para resolver isso combinando:
+1.  **Camada Determinística**: Detecção baseada em regras (Regex/AST) para padrões conhecidos.
+2.  **Camada de Machine Learning**: **Isolation Forest** não supervisionado para detectar anomalias de configuração zero-day.
+
+**Impacto**: Amplia a superfície de detecção além das regras estáticas, reduzindo falsos positivos e bloqueando deployments inseguros no CI/CD.
+
+---
+
+## 🛠️ Arsenal Técnico
 
 <div align="center">
 
-| **Security & Compliance** | **Cloud & Infrastructure** | **Core & Automation** |
+| **Segurança & Compliance** | **Cloud & Infraestrutura** | **Core & Automação** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/TerraSafe-Research-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/TerraSafe-Pesquisa-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" /> |
 | **Bandit • Safety • GitLeaks** | **Terraform • Docker** | **TypeScript • Bash** |
-| Provimento 74 • GDPR/LGPD | Linux Hardening • IAM | Cypress • GitHub Actions |
+| Provimento 74 • LGPD | Linux Hardening • IAM | Cypress • GitHub Actions |
 
 </div>
 
 ---
 
-## 💼 Experience Highlights
+## 💼 Destaques da Experiência
 
-### **Infrastructure & Compliance Analyst** | *Registry Office*
-* **Critical Compliance**: Managed IT infrastructure under **Provimento 74 (CNJ)** mandates.
-* **Zero Findings**: Achieved 100% compliance in Judiciary audits (TJPR) for digital certificates and audit trails.
-* **Resilience**: Maintained **99%+ availability** for critical registration systems.
+### **Analista de Infraestrutura e Compliance** | *Serviço de Registro de Imóveis*
+* **Compliance Crítico**: Gerenciei infraestrutura de TI sob mandatos de cibersegurança do **Provimento 74 (CNJ)**.
+* **Zero Apontamentos**: 100% de conformidade em auditorias (TJPR) para certificados digitais e trilhas de auditoria.
+* **Resiliência**: Mantive **99%+ de disponibilidade** para sistemas críticos de registro.
 
-### **Cloud Data Engineering Intern** | *Compass UOL*
-* **AWS Native**: Built serverless pipelines using **AWS Lambda**, **S3**, and **IAM**.
-* **Big Data**: Processed large-scale datasets with **PySpark** and SQL in distributed environments.
+### **Estagiário de Engenharia de Dados Cloud** | *Compass UOL*
+* **AWS Native**: Construí pipelines serverless usando **AWS Lambda**, **S3** e **IAM**.
+* **Big Data**: Processei grandes volumes de dados com **PySpark** e SQL em ambientes distribuídos.
 
-### **Full Stack Developer Intern** | *Procfy*
-* **Feature Delivery**: Implemented granular search and data visualization features using **Ruby on Rails**.
-* **Quality**: Enforced code quality with automated testing and database integrity checks.
+### **Estagiário Desenvolvedor Full Stack** | *Procfy*
+* **Entrega de Funcionalidades**: Implementei busca granular e visualização de dados usando **Ruby on Rails**.
+* **Qualidade**: Garanti qualidade de código com testes automatizados e verificações de integridade de banco de dados.
 
 ---
 
