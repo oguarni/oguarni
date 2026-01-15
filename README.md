@@ -1,10 +1,12 @@
-### Olá, eu sou o Gabriel Guarnieri! 👋
-
-<h4>
-  🔒 DevSecOps & Cloud Security | AWS, Python, Terraform <br>
-  ⚙️ QA Automation | Compliance & Infraestrutura <br>
-  🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a>
-</h4>
+<div align="center">
+  <h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
+  
+  <h4>
+    🔒 DevSecOps & Cloud Security | AWS, Python, Terraform <br>
+    ⚙️ QA Automation | Compliance & Infraestrutura <br>
+    🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a>
+  </h4>
+</div>
 
 ---
 
