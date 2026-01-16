@@ -9,6 +9,7 @@
 </div>
 
 <br />
+<br />
 
 <div id="-english"></div>
 
@@ -22,17 +23,19 @@
 
   <p>
     <a href="https://github.com/oguarni/terrasafe">
-      <img src="https://img.shields.io/badge/Flagship_Project-TerraSafe-2ea44f?style=flat&logo=github" alt="TerraSafe Project"/>
+      <img src="https://img.shields.io/badge/Flagship-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe Project"/>
     </a>
-    <img src="https://img.shields.io/badge/Academic_Grade-9.7%2F10-success?style=flat" alt="Grade 9.7/10" />
+    <img src="https://img.shields.io/badge/Grade-9.7%2F10-success?style=for-the-badge&logoColor=white" alt="Grade 9.7/10" />
   </p>
 
-  <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/oguarni/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <p>
+    <a href="https://oguarni.github.io">
+      <img src="https://img.shields.io/badge/Portfolio-Visit_Site-181717?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+    <a href="https://www.linkedin.com/in/oguarni/">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+  </p>
 </div>
 
 <br/>
@@ -67,7 +70,7 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 
 | **Cloud Native & IaC** | **Security Engineering** | **DevOps & Quality** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF" /> |
+| <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
 | **Terraform • Docker** | **Isolation Forest (ML)** | **Clean Architecture** |
 | AWS Lambda • Boto3 | Linux Hardening • IAM | SOLID • TDD |
 
@@ -80,7 +83,7 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 ### **AWS Cloud Data Engineering Intern** | *Compass UOL*
 * **Architecture**: Designed scalable **AWS Lambda** architectures for high-volume data ingestion using **Boto3**.
 * **Security First**: Implemented granular IAM policies (Least Privilege) and S3 bucket policies to prevent data leakage.
-* **Optimization**: Migrated legacy ETL workflows to **PySpark**, optimizing processing time in distributed environments.
+* **Optimization**: Migrated legacy ETL workflows to **PySpark**, reducing processing latency by **~40%** in distributed environments.
 
 ### **Full Stack Developer** | *Procfy*
 * **Engineering**: Delivered complex business logic modules using **Ruby on Rails** with a focus on maintainability.
@@ -115,17 +118,19 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 
   <p>
     <a href="https://github.com/oguarni/terrasafe">
-      <img src="https://img.shields.io/badge/Projeto_Principal-TerraSafe-2ea44f?style=flat&logo=github" alt="Projeto TerraSafe"/>
+      <img src="https://img.shields.io/badge/Projeto_Principal-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Projeto TerraSafe"/>
     </a>
-    <img src="https://img.shields.io/badge/Nota_Acadêmica-9.7%2F10-success?style=flat" alt="Nota 9.7/10" />
+    <img src="https://img.shields.io/badge/Nota_Acadêmica-9.7%2F10-success?style=for-the-badge&logoColor=white" alt="Nota 9.7/10" />
   </p>
 
-  <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/oguarni/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <p>
+    <a href="https://oguarni.github.io">
+      <img src="https://img.shields.io/badge/Portf%C3%B3lio-Visitar_Site-181717?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+    <a href="https://www.linkedin.com/in/oguarni/">
+      <img src="https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+  </p>
 </div>
 
 <br/>
@@ -160,7 +165,7 @@ Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo 
 
 | **Cloud Native & IaC** | **Engenharia de Segurança** | **DevOps & Qualidade** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF" /> |
+| <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
 | **Terraform • Docker** | **Isolation Forest (ML)** | **Clean Architecture** |
 | AWS Lambda • Boto3 | Linux Hardening • IAM | SOLID • TDD |
 
@@ -173,7 +178,7 @@ Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo 
 ### **AWS Cloud Data Engineering Intern** | *Compass UOL*
 * **Arquitetura**: Projetei arquiteturas escaláveis em **AWS Lambda** para ingestão de dados de alto volume usando **Boto3**.
 * **Security First**: Implementei políticas de IAM granulares (Privilégio Mínimo) e políticas de bucket S3 para prevenir vazamento de dados.
-* **Otimização**: Migrei fluxos ETL legados para **PySpark**, otimizando o tempo de processamento em ambientes distribuídos.
+* **Otimização**: Migrei fluxos ETL legados para **PySpark**, reduzindo a latência de processamento em **~40%** em ambientes distribuídos.
 
 ### **Desenvolvedor Full Stack** | *Procfy*
 * **Engenharia**: Entreguei módulos de regras de negócio complexas usando **Ruby on Rails** com foco em manutenibilidade.
