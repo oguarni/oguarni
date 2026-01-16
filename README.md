@@ -2,9 +2,9 @@
   <h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
 
   <h4>
-    🔒 DevSecOps & Cloud Security | AWS, Python, Terraform <br/>
+    🔒 Cloud Security & DevSecOps Specialist <br/>
     ⚖️ Infraestrutura Crítica & Compliance | QA Automation <br/>
-    🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Nota 9.7/10 Pesquisa em Segurança IaC)</i>
+    🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Pesquisa em Segurança IaC - Nota 9.7/10)</i>
   </h4>
 
   <a href="https://oguarni.github.io">
@@ -19,57 +19,57 @@
 
 ## 🚀 Sobre Mim
 
-Sou graduando em **Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem Moderna**.
+Sou **Engenheiro de Software em formação** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem**.
 
-Minha proposta de valor é a **"Competência Dual"**: Eu conecto rigorosos padrões regulatórios (Provimento 74/CNJ, LGPD) com pipelines ágeis de DevSecOps. Não apenas protejo a infraestrutura; garanto que ela atenda aos requisitos críticos de negócio e jurídicos.
+Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões regulatórios (Provimento 74/CNJ, LGPD) com a agilidade de pipelines DevSecOps.
 
-* 🔭 **Pesquisa Atual**: **TerraSafe** — Um Scanner de Segurança Híbrido para Terraform (Machine Learning + Análise Determinística).
-* 🏆 **Validação**: **Nota 9.7/10** pela profundidade técnica e relevância de mercado.
-* 🎯 **Foco**: Segurança Shift-Left, eliminando vulnerabilidades na fonte.
-* 💼 **Experiência**: De gestão de infraestrutura cartorária crítica (99% de disponibilidade) à Engenharia de Dados Cloud na AWS.
-
----
-
-## 💎 Projeto em Destaque: TerraSafe
-
-> **O Problema**: 66% das violações em nuvem empresarial originam-se de configurações incorretas de IaC, com ferramentas padrão falhando em detectar novos vetores de ataque.
-
-**TerraSafe** é um scanner de segurança projetado para resolver isso combinando:
-1.  **Camada Determinística**: Detecção baseada em regras (Regex/AST) para padrões conhecidos.
-2.  **Camada de Machine Learning**: **Isolation Forest** não supervisionado para detectar anomalias de configuração zero-day.
-
-**Impacto**: Amplia a superfície de detecção além das regras estáticas, reduzindo falsos positivos e bloqueando deployments inseguros no CI/CD.
+* 🔭 **Foco Atual**: Desenvolvimento de ferramentas de segurança IaC (Infrastructure as Code).
+* 💼 **Background**: De gestão de infraestrutura crítica em cartórios (99% SLA) à Engenharia de Dados na AWS.
+* 🎓 **Acadêmico**: Pesquisador de métodos híbridos (ML + Análise Estática) para detecção de vulnerabilidades.
 
 ---
 
-## 🛠️ Arsenal Técnico
+## 💎 Pesquisa & Desenvolvimento: TerraSafe
+
+> **O Contexto**: 66% das violações em nuvem originam-se de configurações incorretas (Misconfigurations).
+
+**TerraSafe** é um scanner de segurança híbrido desenvolvido como meu TCC (Nota 9.7), combinando:
+1.  **Análise Determinística**: Regras AST/Regex para padrões de ataque conhecidos (baseado em best practices).
+2.  **Machine Learning**: **Isolation Forest** para detecção de anomalias e vetores zero-day.
+
+O projeto visa reduzir falsos positivos em pipelines CI/CD comparado a ferramentas puramente estáticas.
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-| **Segurança & Compliance** | **Cloud & Infraestrutura** | **Core & Automação** |
+| **Cloud Security & Ops** | **Infra & Backend** | **Qualidade & Automação** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/TerraSafe-Pesquisa-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" /> |
-| **Bandit • Safety • GitLeaks** | **Terraform • Docker** | **TypeScript • Bash** |
-| Provimento 74 • LGPD | Linux Hardening • IAM | Cypress • GitHub Actions |
+| <img src="https://img.shields.io/badge/TerraSafe-Project-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" /> |
+| **Bandit • Safety • GitLeaks** | **Terraform • Docker** | **Cypress • PySpark** |
+| Provimento 74 • IAM | Linux Hardening | GitHub Actions |
 
 </div>
 
 ---
 
-## 💼 Destaques da Experiência
+## 💼 Experiência Relevante
 
-### **Analista de Infraestrutura e Compliance** | *Serviço de Registro de Imóveis*
-* **Compliance Crítico**: Gerenciei infraestrutura de TI sob mandatos de cibersegurança do **Provimento 74 (CNJ)**.
-* **Zero Apontamentos**: 100% de conformidade em auditorias (TJPR) para certificados digitais e trilhas de auditoria.
-* **Resiliência**: Mantive **99%+ de disponibilidade** para sistemas críticos de registro.
+### **AWS Cloud Data Engineering** | *Compass UOL* (2025)
+* **Cloud Native**: Desenvolvimento de funções **AWS Lambda** e scripts **Boto3** para automação.
+* **Segurança**: Configuração de políticas de acesso (IAM) e segurança de dados em S3/EC2.
+* **Big Data**: Migração de fluxos de dados para **PySpark** em ambiente distribuído.
 
-### **Estagiário de Engenharia de Dados Cloud** | *Compass UOL*
-* **AWS Native**: Construí pipelines serverless usando **AWS Lambda**, **S3** e **IAM**.
-* **Big Data**: Processei grandes volumes de dados com **PySpark** e SQL em ambientes distribuídos.
+### **Desenvolvedor Full Stack** | *Procfy* (2023 - 2024)
+* **Feature Delivery**: Implementação de funcionalidades complexas em **Ruby on Rails**.
+* **Quality Assurance**: Execução de testes automatizados e garantia de integridade de dados.
 
-### **Estagiário Desenvolvedor Full Stack** | *Procfy*
-* **Entrega de Funcionalidades**: Implementei busca granular e visualização de dados usando **Ruby on Rails**.
-* **Qualidade**: Garanti qualidade de código com testes automatizados e verificações de integridade de banco de dados.
+### **Analista de Infraestrutura e Compliance** | *Registro de Imóveis* (2021 - 2023)
+* **Compliance Crítico**: Responsável técnico por infraestrutura sob mandato do **Provimento 74 (CNJ)**.
+* **Auditabilidade**: 100% de aprovação em fiscalizações do TJPR (Trilhas de auditoria e Certificação Digital).
+* **High Availability**: Manutenção de 99%+ de uptime para sistemas judiciais integrados.
 
 ---
 
