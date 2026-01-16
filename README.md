@@ -74,10 +74,12 @@ Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões r
 ---
 
 <div align="center">
-  <a href="https://github.com/oguarni">
-    <img src="https://github-readme-stats.vercel.app/api?username=oguarni&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/oguarni">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oguarni&layout=compact&theme=dark&hide_border=true&cache_seconds=86400" alt="Top Langs" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=oguarni&show_icons=true&theme=dark&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=oguarni&show_icons=true&hide_border=true" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=oguarni&layout=compact&theme=dark&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oguarni&layout=compact&hide_border=true" alt="Top Langs" />
+  </picture>
 </div>
