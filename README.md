@@ -31,7 +31,7 @@ Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões r
 
 ## 💎 Pesquisa & Desenvolvimento: TerraSafe
 
-> "Meu projeto de TCC (Nota 9.7/10) **evidenciou** uma lacuna crítica: 66% das violações em nuvem **originam-se** de configurações incorretas em IaC."
+> "A fase de pesquisa do meu TCC (Nota 9.7/10) **evidenciou** uma lacuna crítica: 66% das violações em nuvem **originam-se** de configurações incorretas em IaC."
 
 **TerraSafe** é um scanner de segurança híbrido (em fase final de desenvolvimento), combinando:
 1.  **Análise Determinística**: Regras AST/Regex para padrões de ataque conhecidos (baseado em best practices).
