@@ -1,10 +1,10 @@
 <div align="center">
   <a href="#-english">
-    <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=us" alt="English">
+    <img src="https://flagcdn.com/h40/us.png" alt="English" title="Read in English" height="35" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="#-português">
-    <img src="https://img.shields.io/badge/Linguagem-Português-green?style=for-the-badge&logo=brazil" alt="Português">
+    <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
   </a>
 </div>
 
@@ -86,7 +86,9 @@ My core differentiator is **"Dual Competence"**: I bridge the gap between strict
 * **High Availability**: Maintained 99%+ uptime for integrated judicial systems.
 
 <div align="right">
-  <a href="#-português">🇧🇷 Ler em Português</a>
+  <a href="#-português">
+    <img src="https://flagcdn.com/h20/br.png" alt="Ler em Português" title="Ler em Português" valign="middle" /> <b>Ler em Português</b>
+  </a>
 </div>
 
 <br/>
@@ -171,5 +173,7 @@ Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões r
 * **High Availability**: Manutenção de 99%+ de uptime para sistemas judiciais integrados.
 
 <div align="right">
-  <a href="#-english">🇺🇸 Read in English</a>
+  <a href="#-english">
+    <img src="https://flagcdn.com/h20/us.png" alt="Read in English" title="Read in English" valign="middle" /> <b>Read in English</b>
+  </a>
 </div>
