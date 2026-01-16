@@ -2,7 +2,7 @@
   <h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
 
   <h4>
-    🔒 Cloud Security & DevSecOps Specialist <br/>
+    🔒 Cloud Security & DevSecOps <br/>
     ⚖️ Infraestrutura Crítica & Compliance | QA Automation <br/>
     🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Pesquisa em Segurança IaC - Nota 9.7/10)</i>
   </h4>
@@ -19,7 +19,7 @@
 
 ## 🚀 Sobre Mim
 
-Sou graduando em **Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem**.
+Sou **Graduando em Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem**.
 
 Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões regulatórios (Provimento 74/CNJ, LGPD) com a agilidade de pipelines DevSecOps.
 
@@ -31,13 +31,13 @@ Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões r
 
 ## 💎 Pesquisa & Desenvolvimento: TerraSafe
 
-> **O Contexto**: 66% das violações em nuvem originam-se de configurações incorretas (Misconfigurations).
+> "Meu projeto de TCC (Nota 9.7/10) **evidenciou** uma lacuna crítica: 66% das violações em nuvem **originam-se** de configurações incorretas em IaC."
 
-**TerraSafe** é um scanner de segurança híbrido desenvolvido como meu TCC (Nota 9.7), combinando:
+**TerraSafe** é um scanner de segurança híbrido (em fase final de desenvolvimento), combinando:
 1.  **Análise Determinística**: Regras AST/Regex para padrões de ataque conhecidos (baseado em best practices).
 2.  **Machine Learning**: **Isolation Forest** para detecção de anomalias e vetores zero-day.
 
-O projeto visa reduzir falsos positivos em pipelines CI/CD comparado a ferramentas puramente estáticas.
+**Status:** Prototipagem validada (TCC1). Atualmente na etapa de implementação final e testes comparativos (TCC2) visando reduzir falsos positivos em CI/CD.
 
 ---
 
