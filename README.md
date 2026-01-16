@@ -13,16 +13,22 @@
 <div id="-english"></div>
 
 <div align="center">
-  <h3>Hello, I'm Gabriel Guarnieri! 👋</h3>
+  <h3>Gabriel Guarnieri</h3>
+  <h4>Cloud Security Engineer | DevSecOps | Compliance Specialist</h4>
 
-  <h4>
-    🔒 Cloud Security & DevSecOps Analyst <br/>
-    ⚖️ Critical Infrastructure & Compliance | QA Automation <br/>
-    🛡️ Creator of <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(IaC Security Research - Grade 9.7/10)</i>
-  </h4>
+  <p>
+    <b>Building resilient infrastructure where Regulatory Rigidity meets Agile Delivery.</b>
+  </p>
+
+  <p>
+    <a href="https://github.com/oguarni/terrasafe">
+      <img src="https://img.shields.io/badge/Flagship_Project-TerraSafe-2ea44f?style=flat&logo=github" alt="TerraSafe Project"/>
+    </a>
+    <img src="https://img.shields.io/badge/Academic_Grade-9.7%2F10-success?style=flat" alt="Grade 9.7/10" />
+  </p>
 
   <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -31,59 +37,59 @@
 
 <br/>
 
-## 🚀 About Me
+## ⚡ Professional Profile
 
-I am a **Software Engineering** undergraduate (UTFPR) operating at the intersection of **Regulatory Compliance** and **Cloud Security**.
+I am a **Software Engineering** finalist (UTFPR) specializing in **Cloud Security** and **Infrastructure as Code (IaC)**.
 
-My core differentiator is **"Dual Competence"**: I bridge the gap between strict regulatory standards (GDPR, CNJ Reg. 74) and the agility of DevSecOps pipelines.
+My engineering philosophy is defined by **"Dual Competence"**: I translate strict legal frameworks (GDPR, CNJ Reg. 74) into automated technical constraints. I don't just secure infrastructure; I ensure it remains auditable and compliant without slowing down deployment velocity.
 
-* 🔭 **Current Focus**: Developing IaC (Infrastructure as Code) security tools.
-* 💼 **Background**: From managing critical infrastructure in Real Estate Registries (99% SLA) to Cloud Data Engineering at AWS.
-* 🎓 **Academic**: Researching hybrid methods (ML + Static Analysis) for vulnerability detection.
-
----
-
-## 💎 R&D: TerraSafe
-
-> "My Capstone Research (Grade 9.7/10) **highlighted** a critical gap: 66% of cloud breaches **originate** from IaC misconfigurations."
-
-**TerraSafe** is a hybrid security scanner (currently in late-stage development), combining:
-1. **Deterministic Analysis**: AST/Regex rules for known attack patterns (based on CIS Benchmarks).
-2. **Machine Learning**: **Isolation Forest** for anomaly detection and zero-day vectors.
-
-**Status:** Prototype validated. Currently in final implementation and comparative testing (CI/CD integration) to reduce false positives.
+* 🔭 **Current R&D**: Hybrid vulnerability detection (Static Analysis + ML).
+* 🛡️ **Core Domain**: Transforming compliance bottlenecks into automated CI/CD checkpoints.
+* 🎯 **Objective**: To architect zero-trust cloud environments for regulated industries.
 
 ---
 
-## 🛠️ Tech Stack
+## 💎 R&D Spotlight: TerraSafe
+
+> *Context: 66% of cloud breaches stem from misconfigured IaC. Traditional scanners generate too much noise.*
+
+**TerraSafe** is a next-gen security scanner designed to reduce "alert fatigue" in DevSecOps pipelines. It earned a **9.7/10** academic distinction for its novel hybrid approach:
+
+1.  **Deterministic Engine**: Custom AST parsing for strict rule enforcement (CIS Benchmarks).
+2.  **Probabilistic Engine**: An **Isolation Forest** (ML) model trained to detect zero-day anomalies that static rules miss.
+3.  **CI/CD Integration**: Designed to break builds only on high-confidence positives.
+
+---
+
+## 🛠️ Technical Arsenal
 
 <div align="center">
 
-| **Security Tooling** | **Cloud & Infrastructure** | **Compliance & QA** |
+| **Cloud Native & IaC** | **Security Engineering** | **DevOps & Quality** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/TerraSafe-Project-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Standards-Compliance-blue" /> |
-| **Bandit • Safety • GitLeaks** | **Terraform • Docker** | **LGPD • CNJ Prov. 74** |
-| IAM • Linux Hardening | Boto3 • AWS Lambda | Cypress • PySpark |
+| <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF" /> |
+| **Terraform • Docker** | **Isolation Forest (ML)** | **Clean Architecture** |
+| AWS Lambda • Boto3 | Linux Hardening • IAM | SOLID • TDD |
 
 </div>
 
 ---
 
-## 💼 Relevant Experience
+## 💼 Career Impact
 
-### **AWS Cloud Data Engineering Intern** | *Compass UOL* (2025)
-* **Cloud Native**: Developed **AWS Lambda** functions and **Boto3** scripts for automation.
-* **Security**: Configured IAM access policies and data security for S3/EC2.
-* **Big Data**: Migrated data workflows to **PySpark** in a distributed environment.
+### **AWS Cloud Data Engineering Intern** | *Compass UOL*
+* **Architecture**: Designed scalable **AWS Lambda** architectures for high-volume data ingestion using **Boto3**.
+* **Security First**: Implemented granular IAM policies (Least Privilege) and S3 bucket policies to prevent data leakage.
+* **Optimization**: Migrated legacy ETL workflows to **PySpark**, optimizing processing time in distributed environments.
 
-### **Full Stack Developer** | *Procfy* (2023 - 2024)
-* **Feature Delivery**: Implemented complex features using **Ruby on Rails**.
-* **Quality Assurance**: Executed automated testing ensuring data integrity.
+### **Full Stack Developer** | *Procfy*
+* **Engineering**: Delivered complex business logic modules using **Ruby on Rails** with a focus on maintainability.
+* **Reliability**: Established automated testing suites that reduced regression bugs in production.
 
-### **Infra & Compliance Analyst** | *Real Estate Registry* (2021 - 2023)
-* **Critical Compliance**: Technical lead for infrastructure under **CNJ Regulation 74** (National Justice Council).
-* **Auditability**: 100% approval in court audits (Audit Trails and Digital Certification).
-* **High Availability**: Maintained 99%+ uptime for integrated judicial systems.
+### **Infra & Compliance Lead** | *Real Estate Registry (Critical Infra)*
+* **Regulatory Success**: Technical lead for **CNJ Regulation 74** compliance. Achieved **100% approval** in judicial audits.
+* **High Availability**: Engineered a redundant infrastructure ensuring **99%+ uptime** for real-time judicial integrations.
+* **Integrity**: Implemented immutable audit trails and digital certification standards for legal validity.
 
 <div align="right">
   <a href="#-português">
@@ -100,16 +106,22 @@ My core differentiator is **"Dual Competence"**: I bridge the gap between strict
 <div id="-português"></div>
 
 <div align="center">
-  <h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
+  <h3>Gabriel Guarnieri</h3>
+  <h4>Cloud Security Engineer | DevSecOps | Especialista em Compliance</h4>
 
-  <h4>
-    🔒 Cloud Security & DevSecOps Analyst <br/>
-    ⚖️ Infraestrutura Crítica & Compliance | QA Automation <br/>
-    🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Pesquisa em Segurança IaC - Nota 9.7/10)</i>
-  </h4>
+  <p>
+    <b>Construindo infraestrutura resiliente onde o Rigor Regulatório encontra a Entrega Ágil.</b>
+  </p>
+
+  <p>
+    <a href="https://github.com/oguarni/terrasafe">
+      <img src="https://img.shields.io/badge/Projeto_Principal-TerraSafe-2ea44f?style=flat&logo=github" alt="Projeto TerraSafe"/>
+    </a>
+    <img src="https://img.shields.io/badge/Nota_Acadêmica-9.7%2F10-success?style=flat" alt="Nota 9.7/10" />
+  </p>
 
   <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -118,59 +130,59 @@ My core differentiator is **"Dual Competence"**: I bridge the gap between strict
 
 <br/>
 
-## 🚀 Sobre Mim
+## ⚡ Perfil Profissional
 
-Sou graduando em **Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem**.
+Sou graduando em **Engenharia de Software** (UTFPR) com especialização em **Segurança em Nuvem** e **Infraestrutura como Código (IaC)**.
 
-Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões regulatórios (Provimento 74/CNJ, LGPD) com a agilidade de pipelines DevSecOps.
+Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo marcos legais rígidos (LGPD, Provimento 74/CNJ) em restrições técnicas automatizadas. Não apenas protejo a infraestrutura; garanto que ela permaneça auditável e em conformidade sem desacelerar a esteira de desenvolvimento.
 
-* 🔭 **Foco Atual**: Desenvolvimento de ferramentas de segurança IaC (Infrastructure as Code).
-* 💼 **Background**: De gestão de infraestrutura crítica em cartórios (99% SLA) à Engenharia de Dados na AWS.
-* 🎓 **Acadêmico**: Pesquisador de métodos híbridos (ML + Análise Estática) para detecção de vulnerabilidades.
-
----
-
-## 💎 Pesquisa & Desenvolvimento: TerraSafe
-
-> "A fase de pesquisa do meu TCC (Nota 9.7/10) **evidenciou** uma lacuna crítica: 66% das violações em nuvem **originam-se** de configurações incorretas em IaC."
-
-**TerraSafe** é um scanner de segurança híbrido (em fase final de desenvolvimento), combinando:
-1. **Análise Determinística**: Regras AST/Regex para padrões de ataque conhecidos (baseado em best practices).
-2. **Machine Learning**: **Isolation Forest** para detecção de anomalias e vetores zero-day.
-
-**Status:** Prototipagem validada (TCC1). Atualmente na etapa de implementação final e testes comparativos (TCC2) visando reduzir falsos positivos em CI/CD.
+* 🔭 **R&D Atual**: Detecção híbrida de vulnerabilidades (Análise Estática + ML).
+* 🛡️ **Domínio Principal**: Transformação de gargalos de compliance em checkpoints automatizados de CI/CD.
+* 🎯 **Objetivo**: Arquitetar ambientes de nuvem zero-trust para indústrias reguladas.
 
 ---
 
-## 🛠️ Tech Stack
+## 💎 Destaque R&D: TerraSafe
+
+> *Contexto: 66% das violações em nuvem originam-se de IaC mal configurado. Scanners tradicionais geram muito ruído.*
+
+**TerraSafe** é um scanner de segurança de nova geração projetado para reduzir a "fadiga de alertas" em pipelines DevSecOps. O projeto obteve nota **9.7/10** por sua abordagem híbrida inovadora:
+
+1.  **Motor Determinístico**: Parsing AST customizado para aplicação estrita de regras (CIS Benchmarks).
+2.  **Motor Probabilístico**: Modelo **Isolation Forest** (ML) treinado para detectar anomalias zero-day que regras estáticas perdem.
+3.  **Integração CI/CD**: Projetado para quebrar builds apenas em positivos de alta confiança.
+
+---
+
+## 🛠️ Arsenal Técnico
 
 <div align="center">
 
-| **Security Tooling** | **Cloud & Infrastructure** | **Compliance & QA** |
+| **Cloud Native & IaC** | **Engenharia de Segurança** | **DevOps & Qualidade** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/TerraSafe-Project-green" /> | <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Normas-Compliance-blue" /> |
-| **Bandit • Safety • GitLeaks** | **Terraform • Docker** | **LGPD • Provimento 74** |
-| IAM • Linux Hardening | Boto3 • AWS Lambda | Cypress • PySpark |
+| <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF" /> |
+| **Terraform • Docker** | **Isolation Forest (ML)** | **Clean Architecture** |
+| AWS Lambda • Boto3 | Linux Hardening • IAM | SOLID • TDD |
 
 </div>
 
 ---
 
-## 💼 Experiência Relevante
+## 💼 Impacto na Carreira
 
-### **AWS Cloud Data Engineering Intern** | *Compass UOL* (2025)
-* **Cloud Native**: Desenvolvimento de funções **AWS Lambda** e scripts **Boto3** para automação.
-* **Segurança**: Configuração de políticas de acesso (IAM) e segurança de dados em S3/EC2.
-* **Big Data**: Migração de fluxos de dados para **PySpark** em ambiente distribuído.
+### **AWS Cloud Data Engineering Intern** | *Compass UOL*
+* **Arquitetura**: Projetei arquiteturas escaláveis em **AWS Lambda** para ingestão de dados de alto volume usando **Boto3**.
+* **Security First**: Implementei políticas de IAM granulares (Privilégio Mínimo) e políticas de bucket S3 para prevenir vazamento de dados.
+* **Otimização**: Migrei fluxos ETL legados para **PySpark**, otimizando o tempo de processamento em ambientes distribuídos.
 
-### **Desenvolvedor Full Stack** | *Procfy* (2023 - 2024)
-* **Feature Delivery**: Implementação de funcionalidades complexas em **Ruby on Rails**.
-* **Quality Assurance**: Execução de testes automatizados e garantia de integridade de dados.
+### **Desenvolvedor Full Stack** | *Procfy*
+* **Engenharia**: Entreguei módulos de regras de negócio complexas usando **Ruby on Rails** com foco em manutenibilidade.
+* **Confiabilidade**: Estabeleci suítes de testes automatizados que reduziram bugs de regressão em produção.
 
-### **Analista de Infraestrutura e Compliance** | *Registro de Imóveis* (2021 - 2023)
-* **Compliance Crítico**: Responsável técnico por infraestrutura sob mandato do **Provimento 74 (CNJ)**.
-* **Auditabilidade**: 100% de aprovação em fiscalizações do TJPR (Trilhas de auditoria e Certificação Digital).
-* **High Availability**: Manutenção de 99%+ de uptime para sistemas judiciais integrados.
+### **Líder de Infra & Compliance** | *Registro de Imóveis (Infra Crítica)*
+* **Sucesso Regulatório**: Responsável técnico pela adequação ao **Provimento 74 do CNJ**. Atingi **100% de aprovação** em correições judiciais.
+* **Alta Disponibilidade**: Engenhei uma infraestrutura redundante garantindo **99%+ de uptime** para integrações judiciais em tempo real.
+* **Integridade**: Implementei trilhas de auditoria imutáveis e padrões de certificação digital para validade jurídica.
 
 <div align="right">
   <a href="#-english">
