@@ -19,7 +19,7 @@
 
 ## 🚀 Sobre Mim
 
-Sou **Graduando em Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem**.
+Sou graduando em **Engenharia de Software** (UTFPR) atuando na interseção entre **Compliance Regulatório** e **Segurança em Nuvem**.
 
 Meu diferencial é a **"Competência Dual"**: Conecto a disciplina de padrões regulatórios (Provimento 74/CNJ, LGPD) com a agilidade de pipelines DevSecOps.
 
