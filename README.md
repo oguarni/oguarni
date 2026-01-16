@@ -2,7 +2,7 @@
   <h3>Olá, eu sou o Gabriel Guarnieri! 👋</h3>
 
   <h4>
-    🔒 Cloud Security & DevSecOps <br/>
+    🔒 Cloud Security & DevSecOps Analyst <br/>
     ⚖️ Infraestrutura Crítica & Compliance | QA Automation <br/>
     🛡️ Criador do <a href="https://github.com/oguarni/terrasafe">TerraSafe</a> <i>(Pesquisa em Segurança IaC - Nota 9.7/10)</i>
   </h4>
