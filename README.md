@@ -75,7 +75,9 @@ O projeto visa reduzir falsos positivos em pipelines CI/CD comparado a ferrament
 
 <div align="center">
   <a href="https://github.com/oguarni">
-    <img height="160em" src="https://github-readme-stats.vercel.app/api?username=oguarni&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
-    <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oguarni&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=oguarni&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
+  </a>
+  <a href="https://github.com/oguarni">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oguarni&layout=compact&theme=dark&hide_border=true&langs_count=6" />
   </a>
 </div>
