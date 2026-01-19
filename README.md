@@ -70,7 +70,7 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 
 <div align="center">
   <p>
-    <b>Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção..</b>
+    <b>Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção.</b>
   </p>
 
   <p>
