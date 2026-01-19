@@ -71,19 +71,6 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 </div>
 
 ---
-
-<div align="right">
-  <a href="#-português">
-    <img src="https://flagcdn.com/h20/br.png" alt="Ler em Português" title="Ler em Português" valign="middle" /> <b>Ler em Português</b>
-  </a>
-</div>
-
-<br/>
-<br/>
-<hr/>
-<br/>
-<br/>
-
 <div id="-português"></div>
 
 <div align="center">
