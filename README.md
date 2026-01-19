@@ -94,7 +94,7 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
   <h4>Cloud Security Engineer | DevSecOps | Especialista em Compliance</h4>
 
   <p>
-    <b>Construindo infraestrutura resiliente onde o Rigor Regulatório encontra a Entrega Ágil.</b>
+    <b>Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção..</b>
   </p>
 
   <p>
@@ -117,9 +117,6 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 <br/>
 
 ## ⚡ Perfil Profissional
-
-Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção.
-
 
 Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo marcos legais rígidos (LGPD, Provimento 74/CNJ) em restrições técnicas automatizadas. Não apenas protejo a infraestrutura; garanto que ela permaneça auditável e em conformidade sem desacelerar a esteira de desenvolvimento.
 
