@@ -78,22 +78,6 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 
 ---
 
-## 💼 Career Impact
-
-### **AWS Cloud Data Engineering Intern** | *Compass UOL*
-* **Architecture**: Designed scalable **AWS Lambda** architectures for high-volume data ingestion using **Boto3**.
-* **Security First**: Implemented granular IAM policies (Least Privilege) and S3 bucket policies to prevent data leakage.
-* **Optimization**: Migrated legacy ETL workflows to **PySpark**, reducing processing latency by **~40%** in distributed environments.
-
-### **Full Stack Developer** | *Procfy*
-* **Engineering**: Delivered complex business logic modules using **Ruby on Rails** with a focus on maintainability.
-* **Reliability**: Established automated testing suites that reduced regression bugs in production.
-
-### **Infra & Compliance Lead** | *Real Estate Registry (Critical Infra)*
-* **Regulatory Success**: Technical lead for **CNJ Regulation 74** compliance. Achieved **100% approval** in judicial audits.
-* **High Availability**: Engineered a redundant infrastructure ensuring **99%+ uptime** for real-time judicial integrations.
-* **Integrity**: Implemented immutable audit trails and digital certification standards for legal validity.
-
 <div align="right">
   <a href="#-português">
     <img src="https://flagcdn.com/h20/br.png" alt="Ler em Português" title="Ler em Português" valign="middle" /> <b>Ler em Português</b>
@@ -137,7 +121,8 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 
 ## ⚡ Perfil Profissional
 
-Sou graduando em **Engenharia de Software** (UTFPR) com especialização em **Segurança em Nuvem** e **Infraestrutura como Código (IaC)**.
+Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção.
+
 
 Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo marcos legais rígidos (LGPD, Provimento 74/CNJ) em restrições técnicas automatizadas. Não apenas protejo a infraestrutura; garanto que ela permaneça auditável e em conformidade sem desacelerar a esteira de desenvolvimento.
 
@@ -168,26 +153,6 @@ Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo 
 | <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
 | **Terraform • Docker** | **Isolation Forest (ML)** | **Clean Architecture** |
 | AWS Lambda • Boto3 | Linux Hardening • IAM | SOLID • TDD |
-
-</div>
-
----
-
-## 💼 Impacto na Carreira
-
-### **AWS Cloud Data Engineering Intern** | *Compass UOL*
-* **Arquitetura**: Projetei arquiteturas escaláveis em **AWS Lambda** para ingestão de dados de alto volume usando **Boto3**.
-* **Security First**: Implementei políticas de IAM granulares (Privilégio Mínimo) e políticas de bucket S3 para prevenir vazamento de dados.
-* **Otimização**: Migrei fluxos ETL legados para **PySpark**, reduzindo a latência de processamento em **~40%** em ambientes distribuídos.
-
-### **Desenvolvedor Full Stack** | *Procfy*
-* **Engenharia**: Entreguei módulos de regras de negócio complexas usando **Ruby on Rails** com foco em manutenibilidade.
-* **Confiabilidade**: Estabeleci suítes de testes automatizados que reduziram bugs de regressão em produção.
-
-### **Líder de Infra & Compliance** | *Registro de Imóveis (Infra Crítica)*
-* **Sucesso Regulatório**: Responsável técnico pela adequação ao **Provimento 74 do CNJ**. Atingi **100% de aprovação** em correições judiciais.
-* **Alta Disponibilidade**: Engenhei uma infraestrutura redundante garantindo **99%+ de uptime** para integrações judiciais em tempo real.
-* **Integridade**: Implementei trilhas de auditoria imutáveis e padrões de certificação digital para validade jurídica.
 
 <div align="right">
   <a href="#-english">
