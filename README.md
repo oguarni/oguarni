@@ -1,7 +1,4 @@
 <div align="center">
-  <a href="#-english">
-    <img src="https://flagcdn.com/h40/us.png" alt="English" title="Read in English" height="35" />
-  </a>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="#-português">
     <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
@@ -147,9 +144,3 @@ Minha filosofia de engenharia é definida pela **"Competência Dual"**: Traduzo 
 | <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/Pipelines-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
 | **Terraform • Docker** | **Isolation Forest (ML)** | **Clean Architecture** |
 | AWS Lambda • Boto3 | Linux Hardening • IAM | SOLID • TDD |
-
-<div align="right">
-  <a href="#-english">
-    <img src="https://flagcdn.com/h20/us.png" alt="Read in English" title="Read in English" valign="middle" /> <b>Read in English</b>
-  </a>
-</div>
