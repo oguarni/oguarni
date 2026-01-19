@@ -33,8 +33,6 @@
 
 ## ⚡ Professional Profile
 
-I am a **Software Engineering** finalist (UTFPR) specializing in **Cloud Security** and **Infrastructure as Code (IaC)**.
-
 My engineering philosophy is defined by **"Dual Competence"**: I translate strict legal frameworks (GDPR, CNJ Reg. 74) into automated technical constraints. I don't just secure infrastructure; I ensure it remains auditable and compliant without slowing down deployment velocity.
 
 * 🔭 **Current R&D**: Hybrid vulnerability detection (Static Analysis + ML).
