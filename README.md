@@ -15,7 +15,7 @@
 
 <div align="center">
   <h3>Gabriel Guarnieri</h3>
-  <h4>Cloud Security Engineer | DevSecOps | Compliance Specialist</h4>
+  <h4>QA Automation & Cloud Security | DevSecOps | Compliance | Creator of Terrasafe | Docker · Python · Linux · Terraform · AWS</h4>
 
   <p>
     <b>Building resilient infrastructure where Regulatory Rigidity meets Agile Delivery.</b>
