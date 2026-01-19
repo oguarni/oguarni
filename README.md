@@ -1,8 +1,6 @@
 <div align="center">
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <a href="#-português">
     <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
-  </a>
 </div>
 
 <div id="-english"></div>
@@ -72,7 +70,7 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 ---
 <div id="-português"></div>
 
-<div align="center">f
+<div align="center">
   <p>
     <b>Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção..</b>
   </p>
