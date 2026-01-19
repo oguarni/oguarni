@@ -8,9 +8,6 @@
   </a>
 </div>
 
-<br />
-<br />
-
 <div id="-english"></div>
 
 <div align="center">
@@ -18,7 +15,7 @@
   <h4>QA Automation & Cloud Security | DevSecOps | Compliance | Creator of Terrasafe | Docker · Python · Linux · Terraform · AWS</h4>
 
   <p>
-    <b>Building resilient infrastructure where Regulatory Rigidity meets Agile Delivery.</b>
+    <b>I integrate security into infrastructure by design, preventing misconfigurations before they reach production.</b>
   </p>
 
   <p>
