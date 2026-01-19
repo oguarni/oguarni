@@ -1,6 +1,8 @@
 <div align="center">
   &nbsp; &nbsp; &nbsp; &nbsp;
-    <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
+    <a href="#-português">
+      <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
+    </a>
 </div>
 
 <div id="-english"></div>
