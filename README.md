@@ -8,7 +8,6 @@
 <div id="-english"></div>
 
 <div align="center">
-  <h3>Gabriel Guarnieri</h3>
   <h4>QA Automation & Cloud Security | DevSecOps | Compliance | Creator of Terrasafe | Docker · Python · Linux · Terraform · AWS</h4>
 
   <p>
@@ -73,10 +72,7 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
 ---
 <div id="-português"></div>
 
-<div align="center">
-  <h3>Gabriel Guarnieri</h3>
-  <h4>Cloud Security Engineer | DevSecOps | Especialista em Compliance</h4>
-
+<div align="center">f
   <p>
     <b>Integro segurança à infraestrutura desde a concepção, prevenindo configurações incorretas antes que cheguem à produção..</b>
   </p>
