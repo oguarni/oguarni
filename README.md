@@ -31,8 +31,6 @@
   </p>
 </div>
 
-<br/>
-
 ## ⚡ Professional Profile
 
 I am a **Software Engineering** finalist (UTFPR) specializing in **Cloud Security** and **Infrastructure as Code (IaC)**.
@@ -93,8 +91,6 @@ My engineering philosophy is defined by **"Dual Competence"**: I translate stric
     </a>
   </p>
 </div>
-
-<br/>
 
 ## ⚡ Perfil Profissional
 
