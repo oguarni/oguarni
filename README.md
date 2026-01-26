@@ -42,7 +42,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 **What I bring:**
 - **Security Engineering**: Building TerraSafe, a hybrid IaC scanner combining deterministic analysis with ML anomaly detection
-- **Compliance Operations**: 2+ years managing infrastructure under CNJ Reg. 74 judicial oversight (99%+ uptime, zero audit findings)
+- **Compliance Operations**: Nearly 3 years managing infrastructure under CNJ Reg. 74 judicial oversight (99%+ uptime, zero audit findings)
 - **Cloud & Automation**: AWS (Lambda, S3, IAM), Docker, Python, Terraform, CI/CD pipelines
 - **Currently seeking**: QA Automation, Security Analyst, or Jr. DevSecOps positions (Remote/Hybrid)
 
@@ -142,7 +142,7 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 
 **O que ofereço:**
 - **Engenharia de Segurança**: Desenvolvendo o TerraSafe, scanner híbrido de IaC combinando análise determinística com detecção de anomalias por ML
-- **Operações de Compliance**: 2+ anos gerenciando infraestrutura sob supervisão do Provimento 74/CNJ (99%+ disponibilidade, zero achados em inspeções)
+- **Operações de Compliance**: Quase 3 anos gerenciando infraestrutura sob supervisão do Provimento 74/CNJ (99%+ disponibilidade, zero achados em inspeções)
 - **Cloud & Automação**: AWS (Lambda, S3, IAM), Docker, Python, Terraform, pipelines CI/CD
 
 **Buscando**: Posições de QA Automation, Analista de Segurança ou DevSecOps Jr. (Remoto/Híbrido)
@@ -189,15 +189,15 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 
 ## Experiência
 
-**Ponto Focal Técnico** Serviço de Registro de Imóveis (2021-2023)
+**Ponto Focal Técnico** @ Serviço de Registro de Imóveis (2021-2023)
 - Mantive sistema ERP e certificados digitais ICP-Brasil sob supervisão judicial
 - Treinei usuários em sistemas regulatórios complexos
 - Alcancei 99%+ de disponibilidade e zero achados em inspeções do TJPR
 
-**Desenvolvedor Full Stack (Estágio)** Procfy.io (2023-2024)
+**Desenvolvedor Full Stack (Estágio)** @ Procfy.io (2023-2024)
 - Desenvolvi funcionalidades em Ruby on Rails com PostgreSQL
 - Implementei workflows de testes automatizados
 
-**AWS Cloud Data Engineer (Estágio)** Compass UOL (2025)
+**AWS Cloud Data Engineer (Estágio)** @ Compass UOL (2025)
 - Configurei infraestrutura AWS (EC2, S3, RDS, IAM)
 - Desenvolvi automações Python com Boto3 e Lambda
