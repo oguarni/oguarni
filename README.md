@@ -7,7 +7,7 @@
 <div id="-english"></div>
 
 <div align="center">
-  <h4>QA & Security Automation | Python · AWS · Terraform · Docker | IaC Security (Creator of TerraSafe) | Security & Test Analyst | DevSecOps</h4>
+  <h4>QA & Security Automation | IaC Security (Creator of TerraSafe) | Security & Test Analyst | DevSecOps</h4>
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
   <p>
@@ -106,7 +106,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 <div id="-português"></div>
 
 <div align="center">
-  <h4>QA & Security Automation | Python · AWS · Terraform · Docker | Segurança de IaC (Criador do TerraSafe) | Analista de Segurança & Testes | DevSecOps | Remoto</h4>
+  <h4>QA & Security Automation | Segurança de IaC (Criador do TerraSafe) | Analista de Segurança & Testes | DevSecOps | Remoto</h4>
 
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
