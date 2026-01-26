@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>Gabriel Guarnieri</h3>
-  <h4>Software Engineering B.S. Candidate | DevSecOps & Cloud Security | Creator of TerraSafe</h4>
+  <h4>DevSecOps & Security Automation | Python · AWS · Terraform · Docker | IaC Security (Creator of TerraSafe) | QA Automation & Security Analyst</h4>
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
   <p>
@@ -45,8 +45,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 - **Security Engineering**: Building TerraSafe, a hybrid IaC scanner combining deterministic analysis with ML anomaly detection
 - **Compliance Operations**: 2+ years managing infrastructure under CNJ Reg. 74 judicial oversight (99%+ uptime, zero audit findings)
 - **Cloud & Automation**: AWS (Lambda, S3, IAM), Docker, Python, Terraform, CI/CD pipelines
-
-**Currently seeking**: DevSecOps, Cloud Security, or QA Automation positions (Remote/Hybrid)
+- **Currently seeking**: QA Automation, Security Analyst, or Jr. DevSecOps positions (Remote/Hybrid)
 
 ---
 
@@ -109,7 +108,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 <div align="center">
   <h3>Gabriel Guarnieri</h3>
-  <h4>Bacharelando em Engenharia de Software | DevSecOps & Cloud Security | Criador do TerraSafe</h4>
+  <h4>DevSecOps & Security Automation | Python · AWS · Terraform · Docker | Segurança de IaC (Criador do TerraSafe) | QA Automation & Analista de Segurança</h4>
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
   <p>
@@ -147,7 +146,7 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 - **Operações de Compliance**: 2+ anos gerenciando infraestrutura sob supervisão do Provimento 74/CNJ (99%+ disponibilidade, zero achados em inspeções)
 - **Cloud & Automação**: AWS (Lambda, S3, IAM), Docker, Python, Terraform, pipelines CI/CD
 
-**Buscando**: Posições em DevSecOps, Cloud Security ou QA Automation (Remoto/Híbrido)
+**Buscando**: Posições de QA Automation, Analista de Segurança ou DevSecOps Jr. (Remoto/Híbrido)
 
 ---
 
