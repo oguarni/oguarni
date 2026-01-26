@@ -7,8 +7,7 @@
 <div id="-english"></div>
 
 <div align="center">
-  <h3>Gabriel Guarnieri</h3>
-  <h4>DevSecOps & Security Automation | Python · AWS · Terraform · Docker | IaC Security (Creator of TerraSafe) | QA Automation & Security Analyst</h4>
+  <h4>QA & Security Automation | Python · AWS · Terraform · Docker | IaC Security (Creator of TerraSafe) | Security & Test Analyst | DevSecOps</h4>
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
   <p>
@@ -89,16 +88,16 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 ## Experience Highlights
 
-**Technical Focal Point** @ Serviço de Registro de Imóveis (2021-2023)
+**Technical Focal Point** Serviço de Registro de Imóveis (2021-2023)
 - Maintained ERP system and ICP-Brasil digital certificates under judicial oversight
 - Trained users on complex regulatory systems
 - Achieved 99%+ availability and zero findings in TJPR inspections
 
-**Full Stack Developer Intern** @ Procfy (2023-2024)
+**Full Stack Developer Intern** Procfy.io (2023-2024)
 - Built features in Ruby on Rails with PostgreSQL
 - Implemented automated testing workflows
 
-**AWS Cloud Data Engineer Intern** @ Compass UOL (2025)
+**AWS Cloud Data Engineer Intern** Compass UOL (2025)
 - Configured AWS infrastructure (EC2, S3, RDS, IAM)
 - Developed Python automation with Boto3 and Lambda
 
@@ -107,8 +106,8 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 <div id="-português"></div>
 
 <div align="center">
-  <h3>Gabriel Guarnieri</h3>
-  <h4>DevSecOps & Security Automation | Python · AWS · Terraform · Docker | Segurança de IaC (Criador do TerraSafe) | QA Automation & Analista de Segurança</h4>
+  <h4>QA & Security Automation | Python · AWS · Terraform · Docker | Segurança de IaC (Criador do TerraSafe) | Analista de Segurança & Testes | DevSecOps | Remoto</h4>
+
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
   <p>
@@ -190,15 +189,15 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 
 ## Experiência
 
-**Ponto Focal Técnico** @ Serviço de Registro de Imóveis (2021-2023)
+**Ponto Focal Técnico** Serviço de Registro de Imóveis (2021-2023)
 - Mantive sistema ERP e certificados digitais ICP-Brasil sob supervisão judicial
 - Treinei usuários em sistemas regulatórios complexos
 - Alcancei 99%+ de disponibilidade e zero achados em inspeções do TJPR
 
-**Desenvolvedor Full Stack (Estágio)** @ Procfy (2023-2024)
+**Desenvolvedor Full Stack (Estágio)** Procfy.io (2023-2024)
 - Desenvolvi funcionalidades em Ruby on Rails com PostgreSQL
 - Implementei workflows de testes automatizados
 
-**AWS Cloud Data Engineer (Estágio)** @ Compass UOL (2025)
+**AWS Cloud Data Engineer (Estágio)** Compass UOL (2025)
 - Configurei infraestrutura AWS (EC2, S3, RDS, IAM)
 - Desenvolvi automações Python com Boto3 e Lambda
