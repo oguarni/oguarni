@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#-english" style="text-decoration: none;" title="Read in English">
-    <span style="font-size:45px;line-height:35px;vertical-align:middle;">&#x1F310;</span>
+    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="35" style="vertical-align:middle;" />
   </a>
   &nbsp;&nbsp;
   <a href="#-português">
