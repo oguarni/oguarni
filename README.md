@@ -1,8 +1,10 @@
 <div align="center">
-  <span style="font-size:35px;line-height:35px;vertical-align:middle;">&#x1F310;</span>
+  <a href="#-english" style="text-decoration: none;" title="Read in English">
+    <span style="font-size:45px;line-height:35px;vertical-align:middle;">&#x1F310;</span>
+  </a>
   &nbsp;&nbsp;
   <a href="#-português">
-    <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
+    <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" style="vertical-align:middle;" />
   </a>
 </div>
 
