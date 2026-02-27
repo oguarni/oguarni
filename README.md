@@ -1,4 +1,6 @@
 <div align="center">
+  <span style="font-size:35px;line-height:35px;vertical-align:middle;">&#x1F310;</span>
+  &nbsp;&nbsp;
   <a href="#-português">
     <img src="https://flagcdn.com/h40/br.png" alt="Português" title="Ler em Português" height="35" />
   </a>
@@ -37,13 +39,13 @@
 
 Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-on experience in regulated infrastructure and cloud security.
 
-> **My Philosophy: "Dual Competence"**
-> I translate strict legal frameworks (GDPR, CNJ Reg. 74) into automated technical constraints. I don't just secure infrastructure; I ensure it remains auditable and compliant without slowing down deployment velocity.
+> **My Approach: Bridging Compliance and Security**
+> I focus on translating legal frameworks (LGPD, CNJ Reg. 74) into automated technical constraints — building infrastructure that remains auditable and compliant without sacrificing deployment velocity.
 
 **What I bring:**
-- **Security Engineering**: Building TerraSafe, a hybrid IaC scanner combining deterministic analysis with ML anomaly detection
-- **Compliance Operations**: Nearly 3 years managing infrastructure under CNJ Reg. 74 judicial oversight (99%+ uptime, zero audit findings)
-- **Cloud & Automation**: AWS (Lambda, S3, IAM), Docker, Python, Terraform, CI/CD pipelines
+- **Security Engineering**: Built TerraSafe, a hybrid IaC scanner combining deterministic analysis (AST/Regex) with ML anomaly detection (Isolation Forest)
+- **Compliance Operations**: Nearly 3 years maintaining infrastructure under CNJ Reg. 74 judicial oversight (99%+ uptime, zero audit findings)
+- **Cloud & Automation**: AWS (EC2, Lambda, S3, IAM, RDS), Docker, Python, Terraform, CI/CD pipelines (GitHub Actions)
 - **Currently seeking**: QA Automation, Security Analyst, or Jr. DevSecOps positions (Remote/Hybrid)
 
 ---
@@ -52,7 +54,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 > **Problem**: The average cost of a data breach is **$4.5 million**. Research shows **66%** of these breaches originate from IaC misconfigurations. Traditional SAST tools rely on static rules and generate excessive false positives.
 
-**TerraSafe** is an IaC security scanner that combines two detection approaches:
+**TerraSafe** is a hybrid IaC security scanner that combines two detection approaches:
 
 | Engine | Method | Purpose |
 |--------|--------|---------|
@@ -62,7 +64,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 **Results:**
 - Academic grade: **9.7/10** (Methodology & Research Phase)
 - API response time: <150ms
-- 32 automated tests (Pytest)
+- 272 automated tests passing (Pytest), 0 SAST issues (Bandit)
 
 **Stack:** Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions, Prometheus
 
@@ -79,7 +81,7 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 | **Cloud & Infrastructure** | **Security** | **Development & QA** |
 | :---: | :---: | :---: |
 | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| Terraform, Lambda, S3, IAM | Bandit, Safety, GitLeaks, Trivy | Pytest, Cypress, Clean Architecture |
+| Terraform, Lambda, S3, IAM, RDS | Bandit, Safety, GitLeaks, Trivy | Pytest, Cypress, Clean Architecture |
 | Windows Server, Networking | IAM Policies, LGPD/GDPR awareness | Ruby on Rails, PostgreSQL |
 
 </div>
@@ -88,25 +90,25 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 ## Experience Highlights
 
-**Technical Focal Point** - Serviço de Registro de Imóveis (2021-2023)
-- Maintained ERP system and ICP-Brasil digital certificates under judicial oversight
-- Trained users on complex regulatory systems
+**Technical Focal Point** — Serviço de Registro de Imóveis (2021–2023)
+- Maintained ERP system (IMOB/Brainsoft) and administered ICP-Brasil digital certificates under judicial oversight
+- Trained users on complex regulatory systems (SAEC/ONR, e-Notariado)
 - Achieved 99%+ availability and zero findings in TJPR inspections
 
-**Full Stack Developer Intern** - Procfy.io (2023-2024)
-- Built features in Ruby on Rails with PostgreSQL
+**Full Stack Developer Intern** — Procfy.io (2023–2024)
+- Built production features in Ruby on Rails with PostgreSQL (granular search filters, date range selectors, dynamic transaction updates)
 - Implemented automated testing workflows
 
-**AWS Cloud Data Engineer Intern** - Compass UOL (2025)
-- Configured AWS infrastructure (EC2, S3, RDS, IAM)
-- Developed Python automation with Boto3 and Lambda
+**AWS Cloud Data Engineer Intern** — Compass UOL (2025)
+- Configured AWS infrastructure (EC2, S3, RDS, IAM, Lambda)
+- Developed Python automation with Boto3 and Lambda; big data processing with PySpark
 
 ---
 
 <div id="-português"></div>
 
 <div align="center">
-  <h4>QA & Security Automation | Segurança de IaC (Criador do TerraSafe) | Analista de Segurança & Testes | DevSecOps | Remoto</h4>
+  <h4>QA & Security Automation | Segurança de IaC (Criador do TerraSafe) | Analista de Segurança & Testes | DevSecOps</h4>
 
   <p><code>Docker</code> · <code>Python</code> · <code>Linux</code> · <code>Terraform</code> · <code>AWS</code></p>
 
@@ -137,13 +139,13 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2026) com experiência prática em infraestrutura regulada e segurança em nuvem.
 
-> **Minha Filosofia: "Competência Dual"**
-> Traduzo marcos legais rígidos (LGPD, Provimento 74/CNJ) em restrições técnicas automatizadas. Não apenas protejo a infraestrutura; garanto que ela permaneça auditável e em conformidade sem desacelerar a esteira de desenvolvimento.
+> **Minha Abordagem: Conectando Compliance e Segurança**
+> Busco traduzir marcos legais rígidos (LGPD, Provimento 74/CNJ) em restrições técnicas automatizadas — construindo infraestrutura que permaneça auditável e em conformidade sem sacrificar a velocidade de entrega.
 
 **O que ofereço:**
-- **Engenharia de Segurança**: Desenvolvendo o TerraSafe, scanner híbrido de IaC combinando análise determinística com detecção de anomalias por ML
-- **Operações de Compliance**: Quase 3 anos gerenciando infraestrutura sob supervisão do Provimento 74/CNJ (99%+ disponibilidade, zero achados em inspeções)
-- **Cloud & Automação**: AWS (Lambda, S3, IAM), Docker, Python, Terraform, pipelines CI/CD
+- **Engenharia de Segurança**: Desenvolvi o TerraSafe, scanner híbrido de IaC combinando análise determinística (AST/Regex) com detecção de anomalias por ML (Isolation Forest)
+- **Operações de Compliance**: Quase 3 anos mantendo infraestrutura sob supervisão do Provimento 74/CNJ (99%+ disponibilidade, zero achados em inspeções)
+- **Cloud & Automação**: AWS (EC2, Lambda, S3, IAM, RDS), Docker, Python, Terraform, pipelines CI/CD (GitHub Actions)
 
 **Buscando**: Posições de QA Automation, Analista de Segurança ou DevSecOps Jr. (Remoto/Híbrido)
 
@@ -151,9 +153,9 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 
 ## Projeto de TCC: TerraSafe
 
-> **Problema**: O custo médio de uma violação de dados é de **US$ 4,5 milhões**. Pesquisas indicam que **66%** dessas violações originam-se de configurações incorretas em IaC. Ferramentas SAST tradicionais dependem de regras estáticas e geram muitos falsos positivos.
+> **Problema**: O custo médio de uma violação de dados é de **US$ 4,5 milhões**. Pesquisas indicam que **66%** dessas violações originam-se de misconfigurações em IaC. Ferramentas SAST tradicionais dependem de regras estáticas e geram muitos falsos positivos.
 
-**TerraSafe** é um scanner de segurança para IaC que combina duas abordagens de detecção:
+**TerraSafe** é um scanner híbrido de segurança para IaC que combina duas abordagens de detecção:
 
 | Motor | Método | Propósito |
 |-------|--------|-----------|
@@ -163,7 +165,7 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 **Resultados:**
 - Nota acadêmica: **9.7/10** (Fase de Metodologia & Pesquisa)
 - Tempo de resposta da API: <150ms
-- 32 testes automatizados (Pytest)
+- 272 testes automatizados passando (Pytest), 0 problemas SAST (Bandit)
 
 **Stack:** Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions, Prometheus
 
@@ -180,7 +182,7 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 | **Cloud & Infraestrutura** | **Segurança** | **Desenvolvimento & QA** |
 | :---: | :---: | :---: |
 | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| Terraform, Lambda, S3, IAM | Bandit, Safety, GitLeaks, Trivy | Pytest, Cypress, Clean Architecture |
+| Terraform, Lambda, S3, IAM, RDS | Bandit, Safety, GitLeaks, Trivy | Pytest, Cypress, Clean Architecture |
 | Windows Server, Redes | Políticas IAM, LGPD | Ruby on Rails, PostgreSQL |
 
 </div>
@@ -189,15 +191,15 @@ Bacharelando em Engenharia de Software na UTFPR (previsão de formatura: julho 2
 
 ## Experiência
 
-**Ponto Focal Técnico** - Serviço de Registro de Imóveis (2021-2023)
-- Mantive sistema ERP e certificados digitais ICP-Brasil sob supervisão judicial
-- Treinei usuários em sistemas regulatórios complexos
+**Ponto Focal Técnico** — Serviço de Registro de Imóveis (2021–2023)
+- Mantive sistema ERP (IMOB/Brainsoft) e administrei certificados digitais ICP-Brasil sob supervisão judicial
+- Treinei usuários em sistemas regulatórios complexos (SAEC/ONR, e-Notariado)
 - Alcancei 99%+ de disponibilidade e zero achados em inspeções do TJPR
 
-**Desenvolvedor Full Stack (Estágio)** - Procfy.io (2023-2024)
-- Desenvolvi funcionalidades em Ruby on Rails com PostgreSQL
+**Desenvolvedor Full Stack (Estágio)** — Procfy.io (2023–2024)
+- Desenvolvi funcionalidades em produção com Ruby on Rails e PostgreSQL (filtros de busca granular, seletores de período, atualizações dinâmicas de transações)
 - Implementei workflows de testes automatizados
 
-**AWS Cloud Data Engineer (Estágio)** - Compass UOL (2025)
-- Configurei infraestrutura AWS (EC2, S3, RDS, IAM)
-- Desenvolvi automações Python com Boto3 e Lambda
+**AWS Cloud Data Engineer (Estágio)** — Compass UOL (2025)
+- Configurei infraestrutura AWS (EC2, S3, RDS, IAM, Lambda)
+- Desenvolvi automações Python com Boto3 e Lambda; processamento de big data com PySpark
