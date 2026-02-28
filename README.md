@@ -73,27 +73,18 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 ---
 
-## Technical Skills
+## 🛠️ Technical Arsenal
 
 <div align="center">
 
-**Cloud & Infrastructure**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-`EC2` · `Lambda` · `S3` · `IAM` · `RDS` · `Windows Server`
-
-**Security**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-`Bandit` · `Safety` · `GitLeaks` · `Trivy` · `IAM Policies` · `LGPD/GDPR`
-
-**Development & QA**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-`Pytest` · `Cypress` · `Ruby on Rails` · `FastAPI` · `Clean Architecture`
+| **Cloud Native & IaC** | **Security Engineering** | **DevOps & Quality** |
+| :---: | :---: | :---: |
+| <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" /> | <img src="https://img.shields.io/badge/SAST-GitLeaks_•_Trivy-orange?style=flat-square" /> | <img src="https://img.shields.io/badge/Testing-Pytest_•_Cypress-009688?style=flat-square" /> |
+| <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | <img src="https://img.shields.io/badge/ML-Isolation_Forest-blueviolet?style=flat-square&logo=scikit-learn&logoColor=white" /> | <img src="https://img.shields.io/badge/Monitoring-Prometheus_•_Grafana-E6522C?style=flat-square&logo=prometheus&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /> | <img src="https://img.shields.io/badge/IAM-Least_Privilege_•_RBAC-yellow?style=flat-square" /> | <img src="https://img.shields.io/badge/Architecture-Clean_•_SOLID-lightgrey?style=flat-square" /> |
+| **EC2 • Lambda • S3 • RDS** | **LGPD • PCI-DSS • Bacen 4658** | **FastAPI • Rails • PostgreSQL** |
+| **Boto3 • PySpark • SQL** | **Linux Hardening • SBOM** | **Python • JavaScript • Bash** |
 
 </div>
 
@@ -180,27 +171,18 @@ Bacharelando em Engenharia de Software na UTFPR (formatura prevista: julho de 20
 
 ---
 
-## Habilidades Técnicas
+## 🛠️ Arsenal Técnico
 
 <div align="center">
 
-**Cloud & Infraestrutura**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-`EC2` · `Lambda` · `S3` · `IAM` · `RDS` · `Windows Server`
-
-**Segurança**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-`Bandit` · `Safety` · `GitLeaks` · `Trivy` · `Políticas IAM` · `LGPD`
-
-**Desenvolvimento & QA**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-`Pytest` · `Cypress` · `Ruby on Rails` · `FastAPI` · `Clean Architecture`
+| **Cloud Native & IaC** | **Engenharia de Segurança** | **DevOps & Qualidade** |
+| :---: | :---: | :---: |
+| <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" /> | <img src="https://img.shields.io/badge/SAST-GitLeaks_•_Trivy-orange?style=flat-square" /> | <img src="https://img.shields.io/badge/Testes-Pytest_•_Cypress-009688?style=flat-square" /> |
+| <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | <img src="https://img.shields.io/badge/ML-Isolation_Forest-blueviolet?style=flat-square&logo=scikit-learn&logoColor=white" /> | <img src="https://img.shields.io/badge/Monitoring-Prometheus_•_Grafana-E6522C?style=flat-square&logo=prometheus&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /> | <img src="https://img.shields.io/badge/IAM-Least_Privilege_•_RBAC-yellow?style=flat-square" /> | <img src="https://img.shields.io/badge/Arquitetura-Clean_•_SOLID-lightgrey?style=flat-square" /> |
+| **EC2 • Lambda • S3 • RDS** | **LGPD • PCI-DSS • Bacen 4658** | **FastAPI • Rails • PostgreSQL** |
+| **Boto3 • PySpark • SQL** | **Linux Hardening • SBOM** | **Python • JavaScript • Bash** |
 
 </div>
 
