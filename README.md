@@ -1,11 +1,9 @@
-
-
 <div align="center">
   <a href="#-english" style="text-decoration: none;" title="Read in English">
     <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="35" style="vertical-align:middle;" />
   </a>
   &nbsp;&nbsp;
-  <a href="#-português" title="Ler em Português">
+  <a href="#-portugu%C3%AAs" title="Ler em Português">
     <img src="https://flagcdn.com/h40/br.png" alt="Português" height="28" />
   </a>
 </div>
@@ -34,38 +32,34 @@
 
 ---
 
-## ⚡ Professional Profile
+## Professional Profile
 
-Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-on experience in regulated infrastructure and cloud security.
+Software Engineering B.S. candidate at UTFPR (graduating July 2026), with nearly 3 years of compliance infrastructure experience and a completed capstone in IaC security engineering.
 
-> **My approach:** combining nearly 3 years of compliance-driven infrastructure operations under judicial oversight with modern security engineering — applying real-world audit discipline to cloud-native development.
+**Seeking:** Jr. DevSecOps, Security Analyst, or QA Automation roles — Remote/Hybrid.
 
-**What I bring:**
+> **My approach:** I bring nearly 3 years of infrastructure operations under judicial oversight (CNJ Reg. 74) into modern security engineering — applying real audit discipline to cloud-native development.
 
-- **Security Engineering** — Built TerraSafe, a hybrid IaC scanner combining deterministic analysis (AST/Regex) with ML anomaly detection (Isolation Forest). Grade: 9.7/10.
-- **Compliance Operations** — Nearly 3 years maintaining infrastructure under CNJ Reg. 74 judicial oversight. 99%+ uptime, zero audit findings.
-- **Cloud & Automation** — AWS (EC2, Lambda, S3, IAM, RDS), Docker, Terraform, Python, CI/CD with GitHub Actions.
-- **Seeking** — QA Automation, Security Analyst, or Jr. DevSecOps roles (Remote/Hybrid).
+- **TerraSafe (Capstone):** Built a hybrid IaC scanner combining deterministic analysis (AST/Regex) with ML anomaly detection (Isolation Forest). Grade: 9.7/10 · 272 tests · 0 SAST findings.
+- **Compliance track record:** 99%+ uptime and zero findings across all TJPR judicial inspections over 2+ years.
+- **Cloud & automation:** AWS (EC2, Lambda, S3, IAM, RDS), Terraform, Docker, Python, CI/CD with GitHub Actions.
 
 ---
 
-## Capstone Project: TerraSafe
+## Capstone: TerraSafe
 
-> **Problem:** The average data breach costs **$4.5M**. **66%** of breaches stem from IaC misconfigurations. Traditional SAST tools rely on static rules and miss novel attack patterns.
+> **Problem:** The average data breach costs **$4.5M**, and **66%** originate from IaC misconfigurations *(IBM Cost of a Data Breach Report)*. Traditional SAST tools rely on static rules and miss novel attack patterns.
 
 **TerraSafe** combines two detection engines in a single hybrid scanner:
 
 | Engine | Method | Detects |
 |--------|--------|---------|
-| **Deterministic** | AST + Regex | Known patterns |
-| **Probabilistic** | Isolation Forest (ML) | Novel anomalies |
+| **Deterministic** | AST + Regex | Known misconfiguration patterns |
+| **Probabilistic** | Isolation Forest (ML) | Novel configuration anomalies |
 
-**Results:**
-- Academic grade: **9.7/10**
-- API response: **<150ms** · Mean scan: **~27ms**
-- **272** automated tests (Pytest) · **0** SAST issues (Bandit)
+**Results:** 9.7/10 grade · <150ms API response · ~27ms mean scan time · 272 tests passing · 0 SAST issues (Bandit)
 
-**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus
+**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana
 
 <a href="https://github.com/oguarni/terrasafe">
   <img src="https://img.shields.io/badge/View_Repository-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
@@ -73,38 +67,38 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 ---
 
-## 🛠️ Technical Arsenal
+## Technical Arsenal
 
-<div align="center">
-
-| **Cloud Native & IaC** | **Security Engineering** | **DevOps & Quality** |
-| :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" /> | <img src="https://img.shields.io/badge/SAST-GitLeaks_•_Trivy-orange?style=flat-square" /> | <img src="https://img.shields.io/badge/Testing-Pytest_•_Cypress-009688?style=flat-square" /> |
-| <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | <img src="https://img.shields.io/badge/ML-Isolation_Forest-blueviolet?style=flat-square&logo=scikit-learn&logoColor=white" /> | <img src="https://img.shields.io/badge/Monitoring-Prometheus_•_Grafana-E6522C?style=flat-square&logo=prometheus&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /> | <img src="https://img.shields.io/badge/IAM-Least_Privilege_•_RBAC-yellow?style=flat-square" /> | <img src="https://img.shields.io/badge/Architecture-Clean_•_SOLID-lightgrey?style=flat-square" /> |
-| **EC2 • Lambda • S3 • RDS** | **LGPD • PCI-DSS • Bacen 4658** | **FastAPI • Rails • PostgreSQL** |
-| **Boto3 • PySpark • SQL** | **Linux Hardening • SBOM** | **Python • JavaScript • Bash** |
-
-</div>
+- **Cloud & Infrastructure:** AWS (EC2, Lambda, S3, IAM, RDS), Terraform, Docker, Linux, Boto3, PySpark
+- **Security & Compliance:** Bandit, Safety, GitLeaks, Trivy, Isolation Forest (Scikit-learn), SBOM, LGPD, PCI-DSS, Bacen 4658
+- **DevOps & Quality:** GitHub Actions, Pytest, Cypress, Prometheus, Grafana, Clean Architecture, SOLID
+- **Languages:** Python, Ruby on Rails, JavaScript, Bash, SQL, PostgreSQL
 
 ---
 
 ## Experience
 
-**Technical Focal Point** — Serviço de Registro de Imóveis (2021–2023)
-- Maintained ERP system (IMOB/Brainsoft) and administered ICP-Brasil digital certificates under judicial oversight
-- Trained end-users on regulatory systems (SAEC/ONR, e-Notariado)
-- 99%+ availability · Zero findings in TJPR inspections
+**Technical Focal Point** — Serviço de Registro de Imóveis (Apr 2021 – Nov 2023)
+- Maintained ERP (IMOB/Brainsoft) and administered ICP-Brasil digital certificates under CNJ Reg. 74 judicial oversight
+- Trained end-users on regulatory systems (SAEC/ONR, e-Notariado); maintained Windows Server environment
+- **Result:** 99%+ availability · Zero findings across all TJPR judicial inspections
 
-**Full Stack Developer Intern** — Procfy (2023–2024)
-- Delivered production features in Ruby on Rails with PostgreSQL: search filters, date range selectors, dynamic transaction updates
-- Implemented automated testing workflows
+**Full Stack Developer Intern** — Procfy (Nov 2023 – Nov 2024)
+- Delivered production features in Ruby on Rails / PostgreSQL: granular search filters, multi-criteria search, date range selectors, and dynamic transaction updates
+- Conducted manual testing and quality assurance (QA) to validate new features before production releases
 
-**AWS Cloud Data Engineer Intern** — Compass UOL (2025)
-- Configured AWS infrastructure (EC2, S3, RDS, IAM, Lambda)
-- Developed Python automation with Boto3 and Lambda
-- Processed large datasets with PySpark and SQL in distributed environments
+**AWS Cloud Data Engineer Intern** — Compass UOL (May – Oct 2025)
+- Provisioned AWS infrastructure (EC2, S3, RDS, IAM, Lambda) and developed Python automation via Boto3
+- Migrated data pipelines from Pandas to PySpark for distributed-scale processing
+- Applied IAM least-privilege and RBAC practices aligned with Bacen 4658 compliance requirements
+
+---
+
+## Education
+
+**B.S. Software Engineering** — UTFPR-DV (Dois Vizinhos, PR) · Apr 2022 – Jul 2026 (Expected)
+- Hands-on experience developing end-to-end automated testing suites using Cypress
+
 
 ---
 
@@ -132,38 +126,34 @@ Software Engineering B.S. Candidate at UTFPR (graduating July 2026) with hands-o
 
 ---
 
-## ⚡ Perfil Profissional
+## Perfil Profissional
 
-Bacharelando em Engenharia de Software na UTFPR (formatura prevista: julho de 2026) com experiência prática em infraestrutura regulada e segurança em nuvem.
+Bacharelando em Engenharia de Software na UTFPR (formatura prevista: julho de 2026), com quase 3 anos de experiência em infraestrutura de compliance e TCC concluído em segurança de IaC.
 
-> **Minha abordagem:** quase 3 anos de operações de infraestrutura sob supervisão judicial, combinados com engenharia de segurança moderna — aplicando a disciplina de auditoria do mundo real ao desenvolvimento cloud-native.
+**Buscando:** Vagas de DevSecOps Jr., Analista de Segurança ou QA Automation — Remoto/Híbrido.
 
-**O que ofereço:**
+> **Minha abordagem:** Integro quase 3 anos de operações de infraestrutura sob supervisão judicial (Provimento 74/CNJ) à engenharia de segurança moderna — aplicando a disciplina de auditoria real ao desenvolvimento cloud-native.
 
-- **Engenharia de Segurança** — Desenvolvi o TerraSafe, scanner híbrido de IaC combinando análise determinística (AST/Regex) com detecção de anomalias por ML (Isolation Forest). Nota: 9,7/10.
-- **Operações de Compliance** — Quase 3 anos mantendo infraestrutura sob supervisão do Provimento 74/CNJ. 99%+ de disponibilidade, zero achados em inspeções.
-- **Cloud & Automação** — AWS (EC2, Lambda, S3, IAM, RDS), Docker, Terraform, Python, CI/CD com GitHub Actions.
-- **Buscando** — QA Automation, Analista de Segurança ou DevSecOps Jr. (Remoto/Híbrido).
+- **TerraSafe (TCC):** Desenvolvi um scanner híbrido de IaC combinando análise determinística (AST/Regex) com detecção de anomalias por ML (Isolation Forest). Nota: 9,7/10 · 272 testes · 0 problemas SAST.
+- **Histórico de compliance:** 99%+ de disponibilidade e zero achados em todas as inspeções judiciais do TJPR em mais de 2 anos.
+- **Cloud & automação:** AWS (EC2, Lambda, S3, IAM, RDS), Terraform, Docker, Python, CI/CD com GitHub Actions.
 
 ---
 
-## Projeto de TCC: TerraSafe
+## TCC: TerraSafe
 
-> **Problema:** O custo médio de uma violação de dados é de **US$ 4,5 milhões**. **66%** das violações originam-se de configurações incorretas em IaC. Ferramentas SAST tradicionais dependem de regras estáticas e não detectam padrões de ataque inéditos.
+> **Problema:** O custo médio de uma violação de dados é de **US$ 4,5 milhões**, e **66%** originam-se de configurações incorretas em IaC *(IBM Cost of a Data Breach Report)*. Ferramentas SAST tradicionais dependem de regras estáticas e não detectam padrões de ataque inéditos.
 
-**TerraSafe** combina dois motores de detecção em um scanner híbrido:
+**TerraSafe** combina dois motores de detecção em um único scanner híbrido:
 
 | Motor | Método | Detecta |
 |-------|--------|---------|
-| **Determinístico** | AST + Regex | Padrões conhecidos |
-| **Probabilístico** | Isolation Forest (ML) | Anomalias inéditas |
+| **Determinístico** | AST + Regex | Padrões de configuração conhecidos |
+| **Probabilístico** | Isolation Forest (ML) | Anomalias de configuração inéditas |
 
-**Resultados:**
-- Nota acadêmica: **9,7/10**
-- Resposta da API: **<150ms** · Scan médio: **~27ms**
-- **272** testes automatizados (Pytest) · **0** problemas SAST (Bandit)
+**Resultados:** Nota 9,7/10 · Resposta da API <150ms · Scan médio ~27ms · 272 testes aprovados · 0 problemas SAST (Bandit)
 
-**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus
+**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana
 
 <a href="https://github.com/oguarni/terrasafe">
   <img src="https://img.shields.io/badge/Ver_Repositório-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
@@ -171,35 +161,34 @@ Bacharelando em Engenharia de Software na UTFPR (formatura prevista: julho de 20
 
 ---
 
-## 🛠️ Arsenal Técnico
+## Arsenal Técnico
 
-<div align="center">
-
-| **Cloud Native & IaC** | **Engenharia de Segurança** | **DevOps & Qualidade** |
-| :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/AppSec-Bandit_•_Safety-red?style=flat-square" /> | <img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" /> | <img src="https://img.shields.io/badge/SAST-GitLeaks_•_Trivy-orange?style=flat-square" /> | <img src="https://img.shields.io/badge/Testes-Pytest_•_Cypress-009688?style=flat-square" /> |
-| <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> | <img src="https://img.shields.io/badge/ML-Isolation_Forest-blueviolet?style=flat-square&logo=scikit-learn&logoColor=white" /> | <img src="https://img.shields.io/badge/Monitoring-Prometheus_•_Grafana-E6522C?style=flat-square&logo=prometheus&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /> | <img src="https://img.shields.io/badge/IAM-Least_Privilege_•_RBAC-yellow?style=flat-square" /> | <img src="https://img.shields.io/badge/Arquitetura-Clean_•_SOLID-lightgrey?style=flat-square" /> |
-| **EC2 • Lambda • S3 • RDS** | **LGPD • PCI-DSS • Bacen 4658** | **FastAPI • Rails • PostgreSQL** |
-| **Boto3 • PySpark • SQL** | **Linux Hardening • SBOM** | **Python • JavaScript • Bash** |
-
-</div>
+- **Cloud & Infraestrutura:** AWS (EC2, Lambda, S3, IAM, RDS), Terraform, Docker, Linux, Boto3, PySpark
+- **Segurança & Compliance:** Bandit, Safety, GitLeaks, Trivy, Isolation Forest (Scikit-learn), SBOM, LGPD, PCI-DSS, Bacen 4658
+- **DevOps & Qualidade:** GitHub Actions, Pytest, Cypress, Prometheus, Grafana, Clean Architecture, SOLID
+- **Linguagens:** Python, Ruby on Rails, JavaScript, Bash, SQL, PostgreSQL
 
 ---
 
 ## Experiência
 
-**Ponto Focal Técnico** — Serviço de Registro de Imóveis (2021–2023)
-- Mantive sistema ERP (IMOB/Brainsoft) e administrei certificados digitais ICP-Brasil sob supervisão judicial
-- Treinei usuários finais em sistemas regulatórios (SAEC/ONR, e-Notariado)
-- 99%+ de disponibilidade · Zero achados em inspeções do TJPR
+**Ponto Focal Técnico** — Serviço de Registro de Imóveis (abr 2021 – nov 2023)
+- Mantive sistema ERP (IMOB/Brainsoft) e administrei certificados digitais ICP-Brasil sob supervisão judicial do Provimento 74/CNJ
+- Treinei usuários finais em sistemas regulatórios (SAEC/ONR, e-Notariado); mantive ambiente Windows Server
+- **Resultado:** 99%+ de disponibilidade · Zero achados em todas as inspeções judiciais do TJPR
 
-**Desenvolvedor Full Stack (Estágio)** — Procfy (2023–2024)
-- Entreguei funcionalidades em produção com Ruby on Rails e PostgreSQL: filtros de busca, seletores de período, atualizações dinâmicas de transações
-- Implementei workflows de testes automatizados
+**Desenvolvedor Full Stack (Estágio)** — Procfy (nov 2023 – nov 2024)
+- Entreguei funcionalidades em produção com Ruby on Rails / PostgreSQL: filtros de busca granulares, multibusca, seletores de período e atualizações dinâmicas de transações
+- Conduzi testes manuais e garantia de qualidade (QA) para validar novas funcionalidades antes das entregas em produção
 
-**AWS Cloud Data Engineer (Estágio)** — Compass UOL (2025)
-- Configurei infraestrutura AWS (EC2, S3, RDS, IAM, Lambda)
-- Desenvolvi automações Python com Boto3 e Lambda
-- Processei grandes volumes de dados com PySpark e SQL em ambientes distribuídos
+**AWS Cloud Data Engineer (Estágio)** — Compass UOL (mai – out 2025)
+- Provisionei infraestrutura AWS (EC2, S3, RDS, IAM, Lambda) e desenvolvi automações Python com Boto3
+- Migrei pipelines de dados de Pandas para PySpark para processamento em escala distribuída
+- Apliquei práticas de least-privilege de IAM e RBAC alinhadas aos requisitos de compliance do Bacen 4658
+
+---
+
+## Formação
+
+**Bacharelado em Engenharia de Software** — UTFPR-DV (Dois Vizinhos, PR) · abr 2022 – jul 2026 (Previsto)
+- Experiência prática no desenvolvimento de suítes de testes automatizados end-to-end utilizando Cypress
