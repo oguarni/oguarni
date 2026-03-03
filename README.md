@@ -36,7 +36,7 @@
 
 Software Engineering B.S. candidate at **UTFPR** (graduating July 2026), with a background that bridges **regulatory compliance**, **security engineering**, and **full-stack development**.
 
-I spent nearly 3 years operating IT infrastructure under **judicial oversight** — administering **ICP-Brasil** digital certificates, maintaining ERP systems, and enforcing **CNJ Reg. 74** compliance where downtime meant legal non-compliance. That hands-on audit discipline now shapes how I approach cloud security and DevSecOps.
+I spent nearly 3 years operating IT infrastructure under **judicial oversight** — Maintaining ERP systems, and enforcing **CNJ Reg. 74** compliance where downtime meant legal non-compliance. That hands-on audit discipline now shapes how I approach cloud security and DevSecOps.
 
 My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry problem: the **$4.5M average cost** of data breaches, **66%** of which stem from IaC misconfigurations. I designed a hybrid engine that combines deterministic rules with Machine Learning to catch what standard SAST tools miss.
 
