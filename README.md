@@ -34,7 +34,6 @@
 
 ## About Me
 
-<div align="justify">
 
 Software Engineering B.S. candidate at **UTFPR** (graduating July 2026), with a background that bridges **regulatory compliance**, **security engineering**, and **full-stack development**.
 
@@ -46,26 +45,22 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 
 🌐 **Languages:** Portuguese (Native) · English (Full professional proficiency)
 
-</div>
 
 ---
 
 ## 🔬 Capstone: TerraSafe
 
-<div align="justify">
 
 > **The Problem:** Traditional SAST tools rely on predefined rules — they catch *known* bad patterns but miss novel anomalies. With **66%** of breaches traced to IaC misconfigurations, this detection gap costs organizations millions.
 
 **TerraSafe** solves this with a **hybrid dual-engine** approach:
 
-</div>
 
 | Engine | Method | Detects |
 |--------|--------|---------|
 | **Deterministic** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | Known misconfiguration patterns |
 | **Probabilistic** | Isolation Forest (ML) | Novel configuration anomalies |
 
-<div align="justify">
 
 **Key Results:**
 - 📊 Grade **9.7/10** — Technical Report (Methodology & Research Phase)
@@ -75,7 +70,6 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 
 **Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana · Scikit-learn
 
-</div>
 
 <a href="https://github.com/oguarni/terrasafe">
   <img src="https://img.shields.io/badge/View_Repository-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
@@ -100,7 +94,6 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 ### Technical Focal Point — Serviço de Registro de Imóveis
 **Apr 2021 – Nov 2023** · Full-time · Dois Vizinhos, PR
 
-<div align="justify">
 
 Designated focal point for all IT operations in a regulated notary environment under TJPR judicial oversight.
 
@@ -109,28 +102,24 @@ Designated focal point for all IT operations in a regulated notary environment u
 - Administered judicial integrations (SAEC/ONR) and Windows Server infrastructure
 - **Result:** 99%+ availability · Zero findings across all TJPR judicial inspections
 
-</div>
 
 ---
 
 ### Full Stack Developer Intern — Procfy
 **Nov 2023 – Nov 2024** · Dois Vizinhos, PR
 
-<div align="justify">
 
 Contributed production features to a Ruby on Rails / PostgreSQL application.
 
 - Implemented granular search filters, multi-criteria search, date range selectors, and dynamic transaction updates
 - Conducted **manual testing** and quality assurance (QA) to validate features before production releases
 
-</div>
 
 ---
 
 ### AWS Cloud Data Engineer Intern — Compass UOL
 **May – Oct 2025** · Remote
 
-<div align="justify">
 
 Developed cloud-native data pipelines and automation on AWS infrastructure.
 
@@ -139,13 +128,11 @@ Developed cloud-native data pipelines and automation on AWS infrastructure.
 - Applied **IAM least-privilege** and **RBAC** practices aligned with Bacen 4658 compliance requirements
 - Gained practical understanding of cloud governance: role segregation, permission auditing, and compliance traceability
 
-</div>
 
 ---
 
 ## 🎓 Education
 
-<div align="justify">
 
 **B.S. Software Engineering** — UTFPR-DV (Dois Vizinhos, PR) · Apr 2022 – Jul 2026 (Expected)
 
@@ -153,7 +140,6 @@ Developed cloud-native data pipelines and automation on AWS infrastructure.
 - Developed end-to-end automated testing suites using **Cypress** through hands-on academic projects
 - Gained practical experience with CI/CD pipelines, Terraform, and DevSecOps practices through independent study and academic research
 
-</div>
 
 ---
 
@@ -166,11 +152,9 @@ Compliance Operations (2+ years)  →  Security Engineering (TerraSafe)  →  Cl
   under judicial oversight            addressing $4.5M problem           across the stack
 ```
 
-<div align="justify">
 
 Most junior engineers learn compliance from documentation. I operated systems where failures had legal consequences — and that experience drives how I build secure, auditable infrastructure today.
 
-</div>
 
 ---
 
@@ -200,7 +184,6 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 
 ## Sobre Mim
 
-<div align="justify">
 
 Bacharelando em Engenharia de Software na **UTFPR** (formatura prevista: julho 2026), com uma trajetória que conecta **compliance regulatório**, **engenharia de segurança** e **desenvolvimento full-stack**.
 
@@ -212,26 +195,22 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 
 🌐 **Idiomas:** Português (Nativo) · Inglês (Proficiência profissional completa)
 
-</div>
 
 ---
 
 ## 🔬 TCC: TerraSafe
 
-<div align="justify">
 
 > **O Problema:** Ferramentas SAST tradicionais dependem de regras pré-definidas — detectam padrões *conhecidos*, mas falham em identificar anomalias inéditas. Com **66%** das violações rastreadas a configurações incorretas de IaC, essa lacuna de detecção custa milhões às organizações.
 
 **TerraSafe** resolve isso com uma abordagem de **motor duplo híbrido**:
 
-</div>
 
 | Motor | Método | Detecta |
 |-------|--------|---------|
 | **Determinístico** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | Padrões de configuração conhecidos |
 | **Probabilístico** | Isolation Forest (ML) | Anomalias de configuração inéditas |
 
-<div align="justify">
 
 **Resultados:**
 - 📊 Nota **9,7/10** — Relatório Técnico (Metodologia e Pesquisa)
@@ -241,7 +220,6 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 
 **Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana · Scikit-learn
 
-</div>
 
 <a href="https://github.com/oguarni/terrasafe">
   <img src="https://img.shields.io/badge/Ver_Repositório-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
@@ -266,7 +244,6 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 ### Ponto Focal Técnico — Serviço de Registro de Imóveis
 **Abr 2021 – Nov 2023** · Tempo integral · Dois Vizinhos, PR
 
-<div align="justify">
 
 Ponto focal designado para todas as operações de TI em ambiente cartorário regulado, sob supervisão judicial do TJPR.
 
@@ -275,28 +252,24 @@ Ponto focal designado para todas as operações de TI em ambiente cartorário re
 - Administrei integrações judiciais (SAEC/ONR) e infraestrutura Windows Server
 - **Resultado:** 99%+ de disponibilidade · Zero achados em todas as inspeções judiciais do TJPR
 
-</div>
 
 ---
 
 ### Desenvolvedor Full Stack (Estágio) — Procfy
 **Nov 2023 – Nov 2024** · Dois Vizinhos, PR
 
-<div align="justify">
 
 Contribuí com funcionalidades em produção em aplicação Ruby on Rails / PostgreSQL.
 
 - Implementei filtros de busca granulares, multibusca, seletores de período e atualizações dinâmicas de transações
 - Conduzi **testes manuais** e garantia de qualidade (QA) para validar funcionalidades antes das entregas em produção
 
-</div>
 
 ---
 
 ### AWS Cloud Data Engineer (Estágio) — Compass UOL
 **Mai – Out 2025** · Remoto
 
-<div align="justify">
 
 Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
 
@@ -305,13 +278,11 @@ Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
 - Apliquei práticas de **least-privilege de IAM** e **RBAC** alinhadas aos requisitos de compliance do Bacen 4658
 - Desenvolvi compreensão prática de governança cloud: segregação de papéis, auditoria de permissões e rastreabilidade de compliance
 
-</div>
 
 ---
 
 ## 🎓 Formação
 
-<div align="justify">
 
 **Bacharelado em Engenharia de Software** — UTFPR-DV (Dois Vizinhos, PR) · Abr 2022 – Jul 2026 (Previsto)
 
@@ -319,7 +290,6 @@ Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
 - Desenvolvi suítes de testes automatizados end-to-end com **Cypress** em projetos acadêmicos práticos
 - Adquiri experiência prática com pipelines CI/CD, Terraform e práticas DevSecOps através de estudo independente e pesquisa acadêmica
 
-</div>
 
 ---
 
@@ -332,8 +302,6 @@ Operações de Compliance (2+ anos)  →  Engenharia de Segurança (TerraSafe)  
    sob supervisão judicial              atacando problema de US$ 4,5M         em todo o stack
 ```
 
-<div align="justify">
 
 A maioria dos engenheiros juniores aprende compliance pela documentação. Eu operei sistemas onde falhas tinham consequências legais — e essa experiência direciona como construo infraestrutura segura e auditável hoje.
 
-</div>
