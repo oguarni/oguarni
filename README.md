@@ -1,10 +1,10 @@
 <div align="center">
   <a href="#-english" style="text-decoration: none;" title="Read in English">
-    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="35" style="vertical-align:middle;" />
+    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" style="vertical-align:middle;" />
   </a>
   &nbsp;&nbsp;
   <a href="#-portugu%C3%AAs" title="Ler em Português">
-    <img src="https://flagcdn.com/h40/br.png" alt="Português" height="28" />
+    <img src="https://flagcdn.com/h40/br.png" alt="Português" />
   </a>
 </div>
 
