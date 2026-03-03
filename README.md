@@ -91,9 +91,8 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 Designated focal point for all IT operations in a regulated notary environment under TJPR judicial oversight.
 
 - Administered **ERP IMOB** (Brainsoft) — configuration, user training, and post-implementation support
-- Managed **ICP-Brasil digital certificate** lifecycles (SafeNet A3 tokens) and **e-Notariado** platform operations
 - Enforced **Provimento 74/CNJ** compliance: audit trails, fault-tolerance, access controls, and business continuity
-- Maintained judicial integrations (SAEC/ONR, e-Proc, PJe) and Windows Server infrastructure
+- Administered judicial integrations (SAEC/ONR) and Windows Server infrastructure
 - **Result:** 99%+ availability · Zero findings across all TJPR judicial inspections
 
 ---
@@ -226,9 +225,8 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 Ponto focal designado para todas as operações de TI em ambiente cartorário regulado, sob supervisão judicial do TJPR.
 
 - Administrei **ERP IMOB** (Brainsoft) — configuração, treinamento de usuários e suporte pós-implantação
-- Gerenciei ciclo de vida de **certificados digitais ICP-Brasil** (tokens SafeNet A3) e operações da plataforma **e-Notariado**
 - Assegurei conformidade com o **Provimento 74/CNJ**: trilhas de auditoria, tolerância a falhas, controles de acesso e continuidade de negócio
-- Mantive integrações judiciais (SAEC/ONR, e-Proc, PJe) e infraestrutura Windows Server
+- Administrei integrações judiciais (SAEC/ONR) e infraestrutura Windows Server
 - **Resultado:** 99%+ de disponibilidade · Zero achados em todas as inspeções judiciais do TJPR
 
 ---
