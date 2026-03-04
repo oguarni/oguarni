@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investigating IPTV: A Security Deep-Dive</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: #24292f;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    header {
+      border-bottom: 1px solid #d0d7de;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    header a {
+      color: #0969da;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0.75rem 0 0.5rem;
+      line-height: 1.25;
+    }
+
+    .meta {
+      font-size: 0.875rem;
+      color: #57606a;
+    }
+
+    h2 {
+      font-size: 1.375rem;
+      font-weight: 600;
+      margin: 2.5rem 0 0.75rem;
+      border-bottom: 1px solid #d0d7de;
+      padding-bottom: 0.3rem;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin: 1.75rem 0 0.5rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    /* ── Image reset ───────────────────────────────────────────
+       Images display at their intrinsic (native) size but never
+       overflow their container and always preserve aspect ratio.
+    ────────────────────────────────────────────────────────── */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    figure {
+      margin: 1.5rem 0;
+    }
+
+    figcaption {
+      font-size: 0.8rem;
+      color: #57606a;
+      margin-top: 0.4rem;
+      text-align: center;
+    }
+
+    code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.85em;
+      background: #f6f8fa;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+    }
+
+    pre {
+      background: #f6f8fa;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-size: 0.85em;
+      line-height: 1.5;
+    }
+
+    pre code {
+      background: none;
+      padding: 0;
+    }
+
+    blockquote {
+      border-left: 4px solid #d0d7de;
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+      color: #57606a;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+      margin: 0 0 1rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9em;
+    }
+
+    th, td {
+      border: 1px solid #d0d7de;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background: #f6f8fa;
+      font-weight: 600;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.2em 0.55em;
+      font-size: 0.75em;
+      font-weight: 600;
+      border-radius: 4px;
+      background: #dafbe1;
+      color: #116329;
+    }
+
+    .badge.warn {
+      background: #fff8c5;
+      color: #7d4e00;
+    }
+
+    .badge.danger {
+      background: #ffebe9;
+      color: #82071e;
+    }
+
+    .badge.high {
+      background: #fff1e5;
+      color: #7d3900;
+    }
+
+    footer {
+      margin-top: 3rem;
+      border-top: 1px solid #d0d7de;
+      padding-top: 1rem;
+      font-size: 0.85rem;
+      color: #57606a;
+    }
+
+    footer a {
+      color: #0969da;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="https://oguarni.github.io">← Back to portfolio</a>
+      <h1>Investigating IPTV: A Security Deep-Dive</h1>
+      <p class="meta">By Gabriel Guarnieri &middot; DevSecOps &amp; Cloud Security</p>
+    </header>
+
+    <p>
+      Internet Protocol Television (IPTV) has grown rapidly as a content-delivery mechanism,
+      but its underlying infrastructure often receives far less security scrutiny than traditional
+      broadcast or OTT platforms. This article documents an investigation into the protocols,
+      authentication mechanisms, and common misconfigurations found in IPTV deployments.
+    </p>
+
+    <h2>Background</h2>
+    <p>
+      IPTV delivers television content over IP networks using a combination of multicast streams,
+      unicast VOD (Video on Demand), and live-channel feeds. Most residential deployments rely on
+      an <strong>M3U playlist</strong> served over HTTP/HTTPS that references HLS (<code>.m3u8</code>)
+      or MPEG-TS streams.
+    </p>
+
+    <figure>
+      <img src="../assets/iptv-architecture.png" alt="High-level IPTV architecture diagram" />
+      <figcaption>Figure 1 — High-level IPTV architecture: CDN, middleware, and client stack.</figcaption>
+    </figure>
+
+    <h2>Investigation Methodology</h2>
+    <p>
+      The investigation used the following toolchain to enumerate, capture, and analyse traffic:
+    </p>
+    <ul>
+      <li><strong>Wireshark / tshark</strong> — packet capture and stream dissection</li>
+      <li><strong>mitmproxy</strong> — HTTPS interception and request replay</li>
+      <li><strong>ffprobe / ffmpeg</strong> — stream validation and container analysis</li>
+      <li><strong>Burp Suite CE</strong> — API surface mapping and authentication bypass testing</li>
+      <li><strong>Python (Requests + m3u8)</strong> — playlist parsing and automated recon</li>
+    </ul>
+
+    <figure>
+      <img src="../assets/iptv-wireshark-capture.png" alt="Wireshark capture showing unencrypted RTSP stream" />
+      <figcaption>Figure 2 — Wireshark showing an unencrypted RTSP stream on port 554.</figcaption>
+    </figure>
+
+    <h2>Key Findings</h2>
+
+    <h3>1. Weak or Absent Authentication on Middleware APIs</h3>
+    <p>
+      Several deployments exposed administrative middleware endpoints without requiring valid
+      credentials. A simple <code>GET /api/streams</code> request with an empty
+      <code>Authorization</code> header returned the full channel list and stream URLs.
+    </p>
+
+    <figure>
+      <img src="../assets/iptv-api-response.png" alt="API response returning channel stream URLs without authentication" />
+      <figcaption>Figure 3 — Unauthenticated API response exposing stream URLs.</figcaption>
+    </figure>
+
+    <h3>2. Cleartext Credentials in M3U Playlists</h3>
+    <p>
+      User credentials were embedded directly in stream URLs as query parameters
+      (<code>?username=foo&amp;password=bar</code>), making them trivially interceptable
+      over HTTP or via referrer leakage.
+    </p>
+    <pre><code>#EXTM3U
+#EXTINF:-1 tvg-id="Channel1",Channel 1
+http://iptv.example.com/live/username/password/channel1.m3u8</code></pre>
+
+    <h3>3. Insecure Direct Object References (IDOR) in VOD Endpoints</h3>
+    <p>
+      VOD asset IDs were sequential integers. Incrementing the <code>stream_id</code> parameter
+      allowed access to content outside a subscriber's entitlement with no server-side validation.
+    </p>
+
+    <figure>
+      <img src="../assets/iptv-idor-test.png" alt="Burp Suite repeater showing IDOR test on VOD endpoint" />
+      <figcaption>Figure 4 — IDOR enumeration in Burp Suite Repeater.</figcaption>
+    </figure>
+
+    <h2>Risk Summary</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Finding</th>
+          <th>Severity</th>
+          <th>CVSS (approx.)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Unauthenticated middleware API</td>
+          <td><span class="badge danger">Critical</span></td>
+          <td>9.1</td>
+        </tr>
+        <tr>
+          <td>Cleartext credentials in M3U URLs</td>
+          <td><span class="badge high">High</span></td>
+          <td>7.5</td>
+        </tr>
+        <tr>
+          <td>IDOR on VOD endpoints</td>
+          <td><span class="badge warn">Medium</span></td>
+          <td>5.3</td>
+        </tr>
+        <tr>
+          <td>Unencrypted RTSP streams</td>
+          <td><span class="badge warn">Medium</span></td>
+          <td>4.8</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Recommendations</h2>
+    <ol>
+      <li>Enforce token-based authentication (JWT or OAuth 2.0) on all middleware API endpoints.</li>
+      <li>Migrate stream URL signing to short-lived HMAC tokens passed in headers, not query strings.</li>
+      <li>Implement server-side entitlement checks for every VOD asset request.</li>
+      <li>Enable TLS 1.2+ for all stream delivery paths; disable legacy RTSP over cleartext.</li>
+      <li>Apply rate-limiting and anomaly detection on playlist/stream endpoints to detect credential stuffing.</li>
+    </ol>
+
+    <h2>Conclusion</h2>
+    <p>
+      IPTV platforms inherit many of the security challenges of web APIs while adding
+      media-specific attack surfaces. The findings above are representative of issues
+      encountered across multiple independent deployments and should serve as a baseline
+      security checklist for operators conducting internal audits.
+    </p>
+    <blockquote>
+      All testing was performed in a controlled lab environment or with explicit written
+      permission from service operators. No production systems were accessed without authorization.
+    </blockquote>
+
+    <footer>
+      <p>
+        &copy; Gabriel Guarnieri &middot;
+        <a href="https://github.com/oguarni">GitHub</a> &middot;
+        <a href="https://www.linkedin.com/in/oguarni/">LinkedIn</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
