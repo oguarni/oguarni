@@ -4,7 +4,7 @@
   </a>
   &nbsp;&nbsp;
   <a href="#-portugu%C3%AAs" title="Ler em Português">
-    <img src="https://flagcdn.com/h40/br.png" alt="Português" />
+    <img src="https://flagcdn.com/h40/br.png" alt="Português" height="35" />
   </a>
 </div>
 
