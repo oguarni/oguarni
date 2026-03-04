@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#-english" style="text-decoration: none;" title="Read in English">
-    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" style="vertical-align:middle;" />
+    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="40" style="vertical-align:middle;" />
   </a>
   &nbsp;&nbsp;
   <a href="#-portugu%C3%AAs" title="Ler em Português">
@@ -95,12 +95,11 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 **Apr 2021 – Nov 2023** · Full-time · Dois Vizinhos, PR
 
 
-Designated focal point for all IT operations in a regulated notary environment under TJPR judicial oversight.
+Designated Technical Focal Point for **Provimento 74/CNJ** compliance, maintaining critical infrastructure under **TJPR** oversight.
 
-- Administered **ERP IMOB** (Brainsoft) — configuration, user training, and post-implementation support
-- Enforced **Provimento 74/CNJ** compliance: audit trails, fault-tolerance, access controls, and business continuity
-- Administered judicial integrations (SAEC/ONR) and Windows Server infrastructure
-- **Result:** 99%+ availability · Zero findings across all TJPR judicial inspections
+- Acted as Key User for **SAEC/ONR** and **ERP IMOB** (Brainsoft), providing internal operational support to the team and mediating technical support tickets
+- Implemented strict physical and logical access controls and configured **NTFS file permissions** to enforce privacy and ensure **LGPD** compliance
+- Administered **Windows Server** environment and supported hardware/network resilience, contributing to **99%+ availability** and **zero findings** in judicial inspections
 
 
 ---
@@ -245,13 +244,11 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 **Abr 2021 – Nov 2023** · Tempo integral · Dois Vizinhos, PR
 
 
-Ponto focal designado para todas as operações de TI em ambiente cartorário regulado, sob supervisão judicial do TJPR.
+Ponto Focal Técnico designado para conformidade com o **Provimento 74/CNJ**, mantendo infraestrutura crítica sob supervisão do **TJPR**.
 
-- Administrei **ERP IMOB** (Brainsoft) — configuração, treinamento de usuários e suporte pós-implantação
-- Assegurei conformidade com o **Provimento 74/CNJ**: trilhas de auditoria, tolerância a falhas, controles de acesso e continuidade de negócio
-- Administrei integrações judiciais (SAEC/ONR) e infraestrutura Windows Server
-- **Resultado:** 99%+ de disponibilidade · Zero achados em todas as inspeções judiciais do TJPR
-
+- Atuei como usuário-chave (Key User) do **SAEC/ONR** e **ERP IMOB** (Brainsoft), fornecendo suporte operacional interno à equipe e intermediando chamados de suporte técnico
+- Implementei controles rígidos de acesso físico e lógico e configurei **permissões NTFS** para garantir privacidade e conformidade com a **LGPD**
+- Administrei ambiente **Windows Server** e apoiei a resiliência de hardware/rede, contribuindo para **99%+ de disponibilidade** e **zero achados** em inspeções judiciais
 
 ---
 
