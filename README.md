@@ -186,7 +186,7 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 
 Bacharelando em Engenharia de Software na **UTFPR** (formatura prevista: julho 2026), com uma trajetória que conecta **compliance regulatório**, **engenharia de segurança** e **desenvolvimento full-stack**.
 
-Atuei por quase 3 anos em infraestrutura de TI sob **supervisão judicial** — administrando certificados digitais **ICP-Brasil**, mantendo sistemas ERP e cumprindo requisitos do **Provimento 74/CNJ** em ambiente onde indisponibilidade significava descumprimento legal. Essa disciplina de auditoria hoje direciona minha abordagem em segurança cloud e DevSecOps.
+Atuei por quase 3 anos em infraestrutura de TI sob **supervisão judicial** — mantendo sistemas ERP e cumprindo requisitos do **Provimento 74/CNJ** em ambiente onde indisponibilidade significava descumprimento legal. Essa disciplina de auditoria hoje direciona minha abordagem em segurança cloud e DevSecOps.
 
 Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **custo médio de US$ 4,5 milhões** por violação de dados, sendo que **66%** delas têm origem em configurações incorretas de IaC. Desenvolvi um motor híbrido que combina regras determinísticas com Machine Learning para detectar o que ferramentas SAST convencionais não identificam.
 
