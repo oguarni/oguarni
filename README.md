@@ -18,12 +18,11 @@
     <a href="https://github.com/oguarni/terrasafe">
       <img src="https://img.shields.io/badge/Capstone-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe"/>
     </a>
-    <img src="https://img.shields.io/badge/Grade-9.7%2F10-success?style=for-the-badge" alt="9.7/10"/>
-  </p>
-  <p>
+    &nbsp;
     <a href="https://oguarni.github.io">
       <img src="https://img.shields.io/badge/Portfolio-Visit_Site-181717?style=for-the-badge&logo=github&logoColor=white"/>
     </a>
+    &nbsp;
     <a href="https://www.linkedin.com/in/oguarni/">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
@@ -126,7 +125,6 @@ Developed cloud-native data pipelines and automation on AWS infrastructure.
 - Applied **IAM least-privilege** and **RBAC** practices aligned with Bacen 4658 compliance requirements
 - Gained practical understanding of cloud governance: role segregation, permission auditing, and compliance traceability
 
-
 ---
 
 ## 🎓 Education
@@ -137,7 +135,6 @@ Developed cloud-native data pipelines and automation on AWS infrastructure.
 - Capstone: TerraSafe — Hybrid IaC Security Scanner (Grade 9.7/10)
 - Developed end-to-end automated testing suites using **Cypress** through hands-on academic projects
 - Gained practical experience with CI/CD pipelines, Terraform, and DevSecOps practices through independent study and academic research
-
 
 ---
 
@@ -153,7 +150,6 @@ Compliance Operations (2+ years)  →  Security Engineering (TerraSafe)  →  Cl
 
 Most junior engineers learn compliance from documentation. I operated systems where failures had legal consequences — and that experience drives how I build secure, auditable infrastructure today.
 
-
 ---
 
 <div id="-português"></div>
@@ -166,12 +162,11 @@ Most junior engineers learn compliance from documentation. I operated systems wh
     <a href="https://github.com/oguarni/terrasafe">
       <img src="https://img.shields.io/badge/TCC-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe"/>
     </a>
-    <img src="https://img.shields.io/badge/Nota-9.7%2F10-success?style=for-the-badge" alt="9.7/10"/>
-  </p>
-  <p>
+    &nbsp;
     <a href="https://oguarni.github.io">
       <img src="https://img.shields.io/badge/Portfólio-Visitar-181717?style=for-the-badge&logo=github&logoColor=white"/>
     </a>
+    &nbsp;
     <a href="https://www.linkedin.com/in/oguarni/">
       <img src="https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
@@ -241,6 +236,7 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 ### Ponto Focal Técnico — Serviço de Registro de Imóveis
 **Abr 2021 – Nov 2023** · Tempo integral · Dois Vizinhos, PR
 
+
 Designado para conformidade com o **Provimento 74/CNJ**, mantendo infraestrutura crítica sob supervisão do **TJPR**.
 
 - Atuei como usuário-chave (Key User) do **SAEC/ONR** e **ERP IMOB** (Brainsoft), fornecendo suporte operacional interno à equipe e intermediando chamados de suporte técnico
@@ -258,7 +254,6 @@ Contribuí com funcionalidades em produção em aplicação Ruby on Rails / Post
 - Implementei filtros de busca granulares, multibusca, seletores de período e atualizações dinâmicas de transações
 - Conduzi **testes manuais** e garantia de qualidade (QA) para validar funcionalidades antes das entregas em produção
 
-
 ---
 
 ### AWS Cloud Data Engineer (Estágio) — Compass UOL
@@ -272,7 +267,6 @@ Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
 - Apliquei práticas de **least-privilege de IAM** e **RBAC** alinhadas aos requisitos de compliance do Bacen 4658
 - Desenvolvi compreensão prática de governança cloud: segregação de papéis, auditoria de permissões e rastreabilidade de compliance
 
-
 ---
 
 ## 🎓 Formação
@@ -283,7 +277,6 @@ Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
 - TCC: TerraSafe — Scanner Híbrido de Segurança para IaC (Nota 9,7/10)
 - Desenvolvi suítes de testes automatizados end-to-end com **Cypress** em projetos acadêmicos práticos
 - Adquiri experiência prática com pipelines CI/CD, Terraform e práticas DevSecOps através de estudo independente e pesquisa acadêmica
-
 
 ---
 
@@ -299,3 +292,4 @@ Operações de Compliance (2+ anos)  →  Engenharia de Segurança (TerraSafe)  
 
 A maioria dos engenheiros juniores aprende compliance pela documentação. Eu operei sistemas onde falhas tinham consequências legais — e essa experiência direciona como construo infraestrutura segura e auditável hoje.
 
+---
