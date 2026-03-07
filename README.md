@@ -85,7 +85,6 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 | **Security & Compliance** | Bandit, Safety, GitLeaks, Trivy, Isolation Forest (Scikit-learn), SBOM, LGPD, PCI-DSS, Bacen 4658 |
 | **DevOps & Quality** | GitHub Actions, CI/CD, Pytest, Cypress, Prometheus, Grafana, Clean Architecture, SOLID |
 | **Languages** | Python, Ruby on Rails, JavaScript, Bash, SQL, PostgreSQL |
-| **Regulatory Domain** | ICP-Brasil, Provimento 74/CNJ, e-Notariado, Audit Trail Systems, Digital Certification (A1/A3) |
 
 ---
 
@@ -234,7 +233,6 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 | **Segurança & Compliance** | Bandit, Safety, GitLeaks, Trivy, Isolation Forest (Scikit-learn), SBOM, LGPD, PCI-DSS, Bacen 4658 |
 | **DevOps & Qualidade** | GitHub Actions, CI/CD, Pytest, Cypress, Prometheus, Grafana, Clean Architecture, SOLID |
 | **Linguagens** | Python, Ruby on Rails, JavaScript, Bash, SQL, PostgreSQL |
-| **Domínio Regulatório** | ICP-Brasil, Provimento 74/CNJ, e-Notariado, Trilha de Auditoria, Certificação Digital (A1/A3) |
 
 ---
 
