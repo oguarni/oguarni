@@ -71,7 +71,7 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 
 
 <a href="https://github.com/oguarni/terrasafe">
-  <img src="https://img.shields.io/badge/Ver_Repositório-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/View_Repository-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 ---
