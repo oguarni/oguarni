@@ -11,9 +11,9 @@
 <div id="-english"></div>
 
 <div align="center">
-  <h4>DevSecOps & Cloud Security | IaC Security Engineering | QA Automation</h4>
-  <p><code>AWS</code> · <code>Python</code> · <code>Terraform</code> · <code>Docker</code> · <code>Linux</code> · <code>CI/CD</code></p>
-  <p><b>Building security into infrastructure before it reaches production.</b></p>
+  <h4>QA & Test Analyst · Security Analyst · Python Developer · System Implementation</h4>
+  <p><code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Docker</code> · <code>AWS</code> · <code>CI/CD</code> · <code>Linux</code> · <code>PostgreSQL</code></p>
+  <p><b>Quality is measurable — 397 tests, 100% coverage, zero audit findings.</b></p>
   <p>
     <a href="https://github.com/oguarni/terrasafe">
       <img src="https://img.shields.io/badge/Capstone-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe"/>
@@ -34,13 +34,15 @@
 ## About Me
 
 
-Software Engineering B.S. candidate at **UTFPR** (graduating July 2026), with a background that bridges **regulatory compliance**, **security engineering**, and **full-stack development**.
+Software Engineering student (UTFPR, graduating July 2026) with a testing-first mindset forged in environments where failure carries legal consequences. Built TerraSafe (grade 9.7/10) — a hybrid IaC security scanner with 397 automated tests achieving 100% code coverage across 76 test classes. Practiced manual testing with structured documentation at Procfy and developed Cypress E2E suites in academic projects.
 
-I spent nearly 3 years operating IT infrastructure under **judicial oversight** — Maintaining ERP systems, and enforcing **CNJ Reg. 74** compliance where downtime meant legal non-compliance. That hands-on audit discipline now shapes how I approach cloud security and DevSecOps.
+Nearly 3 years as Technical Focal Point in a judicially regulated registry office: Key User for SAEC/ONR and ERP IMOB (Brainsoft), responsible for integration testing between 5+ external systems, user training, post-deployment support, and compliance documentation under TJPR oversight — 99%+ availability, zero audit findings. Python is my primary language: TerraSafe (FastAPI, SQLAlchemy, Scikit-learn), AWS automation (Boto3, Lambda, PySpark), and scripting across every role.
 
-My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry problem: the **$4.5M average cost** of data breaches, **66%** of which stem from IaC misconfigurations. I designed a hybrid engine that combines deterministic rules with Machine Learning to catch what standard SAST tools miss.
+Security analysis experience through TerraSafe's 7 deterministic detection rules, SAST toolchain (Bandit, GitLeaks, Trivy, SonarQube), and hands-on network analysis with Nmap and Wireshark. Compliance background (Provimento 74/CNJ, LGPD, ICP-Brasil) provides the regulatory awareness that separates effective security analysts from tool operators.
 
-**Seeking:** Jr. DevSecOps · Cloud Security · QA Automation · Security Analyst — Remote / Hybrid
+Long-term objective: DevSecOps & Cloud Security Engineering.
+
+**Seeking:** QA Analyst · Test Analyst · Security Analyst · System Implementation · Python Developer — Remote
 
 🌐 **Languages:** Portuguese (Native) · English (Full professional proficiency)
 
@@ -50,24 +52,26 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 ## 🔬 Capstone: TerraSafe
 
 
-> **The Problem:** Traditional SAST tools rely on predefined rules — they catch *known* bad patterns but miss novel anomalies. With **66%** of breaches traced to IaC misconfigurations, this detection gap costs organizations millions.
+> **The Problem:** Traditional SAST tools rely on predefined rules — they catch *known* bad patterns but miss novel anomalies. With **66%** of breaches traced to IaC misconfigurations, this detection gap costs organizations an average of **$4.5M** per incident.
 
 **TerraSafe** solves this with a **hybrid dual-engine** approach:
 
 
 | Engine | Method | Detects |
 |--------|--------|---------|
-| **Deterministic** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | Known misconfiguration patterns |
-| **Probabilistic** | Isolation Forest (ML) | Novel configuration anomalies |
+| **Deterministic** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | 7 known misconfiguration patterns |
+| **Probabilistic** | Isolation Forest ML (7D feature vector) | Novel configuration anomalies |
 
 
 **Key Results:**
 - 📊 Grade **9.7/10** — Technical Report (Methodology & Research Phase)
-- ⚡ API response **<150ms** · Mean scan time **~27ms**
-- ✅ **272 tests** passing (Pytest) · **0 SAST issues** (Bandit)
+- ✅ **397 tests** (395 passed, 2 skipped) · **76 test classes** · **100% code coverage** across 24 modules
+- ⚡ Mean scan time **~27ms** · API response **<150ms**
+- 🔒 **0 SAST issues** (Bandit) · Pylint **9.16/10**
 - 🏗️ Clean Architecture · SOLID · Dependency Injection · Static type checking (Mypy)
+- 📏 **1,518 SLOC** application + **6,632 SLOC** test code
 
-**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana · Scikit-learn
+**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions (5-stage CI/CD) · Prometheus · Grafana · Scikit-learn
 
 
 <a href="https://github.com/oguarni/terrasafe">
@@ -76,28 +80,56 @@ My capstone project, **TerraSafe** (grade 9.7/10), tackles a real industry probl
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🚀 Featured Projects
 
-| Domain | Technologies |
-|--------|-------------|
-| **Cloud & Infrastructure** | AWS (EC2, Lambda, S3, IAM, RDS), Terraform, Docker, Linux, Windows Server, Boto3, PySpark |
-| **Security & Compliance** | Bandit, Safety, GitLeaks, Trivy, Isolation Forest (Scikit-learn), SBOM, LGPD, PCI-DSS, Bacen 4658 |
-| **DevOps & Quality** | GitHub Actions, CI/CD, Pytest, Cypress, Prometheus, Grafana, Clean Architecture, SOLID |
-| **Languages** | Python, Ruby on Rails, JavaScript, Bash, SQL, PostgreSQL |
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">AI Vulnerability Triage</h3>
+      <p align="center"><b>Security Analyst · Python Developer</b></p>
+      <p>ML-powered security alert prioritization using Naive Bayes + fine-tuned BERT. Achieved <b>67.4% alert reduction</b> (568 → 185 critical) and <b>83.27% accuracy</b>. Production-grade Flask REST API with Redis caching and Pydantic validation.</p>
+      <p><code>Python</code> <code>Flask</code> <code>PyTorch</code> <code>BERT</code> <code>scikit-learn</code> <code>Redis</code> <code>pytest</code></p>
+      <p align="center"><a href="https://github.com/oguarni/ai-vulnerability-triage"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">CresceBR B2B Marketplace</h3>
+      <p align="center"><b>Test Analyst · Python/JS Developer</b></p>
+      <p>B2B industrial procurement platform with CNPJ validation, tier pricing, NF-e Módulo 11, and supplier ratings. <b>106 tests</b> (Vitest + React Testing Library), full CI/CD pipeline with GitHub Actions. ~19,733 LOC.</p>
+      <p><code>React 19</code> <code>Express 5</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Vitest</code> <code>Docker</code></p>
+      <p align="center"><a href="https://github.com/oguarni/crescebr-b2b-marketplace"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Kurzgesagt Cypress Tests</h3>
+      <p align="center"><b>QA Analyst · Test Analyst</b></p>
+      <p>E2E test automation suite covering 4 functional flows with custom Cypress commands (<code>cy.waitForContent()</code>, <code>cy.safeClick()</code>), retry strategy, video recording, screenshot capture, and HTML report generation. <b>100% pass rate</b>.</p>
+      <p><code>Cypress</code> <code>JavaScript</code> <code>Node.js</code></p>
+      <p align="center"><a href="https://github.com/oguarni/automacao-vv-cypress"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">Agiliza — Task Management</h3>
+      <p align="center"><b>Full-Stack Developer</b></p>
+      <p>Kanban platform with RBAC (Admin/Manager/Collaborator), drag-and-drop boards, i18n (PT-BR/EN). Clean Architecture with 4-layer separation, dependency injection via tsyringe, JWT + Bcrypt auth. Jest testing.</p>
+      <p><code>React 18</code> <code>Express</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code> <code>Jest</code></p>
+      <p align="center"><a href="https://github.com/oguarni/status-point"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 💼 Experience
 
-### Technical Focal Point — Serviço de Registro de Imóveis
-**Apr 2021 – Nov 2023** · Full-time · Dois Vizinhos, PR
+### AWS Cloud Data Engineer Intern — Compass UOL
+**May – Oct 2025** · Remote
 
 
-Designated for **Provimento 74/CNJ** compliance, maintaining critical infrastructure under **TJPR** oversight.
-
-- Acted as Key User for **SAEC/ONR** and **ERP IMOB** (Brainsoft), providing internal operational support to the team and mediating technical support tickets
-- Implemented strict physical and logical access controls and configured **NTFS file permissions** to enforce privacy and ensure **LGPD** compliance
-- Administered **Windows Server** environment and supported hardware/network resilience, contributing to **99%+ availability** and **zero findings** in judicial inspections
+- Provisioned AWS infrastructure (EC2, S3, RDS, IAM, Lambda) and built Python automation via **Boto3**
+- Migrated data pipelines from Pandas to **PySpark** for distributed-scale processing with SQL integrity checks
+- Applied **IAM least-privilege** and **RBAC** practices aligned with Bacen 4658 compliance requirements
+- Containerized environments with Docker and gained practical understanding of cloud governance and permission auditing
 
 
 ---
@@ -106,24 +138,38 @@ Designated for **Provimento 74/CNJ** compliance, maintaining critical infrastruc
 **Nov 2023 – Nov 2024** · Dois Vizinhos, PR
 
 
-Contributed production features to a Ruby on Rails / PostgreSQL application.
-
-- Implemented granular search filters, multi-criteria search, date range selectors, and dynamic transaction updates
-- Conducted **manual testing** and quality assurance (QA) to validate features before production releases
+- Shipped production features in Ruby on Rails / PostgreSQL: granular search filters, multi-criteria search, date range selectors, dynamic transaction updates
+- Conducted **manual testing with structured documentation**, root cause analysis, and SQL data validation
+- Performed REST API testing with **Postman** and validated feature behavior before production releases
 
 
 ---
 
-### AWS Cloud Data Engineer Intern — Compass UOL
-**May – Oct 2025** · Remote
+### IT Assistant — Technical Focal Point — Serviço de Registro de Imóveis
+**Apr 2021 – Nov 2023** (2 years 8 months) · Full-time · Dois Vizinhos, PR
 
 
-Developed cloud-native data pipelines and automation on AWS infrastructure.
+- **Key User** for **SAEC/ONR** and **ERP IMOB** (Brainsoft): user training, post-deployment support, technical documentation
+- Executed **integration testing** between 5+ external systems (SAEC/ONR, e-Notariado, e-Proc, PJe, Projudi)
+- Implemented physical/logical access controls, configured **NTFS permissions** for **LGPD** compliance, and managed **ICP-Brasil** digital certificates
+- Administered **Windows Server** environment: **99%+ availability**, **zero findings** in judicial inspections (TJPR)
 
-- Provisioned infrastructure (EC2, S3, RDS, IAM, Lambda) and built Python automation via **Boto3**
-- Migrated data pipelines from Pandas to **PySpark** for distributed-scale processing
-- Applied **IAM least-privilege** and **RBAC** practices aligned with Bacen 4658 compliance requirements
-- Gained practical understanding of cloud governance: role segregation, permission auditing, and compliance traceability
+
+---
+
+## 🛠️ Technical Arsenal
+
+| Category | Tools & Technologies |
+|----------|---------------------|
+| **Testing & QA** | Pytest (397 tests, 100% coverage), Vitest, Jest, Cypress (E2E), Postman, Manual Testing |
+| **Security Analysis** | Bandit, GitLeaks, Trivy, SonarQube, Nmap, Wireshark, Isolation Forest (Scikit-learn), SBOM |
+| **Languages** | Python, TypeScript, JavaScript, Ruby, SQL, Bash/Shell |
+| **Frameworks** | FastAPI, Express 5, React 19, Ruby on Rails, Material UI |
+| **Databases** | PostgreSQL, Redis |
+| **Infrastructure** | Docker, Linux, Windows Server, Terraform |
+| **Cloud** | AWS (EC2, Lambda, S3, IAM, RDS), Boto3, PySpark |
+| **CI/CD** | GitHub Actions, Prometheus, Grafana |
+| **Compliance** | Provimento 74/CNJ, ICP-Brasil, LGPD, Bacen 4658 |
 
 ---
 
@@ -134,30 +180,30 @@ Developed cloud-native data pipelines and automation on AWS infrastructure.
 
 - Capstone: TerraSafe — Hybrid IaC Security Scanner (Grade 9.7/10)
 - Developed end-to-end automated testing suites using **Cypress** through hands-on academic projects
-- Gained practical experience with CI/CD pipelines, Terraform, and DevSecOps practices through independent study and academic research
+- Gained practical experience with CI/CD pipelines, Terraform, and security-integrated development practices through independent study and academic research
 
 ---
 
 ## 📊 What Sets Me Apart
 
 ```
-Compliance Operations (2+ years)  →  Security Engineering (TerraSafe)  →  Cloud & Automation (AWS)
-         ↓                                    ↓                                   ↓
-  Real audit discipline              Hybrid ML + Rules engine            Full-cycle delivery
-  under judicial oversight            addressing $4.5M problem           across the stack
+Compliance Ops (2y8m)  →  Testing & QA (397 tests, 100% cov)  →  Security Analysis
+         ↓                            ↓                                  ↓
+  Zero-tolerance environment   Quality is measurable            Tools + Compliance
+  under judicial oversight     (76 classes, 24 modules)         awareness from the field
 ```
 
 
-Most junior engineers learn compliance from documentation. I operated systems where failures had legal consequences — and that experience drives how I build secure, auditable infrastructure today.
+Most junior engineers learn compliance from documentation. I operated systems where failures had legal consequences — and that discipline drives how I test, document, and secure software today.
 
 ---
 
 <div id="-português"></div>
 
 <div align="center">
-  <h4>DevSecOps & Cloud Security | Segurança de IaC | QA Automation</h4>
-  <p><code>AWS</code> · <code>Python</code> · <code>Terraform</code> · <code>Docker</code> · <code>Linux</code> · <code>CI/CD</code></p>
-  <p><b>Integrando segurança à infraestrutura antes que chegue à produção.</b></p>
+  <h4>QA & Analista de Testes · Analista de Segurança · Desenvolvedor Python · Implantação de Sistemas</h4>
+  <p><code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Docker</code> · <code>AWS</code> · <code>CI/CD</code> · <code>Linux</code> · <code>PostgreSQL</code></p>
+  <p><b>Qualidade é mensurável — 397 testes, 100% de cobertura, zero achados em auditoria.</b></p>
   <p>
     <a href="https://github.com/oguarni/terrasafe">
       <img src="https://img.shields.io/badge/TCC-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe"/>
@@ -178,13 +224,15 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 ## Sobre Mim
 
 
-Bacharelando em Engenharia de Software na **UTFPR** (formatura prevista: julho 2026), com uma trajetória que conecta **compliance regulatório**, **engenharia de segurança** e **desenvolvimento full-stack**.
+Graduando em Engenharia de Software (UTFPR, conclusão jul./2026) com mentalidade testing-first forjada em ambientes onde falhas têm consequências legais. Criei o TerraSafe (nota 9,7/10) — scanner híbrido de segurança para IaC com 397 testes automatizados alcançando 100% de cobertura de código em 76 classes de teste. Realizei testes manuais com documentação estruturada na Procfy e desenvolvi suítes E2E com Cypress em projetos acadêmicos.
 
-Atuei por quase 3 anos em infraestrutura de TI sob **supervisão judicial** — mantendo sistemas ERP e cumprindo requisitos do **Provimento 74/CNJ** em ambiente onde indisponibilidade significava descumprimento legal. Essa disciplina de auditoria hoje direciona minha abordagem em segurança cloud e DevSecOps.
+Quase 3 anos como Ponto Focal Técnico em cartório de registro sob regulação judicial: Key User do SAEC/ONR e ERP IMOB (Brainsoft), responsável por testes de integração entre 5+ sistemas externos, treinamento de usuários, suporte pós-implantação e documentação de compliance sob supervisão do TJPR — 99%+ de disponibilidade, zero achados em auditoria. Python é minha linguagem principal: TerraSafe (FastAPI, SQLAlchemy, Scikit-learn), automação AWS (Boto3, Lambda, PySpark) e scripting em todas as posições.
 
-Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **custo médio de US$ 4,5 milhões** por violação de dados, sendo que **66%** delas têm origem em configurações incorretas de IaC. Desenvolvi um motor híbrido que combina regras determinísticas com Machine Learning para detectar o que ferramentas SAST convencionais não identificam.
+Experiência em análise de segurança através das 7 regras determinísticas do TerraSafe, toolchain SAST (Bandit, GitLeaks, Trivy, SonarQube) e análise prática de redes com Nmap e Wireshark. Background em compliance (Provimento 74/CNJ, LGPD, ICP-Brasil) fornece a consciência regulatória que separa analistas de segurança eficazes de operadores de ferramentas.
 
-**Buscando:** DevSecOps Jr. · Cloud Security · QA Automation · Analista de Segurança — Remoto / Híbrido
+Objetivo de longo prazo: DevSecOps & Cloud Security Engineering.
+
+**Buscando:** QA Analyst · Analista de Testes · Analista de Segurança · Implantação de Sistemas · Desenvolvedor Python — Remoto
 
 🌐 **Idiomas:** Português (Nativo) · Inglês (Proficiência profissional completa)
 
@@ -194,24 +242,26 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 ## 🔬 TCC: TerraSafe
 
 
-> **O Problema:** Ferramentas SAST tradicionais dependem de regras pré-definidas — detectam padrões *conhecidos*, mas falham em identificar anomalias inéditas. Com **66%** das violações rastreadas a configurações incorretas de IaC, essa lacuna de detecção custa milhões às organizações.
+> **O Problema:** Ferramentas SAST tradicionais dependem de regras pré-definidas — detectam padrões *conhecidos*, mas falham em identificar anomalias inéditas. Com **66%** das violações rastreadas a configurações incorretas de IaC, essa lacuna de detecção custa em média **US$ 4,5 milhões** por incidente.
 
 **TerraSafe** resolve isso com uma abordagem de **motor duplo híbrido**:
 
 
 | Motor | Método | Detecta |
 |-------|--------|---------|
-| **Determinístico** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | Padrões de configuração conhecidos |
-| **Probabilístico** | Isolation Forest (ML) | Anomalias de configuração inéditas |
+| **Determinístico** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | 7 padrões de configuração conhecidos |
+| **Probabilístico** | Isolation Forest ML (vetor 7D) | Anomalias de configuração inéditas |
 
 
 **Resultados:**
 - 📊 Nota **9,7/10** — Relatório Técnico (Metodologia e Pesquisa)
-- ⚡ Resposta da API **<150ms** · Tempo médio de scan **~27ms**
-- ✅ **272 testes** aprovados (Pytest) · **0 problemas SAST** (Bandit)
+- ✅ **397 testes** (395 aprovados, 2 ignorados) · **76 classes de teste** · **100% de cobertura** em 24 módulos
+- ⚡ Tempo médio de scan **~27ms** · Resposta da API **<150ms**
+- 🔒 **0 problemas SAST** (Bandit) · Pylint **9,16/10**
 - 🏗️ Clean Architecture · SOLID · Injeção de Dependência · Verificação estática de tipos (Mypy)
+- 📏 **1.518 SLOC** aplicação + **6.632 SLOC** código de teste
 
-**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana · Scikit-learn
+**Stack:** Python · FastAPI · PostgreSQL · Redis · Docker · GitHub Actions (CI/CD 5 estágios) · Prometheus · Grafana · Scikit-learn
 
 
 <a href="https://github.com/oguarni/terrasafe">
@@ -220,28 +270,57 @@ Meu TCC, **TerraSafe** (nota 9,7/10), ataca um problema real do mercado: o **cus
 
 ---
 
-## 🛠️ Arsenal Técnico
+## 🚀 Projetos em Destaque
 
-| Domínio | Tecnologias |
-|---------|-------------|
-| **Cloud & Infraestrutura** | AWS (EC2, Lambda, S3, IAM, RDS), Terraform, Docker, Linux, Windows Server, Boto3, PySpark |
-| **Segurança & Compliance** | Bandit, Safety, GitLeaks, Trivy, Isolation Forest (Scikit-learn), SBOM, LGPD, PCI-DSS, Bacen 4658 |
-| **DevOps & Qualidade** | GitHub Actions, CI/CD, Pytest, Cypress, Prometheus, Grafana, Clean Architecture, SOLID |
-| **Linguagens** | Python, Ruby on Rails, JavaScript, Bash, SQL, PostgreSQL |
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">AI Vulnerability Triage</h3>
+      <p align="center"><b>Analista de Segurança · Desenvolvedor Python</b></p>
+      <p>Priorização de alertas de segurança com ML usando Naive Bayes + BERT fine-tuned. <b>67,4% de redução de alertas</b> (568 → 185 críticos) e <b>83,27% de acurácia</b>. API REST Flask com cache Redis e validação Pydantic.</p>
+      <p><code>Python</code> <code>Flask</code> <code>PyTorch</code> <code>BERT</code> <code>scikit-learn</code> <code>Redis</code> <code>pytest</code></p>
+      <p align="center"><a href="https://github.com/oguarni/ai-vulnerability-triage"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">CresceBR B2B Marketplace</h3>
+      <p align="center"><b>Analista de Testes · Desenvolvedor Python/JS</b></p>
+      <p>Plataforma de compras B2B com validação CNPJ, precificação por faixa, NF-e Módulo 11 e avaliação de fornecedores. <b>106 testes</b> (Vitest + React Testing Library), pipeline CI/CD completo. ~19.733 LOC.</p>
+      <p><code>React 19</code> <code>Express 5</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Vitest</code> <code>Docker</code></p>
+      <p align="center"><a href="https://github.com/oguarni/crescebr-b2b-marketplace"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Kurzgesagt Cypress Tests</h3>
+      <p align="center"><b>QA Analyst · Analista de Testes</b></p>
+      <p>Suíte de automação E2E cobrindo 4 fluxos funcionais com comandos Cypress customizados (<code>cy.waitForContent()</code>, <code>cy.safeClick()</code>), estratégia de retry, gravação de vídeo, captura de tela e relatório HTML. <b>100% de aprovação</b>.</p>
+      <p><code>Cypress</code> <code>JavaScript</code> <code>Node.js</code></p>
+      <p align="center"><a href="https://github.com/oguarni/automacao-vv-cypress"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">Agiliza — Gestão de Tarefas</h3>
+      <p align="center"><b>Desenvolvedor Full-Stack</b></p>
+      <p>Plataforma Kanban com RBAC (Admin/Gerente/Colaborador), drag-and-drop, i18n (PT-BR/EN). Clean Architecture com separação em 4 camadas, injeção de dependência via tsyringe, autenticação JWT + Bcrypt. Testes com Jest.</p>
+      <p><code>React 18</code> <code>Express</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code> <code>Jest</code></p>
+      <p align="center"><a href="https://github.com/oguarni/status-point"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 💼 Experiência
 
-### Ponto Focal Técnico — Serviço de Registro de Imóveis
-**Abr 2021 – Nov 2023** · Tempo integral · Dois Vizinhos, PR
+### AWS Cloud Data Engineer (Estágio) — Compass UOL
+**Mai – Out 2025** · Remoto
 
 
-Designado para conformidade com o **Provimento 74/CNJ**, mantendo infraestrutura crítica sob supervisão do **TJPR**.
+- Provisionei infraestrutura AWS (EC2, S3, RDS, IAM, Lambda) e desenvolvi automações Python com **Boto3**
+- Migrei pipelines de dados de Pandas para **PySpark** para processamento em escala distribuída com verificações de integridade SQL
+- Apliquei práticas de **least-privilege de IAM** e **RBAC** alinhadas aos requisitos de compliance do Bacen 4658
+- Containerizei ambientes com Docker e desenvolvi compreensão prática de governança cloud e auditoria de permissões
 
-- Atuei como usuário-chave (Key User) do **SAEC/ONR** e **ERP IMOB** (Brainsoft), fornecendo suporte operacional interno à equipe e intermediando chamados de suporte técnico
-- Implementei controles rígidos de acesso físico e lógico e configurei **permissões NTFS** para garantir privacidade e conformidade com a **LGPD**
-- Administrei ambiente **Windows Server** e apoiei a resiliência de hardware/rede, contribuindo para **99%+ de disponibilidade** e **zero achados** em inspeções judiciais
 
 ---
 
@@ -249,23 +328,38 @@ Designado para conformidade com o **Provimento 74/CNJ**, mantendo infraestrutura
 **Nov 2023 – Nov 2024** · Dois Vizinhos, PR
 
 
-Contribuí com funcionalidades em produção em aplicação Ruby on Rails / PostgreSQL.
+- Entreguei funcionalidades em produção em Ruby on Rails / PostgreSQL: filtros de busca granulares, multibusca, seletores de período, atualizações dinâmicas de transações
+- Conduzi **testes manuais com documentação estruturada**, análise de causa raiz e validação de dados SQL
+- Realizei testes de API REST com **Postman** e validei comportamento de funcionalidades antes das entregas em produção
 
-- Implementei filtros de busca granulares, multibusca, seletores de período e atualizações dinâmicas de transações
-- Conduzi **testes manuais** e garantia de qualidade (QA) para validar funcionalidades antes das entregas em produção
 
 ---
 
-### AWS Cloud Data Engineer (Estágio) — Compass UOL
-**Mai – Out 2025** · Remoto
+### Assistente de TI — Ponto Focal Técnico — Serviço de Registro de Imóveis
+**Abr 2021 – Nov 2023** (2 anos e 8 meses) · Tempo integral · Dois Vizinhos, PR
 
 
-Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
+- **Key User** do **SAEC/ONR** e **ERP IMOB** (Brainsoft): treinamento de usuários, suporte pós-implantação, documentação técnica
+- Executei **testes de integração** entre 5+ sistemas externos (SAEC/ONR, e-Notariado, e-Proc, PJe, Projudi)
+- Implementei controles de acesso físico/lógico, configurei **permissões NTFS** para conformidade com a **LGPD** e gerenciei certificados digitais **ICP-Brasil**
+- Administrei ambiente **Windows Server**: **99%+ de disponibilidade**, **zero achados** em inspeções judiciais (TJPR)
 
-- Provisionei infraestrutura (EC2, S3, RDS, IAM, Lambda) e desenvolvi automações Python com **Boto3**
-- Migrei pipelines de dados de Pandas para **PySpark** para processamento em escala distribuída
-- Apliquei práticas de **least-privilege de IAM** e **RBAC** alinhadas aos requisitos de compliance do Bacen 4658
-- Desenvolvi compreensão prática de governança cloud: segregação de papéis, auditoria de permissões e rastreabilidade de compliance
+
+---
+
+## 🛠️ Arsenal Técnico
+
+| Categoria | Ferramentas & Tecnologias |
+|-----------|--------------------------|
+| **Testes & QA** | Pytest (397 testes, 100% cobertura), Vitest, Jest, Cypress (E2E), Postman, Testes Manuais |
+| **Análise de Segurança** | Bandit, GitLeaks, Trivy, SonarQube, Nmap, Wireshark, Isolation Forest (Scikit-learn), SBOM |
+| **Linguagens** | Python, TypeScript, JavaScript, Ruby, SQL, Bash/Shell |
+| **Frameworks** | FastAPI, Express 5, React 19, Ruby on Rails, Material UI |
+| **Bancos de Dados** | PostgreSQL, Redis |
+| **Infraestrutura** | Docker, Linux, Windows Server, Terraform |
+| **Cloud** | AWS (EC2, Lambda, S3, IAM, RDS), Boto3, PySpark |
+| **CI/CD** | GitHub Actions, Prometheus, Grafana |
+| **Compliance** | Provimento 74/CNJ, ICP-Brasil, LGPD, Bacen 4658 |
 
 ---
 
@@ -276,20 +370,20 @@ Desenvolvi pipelines de dados cloud-native e automações em infraestrutura AWS.
 
 - TCC: TerraSafe — Scanner Híbrido de Segurança para IaC (Nota 9,7/10)
 - Desenvolvi suítes de testes automatizados end-to-end com **Cypress** em projetos acadêmicos práticos
-- Adquiri experiência prática com pipelines CI/CD, Terraform e práticas DevSecOps através de estudo independente e pesquisa acadêmica
+- Adquiri experiência prática com pipelines CI/CD, Terraform e práticas de desenvolvimento integrado à segurança através de estudo independente e pesquisa acadêmica
 
 ---
 
 ## 📊 O Que Me Diferencia
 
 ```
-Operações de Compliance (2+ anos)  →  Engenharia de Segurança (TerraSafe)  →  Cloud & Automação (AWS)
-           ↓                                     ↓                                    ↓
-   Disciplina real de auditoria         Motor híbrido ML + Regras             Entrega full-cycle
-   sob supervisão judicial              atacando problema de US$ 4,5M         em todo o stack
+Operações de Compliance (2a8m)  →  Testes & QA (397 testes, 100% cob)  →  Análise de Segurança
+           ↓                                  ↓                                    ↓
+   Ambiente de tolerância zero       Qualidade é mensurável              Ferramentas + Compliance
+   sob supervisão judicial           (76 classes, 24 módulos)            vivenciado na prática
 ```
 
 
-A maioria dos engenheiros juniores aprende compliance pela documentação. Eu operei sistemas onde falhas tinham consequências legais — e essa experiência direciona como construo infraestrutura segura e auditável hoje.
+A maioria dos engenheiros juniores aprende compliance pela documentação. Eu operei sistemas onde falhas tinham consequências legais — e essa disciplina direciona como testo, documento e protejo software hoje.
 
 ---
