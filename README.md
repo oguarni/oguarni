@@ -21,8 +21,8 @@
 **Quality is disciplined — Pylint 10.00/10 · 0 SAST findings · 0 audit findings in 2y8m under judicial oversight.**
 
 <p>
-  <a href="https://github.com/oguarni/terrasafe">
-    <img src="https://img.shields.io/badge/Capstone-TerraSafe_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe"/>
+  <a href="https://github.com/oguarni/terravault">
+    <img src="https://img.shields.io/badge/Capstone-TerraVault_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
   &nbsp;
   <a href="https://oguarni.github.io">
@@ -50,22 +50,22 @@
 
 ## About Me
 
-Software Engineering student at UTFPR (8th and final semester, graduating July 2026) with a **testing-first mindset** forged in environments where failure carries legal consequences. Built **TerraSafe** (grade **9.7/10**) — a hybrid IaC security scanner with a deliberately focused test suite (**72 high-signal pytest cases, 74% line coverage, Pylint 10.00/10, zero SAST findings**). Practiced manual testing with structured documentation at Procfy and developed Cypress E2E suites in academic projects.
+Software Engineering student at UTFPR (8th and final semester, graduating July 2026) with a **testing-first mindset** forged in environments where failure carries legal consequences. Built **TerraVault** (grade **9.7/10**) — a hybrid IaC security scanner with a deliberately focused test suite (**72 high-signal pytest cases, 74% line coverage, Pylint 10.00/10, zero SAST findings**). Practiced manual testing with structured documentation at Procfy and developed Cypress E2E suites in academic projects.
 
-Nearly **3 years as Technical Focal Point** in a judicially regulated registry office: Key User for SAEC/ONR and ERP IMOB (Brainsoft), responsible for integration testing between 5+ external systems, user training, post-deployment support, and compliance documentation under TJPR oversight — **99%+ availability, zero audit findings**. Python is my primary language: TerraSafe (FastAPI, SQLAlchemy, Scikit-learn), AWS automation (Boto3, Lambda, PySpark), and scripting across every role.
+Nearly **3 years as Technical Focal Point** in a judicially regulated registry office: Key User for SAEC/ONR and ERP IMOB (Brainsoft), responsible for integration testing between 5+ external systems, user training, post-deployment support, and compliance documentation under TJPR oversight — **99%+ availability, zero audit findings**. Python is my primary language: TerraVault (FastAPI, SQLAlchemy, Scikit-learn), AWS automation (Boto3, Lambda, PySpark), and scripting across every role.
 
-Security analysis experience through TerraSafe's 7 deterministic detection rules, SAST toolchain (Bandit, GitLeaks, Trivy, SonarQube), and hands-on network analysis with Nmap and Wireshark. Compliance background (Provimento 74/CNJ, LGPD, ICP-Brasil, Bacen 4658) provides the regulatory awareness that separates effective security analysts from tool operators.
+Security analysis experience through TerraVault's 7 deterministic detection rules, SAST toolchain (Bandit, GitLeaks, Trivy, SonarQube), and hands-on network analysis with Nmap and Wireshark. Compliance background (Provimento 74/CNJ, LGPD, ICP-Brasil, Bacen 4658) provides the regulatory awareness that separates effective security analysts from tool operators.
 
 **Long-term objective:** DevSecOps & Cloud Security Engineering.
 **Seeking:** QA/Test Analyst · Security Analyst · DevOps / DevSecOps Jr · Infrastructure Analyst · Python Developer — Remote / Hybrid / On-site.
 
 ---
 
-## 🔬 Capstone: TerraSafe
+## 🔬 Capstone: TerraVault
 
 > **The Problem:** Traditional SAST tools rely on predefined rules — they catch *known* bad patterns but miss novel anomalies. With **66%** of breaches traced to IaC misconfigurations, this detection gap costs organizations an average of **$4.5M** per incident.
 
-**TerraSafe** solves this with a **hybrid dual-engine** approach:
+**TerraVault** solves this with a **hybrid dual-engine** approach:
 
 | Engine | Method | Detects |
 |--------|--------|---------|
@@ -79,12 +79,12 @@ Security analysis experience through TerraSafe's 7 deterministic detection rules
 - ⚡ Sub-second per-file scans — suitable for CI gating
 - 🏗️ Clean Architecture · SOLID · Dependency Injection · Static type checking (Mypy)
 - 🔐 bcrypt auth · Redis caching/rate limiting · Prometheus metrics · SARIF v2.1.0 output for GitHub Code Scanning
-- 📏 **1,518 SLOC** application (terrasafe package) · **1,360 SLOC** test code — healthy signal-to-noise ratio
+- 📏 **1,518 SLOC** application (terravault package) · **1,360 SLOC** test code — healthy signal-to-noise ratio
 
 **Stack:** Python 3.10+ · FastAPI · PostgreSQL 15 · SQLAlchemy (async) · Redis 7 · Docker · GitHub Actions (5-stage CI/CD) · Prometheus · Grafana · Scikit-learn · NumPy · Joblib
 
-<a href="https://github.com/oguarni/terrasafe">
-  <img src="https://img.shields.io/badge/View_Repository-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://github.com/oguarni/terravault">
+  <img src="https://img.shields.io/badge/View_Repository-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 ---
@@ -179,7 +179,7 @@ Security analysis experience through TerraSafe's 7 deterministic detection rules
 
 **B.S. Software Engineering** — UTFPR-DV (Dois Vizinhos, PR) · Apr 2022 – Jul 2026 (Expected)
 
-- Capstone: **TerraSafe** — Hybrid IaC Security Scanner (**Grade 9.7/10**)
+- Capstone: **TerraVault** — Hybrid IaC Security Scanner (**Grade 9.7/10**)
 - Developed end-to-end automated testing suites using **Cypress** through hands-on academic projects
 - Gained practical experience with CI/CD pipelines, Terraform, and security-integrated development practices through independent study and academic research
 
@@ -191,7 +191,7 @@ Security analysis experience through TerraSafe's 7 deterministic detection rules
 
 | Metric | Value | Context |
 |:------:|:-----:|:--------|
-| **Capstone Grade** | 9.7 / 10 | TerraSafe Technical Report |
+| **Capstone Grade** | 9.7 / 10 | TerraVault Technical Report |
 | **Code Quality** | Pylint 10.00 / 10 | 0 Flake8 issues, 0 Bandit findings |
 | **Test Discipline** | 74% coverage | 72 focused cases over 1,518 SLOC |
 | **Compliance Record** | 0 findings | 2y8m under TJPR judicial oversight |
@@ -236,8 +236,8 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 **Qualidade é disciplina — Pylint 10,00/10 · 0 achados SAST · 0 achados de auditoria em 2a8m sob supervisão judicial.**
 
 <p>
-  <a href="https://github.com/oguarni/terrasafe">
-    <img src="https://img.shields.io/badge/TCC-TerraSafe_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraSafe"/>
+  <a href="https://github.com/oguarni/terravault">
+    <img src="https://img.shields.io/badge/TCC-TerraVault_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
   &nbsp;
   <a href="https://oguarni.github.io">
@@ -265,22 +265,22 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 
 ## Sobre Mim
 
-Graduando em Engenharia de Software pela UTFPR (8º e último semestre, conclusão em julho de 2026) com **mentalidade testing-first** forjada em ambientes onde falhas têm consequências legais. Criei o **TerraSafe** (nota **9,7/10**) — scanner híbrido de segurança para IaC com suíte de testes deliberadamente focada (**72 casos pytest de alto sinal, 74% de cobertura de linhas, Pylint 10,00/10, zero achados SAST**). Realizei testes manuais com documentação estruturada na Procfy e desenvolvi suítes E2E com Cypress em projetos acadêmicos.
+Graduando em Engenharia de Software pela UTFPR (8º e último semestre, conclusão em julho de 2026) com **mentalidade testing-first** forjada em ambientes onde falhas têm consequências legais. Criei o **TerraVault** (nota **9,7/10**) — scanner híbrido de segurança para IaC com suíte de testes deliberadamente focada (**72 casos pytest de alto sinal, 74% de cobertura de linhas, Pylint 10,00/10, zero achados SAST**). Realizei testes manuais com documentação estruturada na Procfy e desenvolvi suítes E2E com Cypress em projetos acadêmicos.
 
-Quase **3 anos como Ponto Focal Técnico** em cartório de registro sob regulação judicial: Key User do SAEC/ONR e ERP IMOB (Brainsoft), responsável por testes de integração entre 5+ sistemas externos, treinamento de usuários, suporte pós-implantação e documentação de compliance sob supervisão do TJPR — **99%+ de disponibilidade, zero achados em auditoria**. Python é minha linguagem principal: TerraSafe (FastAPI, SQLAlchemy, Scikit-learn), automação AWS (Boto3, Lambda, PySpark) e scripting em todas as posições.
+Quase **3 anos como Ponto Focal Técnico** em cartório de registro sob regulação judicial: Key User do SAEC/ONR e ERP IMOB (Brainsoft), responsável por testes de integração entre 5+ sistemas externos, treinamento de usuários, suporte pós-implantação e documentação de compliance sob supervisão do TJPR — **99%+ de disponibilidade, zero achados em auditoria**. Python é minha linguagem principal: TerraVault (FastAPI, SQLAlchemy, Scikit-learn), automação AWS (Boto3, Lambda, PySpark) e scripting em todas as posições.
 
-Experiência em análise de segurança através das 7 regras determinísticas do TerraSafe, toolchain SAST (Bandit, GitLeaks, Trivy, SonarQube) e análise prática de redes com Nmap e Wireshark. Background em compliance (Provimento 74/CNJ, LGPD, ICP-Brasil, Bacen 4658) fornece a consciência regulatória que separa analistas de segurança eficazes de operadores de ferramentas.
+Experiência em análise de segurança através das 7 regras determinísticas do TerraVault, toolchain SAST (Bandit, GitLeaks, Trivy, SonarQube) e análise prática de redes com Nmap e Wireshark. Background em compliance (Provimento 74/CNJ, LGPD, ICP-Brasil, Bacen 4658) fornece a consciência regulatória que separa analistas de segurança eficazes de operadores de ferramentas.
 
 **Objetivo de longo prazo:** DevSecOps & Cloud Security Engineering.
 **Buscando:** QA/Analista de Testes · Analista de Segurança · DevOps / DevSecOps Jr · Analista de Infraestrutura · Desenvolvedor Python — Remoto / Híbrido / Presencial.
 
 ---
 
-## 🔬 TCC: TerraSafe
+## 🔬 TCC: TerraVault
 
 > **O Problema:** Ferramentas SAST tradicionais dependem de regras pré-definidas — detectam padrões *conhecidos*, mas falham em identificar anomalias inéditas. Com **66%** das violações rastreadas a configurações incorretas de IaC, essa lacuna de detecção custa em média **US$ 4,5 milhões** por incidente.
 
-**TerraSafe** resolve isso com uma abordagem de **motor duplo híbrido**:
+**TerraVault** resolve isso com uma abordagem de **motor duplo híbrido**:
 
 | Motor | Método | Detecta |
 |-------|--------|---------|
@@ -294,12 +294,12 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 - ⚡ Scans por arquivo em menos de 1 segundo — adequado para CI gating
 - 🏗️ Clean Architecture · SOLID · Injeção de Dependência · Verificação estática de tipos (Mypy)
 - 🔐 Autenticação bcrypt · Cache/rate limiting Redis · Métricas Prometheus · Saída SARIF v2.1.0 para GitHub Code Scanning
-- 📏 **1.518 SLOC** aplicação (pacote terrasafe) · **1.360 SLOC** código de teste — proporção saudável de sinal/ruído
+- 📏 **1.518 SLOC** aplicação (pacote terravault) · **1.360 SLOC** código de teste — proporção saudável de sinal/ruído
 
 **Stack:** Python 3.10+ · FastAPI · PostgreSQL 15 · SQLAlchemy (async) · Redis 7 · Docker · GitHub Actions (CI/CD 5 estágios) · Prometheus · Grafana · Scikit-learn · NumPy · Joblib
 
-<a href="https://github.com/oguarni/terrasafe">
-  <img src="https://img.shields.io/badge/Ver_Repositório-TerraSafe-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://github.com/oguarni/terravault">
+  <img src="https://img.shields.io/badge/Ver_Repositório-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 ---
@@ -394,7 +394,7 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 **Bacharelado em Engenharia de Software** — UTFPR-DV (Dois Vizinhos, PR) · Abr 2022 – Jul 2026 (Previsto)
 
-- TCC: **TerraSafe** — Scanner Híbrido de Segurança para IaC (**Nota 9,7/10**)
+- TCC: **TerraVault** — Scanner Híbrido de Segurança para IaC (**Nota 9,7/10**)
 - Desenvolvi suítes de testes automatizados end-to-end com **Cypress** em projetos acadêmicos práticos
 - Adquiri experiência prática com pipelines CI/CD, Terraform e práticas de desenvolvimento integrado à segurança através de estudo independente e pesquisa acadêmica
 
@@ -406,7 +406,7 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 | Métrica | Valor | Contexto |
 |:-------:|:-----:|:---------|
-| **Nota do TCC** | 9,7 / 10 | Relatório Técnico do TerraSafe |
+| **Nota do TCC** | 9,7 / 10 | Relatório Técnico do TerraVault |
 | **Qualidade de Código** | Pylint 10,00 / 10 | 0 problemas Flake8, 0 achados Bandit |
 | **Disciplina de Testes** | 74% de cobertura | 72 casos focados em 1.518 SLOC |
 | **Histórico de Compliance** | 0 achados | 2a8m sob supervisão judicial (TJPR) |
