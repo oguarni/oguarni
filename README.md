@@ -50,7 +50,7 @@
 
 ## About Me
 
-Software Engineering student at UTFPR (8th and final semester, graduating July 2026) with a **testing-first mindset** forged in environments where failure carries legal consequences. Built **TerraVault** (grade **9.7/10**) — a hybrid IaC security scanner with a deliberately focused test suite (**72 high-signal pytest cases, 74% line coverage, Pylint 10.00/10, zero SAST findings**). Practiced manual testing with structured documentation at Procfy and developed Cypress E2E suites in academic projects.
+Software Engineer (B.S. Software Engineering, UTFPR — July 2026) with a **testing-first mindset** forged in environments where failure carries legal consequences. Built **TerraVault** (grade **9.7/10**) — a hybrid IaC security scanner with a deliberately focused test suite (**72 high-signal pytest cases, 74% line coverage, Pylint 10.00/10, zero SAST findings**). Practiced manual testing with structured documentation at Procfy and developed Cypress E2E suites in academic projects.
 
 Nearly **3 years as Technical Focal Point** in a judicially regulated registry office: Key User for SAEC/ONR and ERP IMOB (Brainsoft), responsible for integration testing between 5+ external systems, user training, post-deployment support, and compliance documentation under TJPR oversight — **99%+ availability, zero audit findings**. Python is my primary language: TerraVault (FastAPI, SQLAlchemy, Scikit-learn), AWS automation (Boto3, Lambda, PySpark), and scripting across every role.
 
@@ -177,7 +177,7 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
 
 ## 🎓 Education
 
-**B.S. Software Engineering** — UTFPR-DV (Dois Vizinhos, PR) · Apr 2022 – Jul 2026 (Expected)
+**B.S. Software Engineering** — UTFPR-DV (Dois Vizinhos, PR) · Apr 2022 – Jul 2026
 
 - Capstone: **TerraVault** — Hybrid IaC Security Scanner (**Grade 9.7/10**)
 - Developed end-to-end automated testing suites using **Cypress** through hands-on academic projects
@@ -265,7 +265,7 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 
 ## Sobre Mim
 
-Graduando em Engenharia de Software pela UTFPR (8º e último semestre, conclusão em julho de 2026) com **mentalidade testing-first** forjada em ambientes onde falhas têm consequências legais. Criei o **TerraVault** (nota **9,7/10**) — scanner híbrido de segurança para IaC com suíte de testes deliberadamente focada (**72 casos pytest de alto sinal, 74% de cobertura de linhas, Pylint 10,00/10, zero achados SAST**). Realizei testes manuais com documentação estruturada na Procfy e desenvolvi suítes E2E com Cypress em projetos acadêmicos.
+Engenheiro de Software (Bacharel em Engenharia de Software, UTFPR — julho de 2026) com **mentalidade testing-first** forjada em ambientes onde falhas têm consequências legais. Criei o **TerraVault** (nota **9,7/10**) — scanner híbrido de segurança para IaC com suíte de testes deliberadamente focada (**72 casos pytest de alto sinal, 74% de cobertura de linhas, Pylint 10,00/10, zero achados SAST**). Realizei testes manuais com documentação estruturada na Procfy e desenvolvi suítes E2E com Cypress em projetos acadêmicos.
 
 Quase **3 anos como Ponto Focal Técnico** em cartório de registro sob regulação judicial: Key User do SAEC/ONR e ERP IMOB (Brainsoft), responsável por testes de integração entre 5+ sistemas externos, treinamento de usuários, suporte pós-implantação e documentação de compliance sob supervisão do TJPR — **99%+ de disponibilidade, zero achados em auditoria**. Python é minha linguagem principal: TerraVault (FastAPI, SQLAlchemy, Scikit-learn), automação AWS (Boto3, Lambda, PySpark) e scripting em todas as posições.
 
@@ -392,7 +392,7 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 ## 🎓 Formação
 
-**Bacharelado em Engenharia de Software** — UTFPR-DV (Dois Vizinhos, PR) · Abr 2022 – Jul 2026 (Previsto)
+**Bacharelado em Engenharia de Software** — UTFPR-DV (Dois Vizinhos, PR) · Abr 2022 – Jul 2026
 
 - TCC: **TerraVault** — Scanner Híbrido de Segurança para IaC (**Nota 9,7/10**)
 - Desenvolvi suítes de testes automatizados end-to-end com **Cypress** em projetos acadêmicos práticos
