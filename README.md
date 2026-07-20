@@ -14,11 +14,11 @@
 
 # Gabriel Felipe Guarnieri
 
-#### QA & Test Analyst · Security Analyst · Python Developer · System Implementation
+#### ERP Software Tester (QA) · Test Automation · Python / Backend
 
-<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Docker</code> · <code>AWS</code> · <code>CI/CD</code> · <code>Linux</code> · <code>PostgreSQL</code>
+<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Postman</code> · <code>SQL</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code> · <code>CI/CD</code>
 
-**Quality is disciplined — Pylint 10.00/10 · 0 SAST findings · 0 audit findings in 2y8m under judicial oversight.**
+**I test the fiscal modules of an ERP through Brazil's IBS/CBS tax reform — and I measure my own work honestly enough to publish the unflattering results.**
 
 <p>
   <a href="https://github.com/oguarni/terravault">
@@ -50,38 +50,69 @@
 
 ## About Me
 
-Software Engineer (B.S. Software Engineering, UTFPR — July 2026) with a **testing-first mindset** forged in environments where failure carries legal consequences. Built **TerraVault** (grade **9.7/10**) — a hybrid IaC security scanner with a deliberately focused test suite (**72 high-signal pytest cases, 74% line coverage, Pylint 10.00/10, zero SAST findings**). Practiced manual testing with structured documentation at Procfy and developed Cypress E2E suites in academic projects.
+Software Engineer (B.S., UTFPR, graduated July 2026). I work as an **ERP Software Tester (QA)** at PRECISA Software, testing the financial, fiscal, sales-order, purchasing and billing modules of the Solution ERP — through the live transition of Brazil's tax reform.
 
-Nearly **3 years as Technical Focal Point** in a judicially regulated registry office: Key User for SAEC/ONR and ERP IMOB (Brainsoft), responsible for integration testing between 5+ external systems, user training, post-deployment support, and compliance documentation under TJPR oversight — **99%+ availability, zero audit findings**. Python is my primary language: TerraVault (FastAPI, SQLAlchemy, Scikit-learn), AWS automation (Boto3, Lambda, PySpark), and scripting across every role.
+**What I do differently:** I exercise the whole screen, not only the item a ticket reported. Every flag marked and unmarked, across companies, date ranges and filters. And I validate both print outputs, standard and matrix — that is where fixes that reached one path but not the other show up. When I find a defect, it goes back with one objective sentence and a reproducible case: exact labels, figures, the divergence.
 
-Security analysis experience through TerraVault's 7 deterministic detection rules, SAST toolchain (Bandit, GitLeaks, Trivy, SonarQube), and hands-on network analysis with Nmap and Wireshark. Compliance background (Provimento 74/CNJ, LGPD, ICP-Brasil, Bacen 4658) provides the regulatory awareness that separates effective security analysts from tool operators.
+Fiscal domain: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, the IBS/CBS transition, alphanumeric CNPJ, TEF, accrual vs cash regimes.
+
+Before this: AWS data engineering at Compass UOL, full-stack development at Procfy, and nearly three years keeping mission-critical integrations running under judicial oversight — 99%+ availability, zero findings across inspections.
 
 **Long-term objective:** DevSecOps & Cloud Security Engineering.
-**Seeking:** QA/Test Analyst · Security Analyst · DevOps / DevSecOps Jr · Infrastructure Analyst · Python Developer — Remote / Hybrid / On-site.
+**Open to:** QA / Test Automation · Python / Backend Developer · Full Stack Jr · DevSecOps Jr · Cloud / Data Jr — Remote / Hybrid / On-site.
 
 ---
 
 ## 🔬 Capstone: TerraVault
 
-> **The Problem:** Traditional SAST tools rely on predefined rules — they catch *known* bad patterns but miss novel anomalies. With **66%** of breaches traced to IaC misconfigurations, this detection gap costs organizations an average of **$4.5M** per incident.
+> **The problem:** rule-based SAST catches *known* bad patterns but misses novel anomalies. With **66%** of breaches traced to IaC misconfigurations, that gap costs organizations an average of **$4.5M** per incident.
 
-**TerraVault** solves this with a **hybrid dual-engine** approach:
+**TerraVault** is a hybrid dual-engine scanner for Terraform:
 
 | Engine | Method | Detects |
 |--------|--------|---------|
-| **Deterministic** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | 7 known misconfiguration patterns |
-| **Probabilistic** | Isolation Forest ML (7D feature vector) | Novel configuration anomalies |
+| **Deterministic** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | 11 misconfiguration classes |
+| **Probabilistic** | Isolation Forest (8-feature structural vector) | Out-of-catalog configuration anomalies |
 
-**Key Results:**
-- 📊 Grade **9.7/10** — Technical Report (Methodology & Research Phase)
-- ✅ **72 focused pytest cases** (refactored from a verbose suite to a high-signal set) · **74% line coverage** across 1,518 SLOC
-- 🧹 **Pylint 10.00/10** · **0 Flake8 issues** · **0 Bandit findings** · **0 Safety advisories**
-- ⚡ Sub-second per-file scans — suitable for CI gating
-- 🏗️ Clean Architecture · SOLID · Dependency Injection · Static type checking (Mypy)
-- 🔐 bcrypt auth · Redis caching/rate limiting · Prometheus metrics · SARIF v2.1.0 output for GitHub Code Scanning
-- 📏 **1,518 SLOC** application (terravault package) · **1,360 SLOC** test code — healthy signal-to-noise ratio
+Risk score: `S = 0.6 · rules + 0.4 · ML`, operator-configurable.
 
-**Stack:** Python 3.10+ · FastAPI · PostgreSQL 15 · SQLAlchemy (async) · Redis 7 · Docker · GitHub Actions (5-stage CI/CD) · Prometheus · Grafana · Scikit-learn · NumPy · Joblib
+### Benchmark
+
+On a labeled 22-module Terraform corpus (16 vulnerable + 6 hardened, 11 categories):
+
+| Scanner | Precision | Recall | F1 |
+|---------|:---------:|:------:|:--:|
+| **TerraVault** | **100%** | **100%** | **100%** |
+| Checkov | 100% | 95.7% | 97.8% |
+| tfsec | 100% | 87.0% | 93.0% |
+| Terrascan | 100% | 47.8% | 64.7% |
+
+The only scanner in the set to detect hardcoded secrets.
+
+### ML training on Google Cloud
+
+After the defense I retrained the detector over **35,594 real feature vectors** — mined from **10,639 Terraform Registry modules** and **30,303 public GitHub files**, deduplicated by content hash — on self-terminating GCE instances that stage artifacts to Cloud Storage and power themselves off when finished. This retired the "trained only on synthetic data" limitation the manuscript disclosed.
+
+### The ablation — the honest result
+
+Then I measured what the ML actually contributes:
+
+| Configuration | Safe / vulnerable separation |
+|---------------|:----------------------------:|
+| Deterministic rules alone | **33.3 points** |
+| Hybrid (rules + ML) | 21.4 points |
+| ML alone | 3.2 points |
+
+The model **compresses** the rules' separation rather than improving it. It contributes an orthogonal, out-of-catalog signal — nothing more. I published that as it came out rather than reframing it, and closing that gap is my current work: using the model to **classify findings and suppress false positives** instead of restating what the rules already say.
+
+### Engineering
+
+- **137 pytest cases** · **76.8% line coverage** · **Pylint 10.00/10** · 0 Flake8 · 0 Bandit · 0 Safety · 0 Mypy
+- CI quality gate with a **non-regression ratchet** — coverage floor, file-size cap, duplication guard
+- Sub-second per-file scans · SARIF v2.1.0 for GitHub Code Scanning
+- Clean Architecture · SOLID · Dependency Injection · static typing
+
+**Stack:** Python 3.10+ · FastAPI · PostgreSQL 15 · SQLAlchemy (async) · Redis 7 · Docker · GitHub Actions · Prometheus · Grafana · Scikit-learn · NumPy · Joblib
 
 <a href="https://github.com/oguarni/terravault">
   <img src="https://img.shields.io/badge/View_Repository-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
@@ -95,15 +126,15 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">AI Vulnerability Triage</h3>
-      <p align="center"><b>Security Analyst · Python Developer</b></p>
-      <p>ML-powered security alert prioritization using Naive Bayes + fine-tuned BERT. Achieved <b>67.4% alert reduction</b> (568 → 185 critical) and <b>83.27% accuracy</b>. Production-grade Flask REST API with Redis caching and Pydantic validation. <b>435 pytest cases collected</b>.</p>
-      <p><code>Python</code> <code>Flask</code> <code>PyTorch</code> <code>BERT</code> <code>scikit-learn</code> <code>Redis</code> <code>pytest</code></p>
+      <p align="center"><b>ML · Python · Security</b></p>
+      <p>ML-powered security alert prioritization using Naive Bayes + fine-tuned BERT. <b>67.4% alert reduction</b> (568 → 185 critical) at <b>83.27% accuracy</b>. Production-grade Flask REST API with Redis caching and Pydantic validation. <b>435 pytest cases collected</b>.</p>
+      <p><code>Python</code> <code>Flask</code> <code>PyTorch</code> <code>BERT</code> <code>scikit-learn</code> <code>Redis</code></p>
       <p align="center"><a href="https://github.com/oguarni/ai-vulnerability-triage"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">CresceBR B2B Marketplace</h3>
-      <p align="center"><b>Test Analyst · Python/JS Developer</b></p>
-      <p>B2B industrial procurement platform with CNPJ validation, tier pricing, NF-e Módulo 11, and supplier ratings. <b>106 tests</b> (Vitest + React Testing Library), full CI/CD pipeline with GitHub Actions. ~19,733 LOC.</p>
+      <p align="center"><b>Backend at scale · TypeScript</b></p>
+      <p>B2B industrial procurement platform with real-time CNPJ validation, tier pricing, NF-e Módulo 11 and order lifecycle tracking. <b>~57k LOC</b> TypeScript, <b>87 test files</b> (Vitest + Jest + Supertest), GitHub Actions CI/CD.</p>
       <p><code>React 19</code> <code>Express 5</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Vitest</code> <code>Docker</code></p>
       <p align="center"><a href="https://github.com/oguarni/crescebr-b2b-marketplace"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
@@ -111,17 +142,17 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Kurzgesagt Cypress Tests</h3>
-      <p align="center"><b>QA Analyst · Test Analyst</b></p>
-      <p>E2E test automation suite covering 4 functional flows with custom Cypress commands (<code>cy.waitForContent()</code>, <code>cy.safeClick()</code>), retry strategy, video recording, screenshot capture, and HTML report generation. <b>100% pass rate</b>.</p>
+      <p align="center"><b>QA · E2E Automation</b></p>
+      <p>E2E suite covering <b>5 functional flows</b> — homepage content, video playback, search, navigation and shop browsing — with custom resilient commands (<code>cy.waitForContent()</code>, <code>cy.safeClick()</code>), retry strategy, video recording, failure screenshots and HTML report generation.</p>
       <p><code>Cypress</code> <code>JavaScript</code> <code>Node.js</code></p>
       <p align="center"><a href="https://github.com/oguarni/automacao-vv-cypress"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Agiliza — Task Management</h3>
-      <p align="center"><b>Full-Stack Developer</b></p>
-      <p>Kanban platform with RBAC (Admin/Manager/Collaborator), drag-and-drop boards, i18n (PT-BR/EN). Clean Architecture with 4-layer separation, dependency injection via tsyringe, JWT + Bcrypt auth. Jest testing.</p>
+      <p align="center"><b>Full-Stack · Clean Architecture</b></p>
+      <p>Kanban platform with RBAC (Admin/Manager/Collaborator), drag-and-drop boards and i18n (PT-BR/EN). Strict 4-layer Clean Architecture, dependency injection via Inversify, JWT + Bcrypt auth, 7 Jest test suites, Docker Compose orchestration.</p>
       <p><code>React 18</code> <code>Express</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code> <code>Jest</code></p>
-      <p align="center"><a href="https://github.com/oguarni/status-point"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
+      <p align="center"><a href="https://github.com/oguarni/agiliza"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
   </tr>
 </table>
@@ -130,32 +161,41 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
 
 ## 💼 Experience
 
+### ERP Software Tester (QA) — PRECISA Software
+**May 2026 – Present** · Dois Vizinhos, PR
+
+- Test the **Solution ERP** (financial, fiscal, sales-order, purchasing, billing) against customer-reported defects: restore each client base into an isolated **homologation** environment, compare pre-fix and fixed builds, and exercise the entire screen — every flag marked and unmarked, across companies, date ranges and filters
+- Catch regressions developers miss by validating **both output layouts** — a fix applied to standard printing is frequently absent from the matrix layout
+- Return each defect with a one-line statement plus a reproducible case (exact labels, figures, the divergence); document every ticket in versioned reports with step-by-step evidence
+- Validate report data with **SQL**, confirm routine performance under load, and work the Brazilian fiscal domain — **NF-e/NFC-e/CT-e**, **PIS/COFINS**, and the **IBS/CBS** tax-reform transition
+
+---
+
 ### AWS Cloud Data Engineer Intern — Compass UOL
 **May – Oct 2025** · Remote
 
-- Provisioned AWS infrastructure (EC2, S3, RDS, IAM, Lambda) and built Python automation via **Boto3**
-- Migrated data pipelines from Pandas to **PySpark** for distributed-scale processing with SQL integrity checks
-- Applied **IAM least-privilege** and **RBAC** practices aligned with Bacen 4658 compliance requirements
-- Containerized environments with Docker and gained practical understanding of cloud governance and permission auditing
+- Built **Python/Boto3** automations to provision AWS infrastructure (EC2, S3, RDS, IAM, Lambda)
+- Migrated batch pipelines from Pandas to **PySpark**, improving throughput on larger datasets
+- Validated data integrity with **SQL** at every pipeline boundary and containerized environments with Docker
+- Applied **IAM least-privilege** and RBAC controls, working through Git pull requests and review with senior engineers
 
 ---
 
 ### Full Stack Developer Intern — Procfy
 **Nov 2023 – Nov 2024** · Dois Vizinhos, PR
 
-- Shipped production features in Ruby on Rails / PostgreSQL: granular search filters, multi-criteria search, date range selectors, dynamic transaction updates
-- Conducted **manual testing with structured documentation**, root cause analysis, and SQL data validation
-- Performed REST API testing with **Postman** and validated feature behavior before production releases
+- Shipped production features in **Ruby on Rails / PostgreSQL**: granular search filters, multi-search, date-range selectors, dynamic transaction updates
+- Ran REST API testing with **Postman**, root cause analysis on production incidents and SQL-based data validation
+- Collaborated on code reviews and written documentation
 
 ---
 
 ### IT Assistant — Technical Focal Point — Serviço de Registro de Imóveis
-**Apr 2021 – Nov 2023** (2 years 8 months) · Full-time · Dois Vizinhos, PR
+**Apr 2021 – Nov 2023** (2 years 8 months) · Dois Vizinhos, PR
 
-- **Key User** for **SAEC/ONR** and **ERP IMOB** (Brainsoft): user training, post-deployment support, technical documentation
-- Executed **integration testing** between 5+ external systems (SAEC/ONR, e-Notariado, e-Proc, PJe, Projudi)
-- Implemented physical/logical access controls, configured **NTFS permissions** for **LGPD** compliance, and managed **ICP-Brasil** digital certificates
-- Administered **Windows Server** environment: **99%+ availability**, **zero findings** in judicial inspections (TJPR)
+- Kept the **IMOB ERP** integrated with external mission-critical systems (**SAEC/ONR**, **e-Notariado**, **PJe**, **Projudi**) under TJPR oversight (**Provimento 74/CNJ**)
+- Reached **99%+ availability** and **zero findings** across judicial inspections
+- First contact for every technical incident: reproduced and documented problems, ran root cause analysis, trained users on the integrated systems
 
 ---
 
@@ -163,15 +203,14 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
 
 | Category | Tools & Technologies |
 |----------|---------------------|
-| **Testing & QA** | Pytest (72 focused tests, 74% coverage), Vitest, Jest, Cypress (E2E), Postman, Manual Testing |
-| **Security Analysis** | Bandit, GitLeaks, Trivy, Safety, SonarQube, Nmap, Wireshark, Isolation Forest (Scikit-learn), SBOM (CycloneDX) |
-| **Languages** | Python, TypeScript, JavaScript, Ruby, SQL, Bash/Shell |
-| **Frameworks** | FastAPI, Express 5, React 19, Ruby on Rails, Material UI (MUI) |
-| **Databases** | PostgreSQL, Redis |
-| **Infrastructure** | Docker, Linux, Windows Server, Terraform |
-| **Cloud** | AWS (EC2, Lambda, S3, IAM, RDS), Boto3, PySpark |
-| **CI/CD & Observability** | GitHub Actions (5-stage pipelines), Prometheus, Grafana |
-| **Compliance** | Provimento 74/CNJ, ICP-Brasil, LGPD, Bacen 4658 |
+| **Testing & QA** | Functional, regression, integration, performance & API testing · Pytest · Cypress · Playwright · Jest · Vitest · Postman · SQL data validation · ERP & client-server testing · defect lifecycle & fix validation |
+| **Backend** | Python (FastAPI, async I/O, Pydantic, SQLAlchemy) · Node.js 20+ (Express 4 & 5) · Ruby on Rails · REST / OpenAPI 3.0 · JWT/Bcrypt · RBAC middleware · rate limiting |
+| **Machine Learning** | Scikit-learn (Isolation Forest, unsupervised anomaly detection) · NumPy · Joblib · feature engineering · corpus collection at 30k+ file scale · model versioning & rollback · drift detection · ablation studies |
+| **Cloud** | AWS (EC2, Lambda, S3, IAM, RDS) via Boto3 · PySpark · Google Cloud (Compute Engine, Cloud Storage, BigQuery, gcloud CLI) |
+| **Security** | Bandit · GitLeaks · Trivy · Safety · SonarQube · Nmap · Wireshark · SBOM (CycloneDX) · SARIF |
+| **Databases** | PostgreSQL 15 · Redis 7 |
+| **Infrastructure & CI/CD** | Docker & Compose · Linux · Windows Server · Terraform · GitHub Actions (5-stage pipelines) · Prometheus · Grafana |
+| **Domain** | NF-e/NFC-e/CT-e · SPED · PIS/COFINS · IBS/CBS tax reform · Provimento 74/CNJ · LGPD · Bacen 4658 |
 
 ---
 
@@ -179,9 +218,8 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
 
 **B.S. Software Engineering** — UTFPR-DV (Dois Vizinhos, PR) · Apr 2022 – Jul 2026
 
-- Capstone: **TerraVault** — Hybrid IaC Security Scanner (**Grade 9.7/10**)
-- Developed end-to-end automated testing suites using **Cypress** through hands-on academic projects
-- Gained practical experience with CI/CD pipelines, Terraform, and security-integrated development practices through independent study and academic research
+- Capstone **TerraVault** (grade **9.7/10**), approved by the examining board
+- Built end-to-end **Cypress** suites in coursework; CI/CD and Terraform through independent study
 
 ---
 
@@ -191,9 +229,11 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
 
 | Metric | Value | Context |
 |:------:|:-----:|:--------|
-| **Capstone Grade** | 9.7 / 10 | TerraVault Technical Report |
-| **Code Quality** | Pylint 10.00 / 10 | 0 Flake8 issues, 0 Bandit findings |
-| **Test Discipline** | 74% coverage | 72 focused cases over 1,518 SLOC |
+| **Capstone Grade** | 9.7 / 10 | TerraVault, approved by the examining board |
+| **Detection Benchmark** | 100% / 100% / 100% | Precision / recall / F1 on 22 labeled Terraform modules |
+| **ML Training Corpus** | 35,594 vectors | Real Terraform from Registry + public GitHub, on GCP |
+| **Code Quality** | Pylint 10.00 / 10 | 0 Flake8 · 0 Bandit · 0 Safety · 0 Mypy |
+| **Test Discipline** | 137 cases · 76.8% | With a CI ratchet that blocks coverage regression |
 | **Compliance Record** | 0 findings | 2y8m under TJPR judicial oversight |
 | **System Availability** | 99%+ | Registry office operations |
 | **Alert Triage (AI project)** | 67.4% reduction | 568 → 185 critical alerts |
@@ -205,13 +245,14 @@ Security analysis experience through TerraVault's 7 deterministic detection rule
 ## 🧭 What Sets Me Apart
 
 ```
-Compliance Ops (2y8m)  →  Testing & QA (focused, high-signal)  →  Security Analysis
-         ↓                            ↓                                    ↓
-  Zero-tolerance environment    Pylint 10.00/10 · 0 SAST issues        Tools + compliance
-  under judicial oversight      Discipline over volume                 awareness from the field
+Regulated ops (2y8m)  →  ERP fiscal QA (current)  →  Security engineering & ML
+        ↓                         ↓                            ↓
+ Zero tolerance for        Whole-screen coverage,      Measured my own design,
+ downtime; failures had    both print paths — where    found it didn't help,
+ legal consequences        the real defects hide       and published that
 ```
 
-Most junior engineers learn compliance from documentation. I operated systems where failures had legal consequences — and that discipline drives how I test, document, and secure software today.
+Two things are rare in a junior profile. First, I test fiscal software during a tax reform — fiscal-domain knowledge and software QA almost never live in the same person. Second, when I measured whether my own ML component earned its place, it did not, and I reported that instead of reframing it. Both are on this page with the numbers attached.
 
 ---
 
@@ -229,11 +270,11 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 
 # Gabriel Felipe Guarnieri
 
-#### QA & Analista de Testes · Analista de Segurança · Desenvolvedor Python · Implantação de Sistemas
+#### Testador de Software ERP (QA) · Automação de Testes · Python / Back-end
 
-<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Docker</code> · <code>AWS</code> · <code>CI/CD</code> · <code>Linux</code> · <code>PostgreSQL</code>
+<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Postman</code> · <code>SQL</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code> · <code>CI/CD</code>
 
-**Qualidade é disciplina — Pylint 10,00/10 · 0 achados SAST · 0 achados de auditoria em 2a8m sob supervisão judicial.**
+**Testo os módulos fiscais de um ERP durante a Reforma Tributária — e meço meu próprio trabalho com honestidade suficiente para publicar os resultados desfavoráveis.**
 
 <p>
   <a href="https://github.com/oguarni/terravault">
@@ -265,38 +306,69 @@ Most junior engineers learn compliance from documentation. I operated systems wh
 
 ## Sobre Mim
 
-Engenheiro de Software (Bacharel em Engenharia de Software, UTFPR — julho de 2026) com **mentalidade testing-first** forjada em ambientes onde falhas têm consequências legais. Criei o **TerraVault** (nota **9,7/10**) — scanner híbrido de segurança para IaC com suíte de testes deliberadamente focada (**72 casos pytest de alto sinal, 74% de cobertura de linhas, Pylint 10,00/10, zero achados SAST**). Realizei testes manuais com documentação estruturada na Procfy e desenvolvi suítes E2E com Cypress em projetos acadêmicos.
+Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Atuo como **Testador de Software ERP (QA)** na PRECISA Software, testando os módulos financeiro, fiscal, de pedidos de venda, compras e faturamento do ERP Solution — em pleno período de transição da Reforma Tributária.
 
-Quase **3 anos como Ponto Focal Técnico** em cartório de registro sob regulação judicial: Key User do SAEC/ONR e ERP IMOB (Brainsoft), responsável por testes de integração entre 5+ sistemas externos, treinamento de usuários, suporte pós-implantação e documentação de compliance sob supervisão do TJPR — **99%+ de disponibilidade, zero achados em auditoria**. Python é minha linguagem principal: TerraVault (FastAPI, SQLAlchemy, Scikit-learn), automação AWS (Boto3, Lambda, PySpark) e scripting em todas as posições.
+**O que faço de diferente:** exercito a tela inteira, não apenas o item que o chamado pediu. Cada flag marcada e desmarcada, por empresa, período e filtro. E valido as duas saídas de impressão, padrão e matricial — é ali que aparecem as correções que chegaram a um caminho e não ao outro. Quando encontro um defeito, devolvo com uma frase objetiva e um caso reprodutível: rótulos exatos, números, a divergência.
 
-Experiência em análise de segurança através das 7 regras determinísticas do TerraVault, toolchain SAST (Bandit, GitLeaks, Trivy, SonarQube) e análise prática de redes com Nmap e Wireshark. Background em compliance (Provimento 74/CNJ, LGPD, ICP-Brasil, Bacen 4658) fornece a consciência regulatória que separa analistas de segurança eficazes de operadores de ferramentas.
+Domínio fiscal: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS, CNPJ alfanumérico, TEF, DRE vs DFC.
 
-**Objetivo de longo prazo:** DevSecOps & Cloud Security Engineering.
-**Buscando:** QA/Analista de Testes · Analista de Segurança · DevOps / DevSecOps Jr · Analista de Infraestrutura · Desenvolvedor Python — Remoto / Híbrido / Presencial.
+Antes disso: engenharia de dados na AWS na Compass UOL, desenvolvimento full stack na Procfy e quase três anos mantendo integrações de missão crítica sob fiscalização judicial — 99%+ de disponibilidade, zero achados em inspeções.
+
+**Objetivo de longo prazo:** DevSecOps & Segurança em Cloud.
+**Aberto a:** QA / Automação de Testes · Desenvolvedor Python / Back-end · Full Stack Jr · DevSecOps Jr · Cloud / Dados Jr — Remoto / Híbrido / Presencial.
 
 ---
 
 ## 🔬 TCC: TerraVault
 
-> **O Problema:** Ferramentas SAST tradicionais dependem de regras pré-definidas — detectam padrões *conhecidos*, mas falham em identificar anomalias inéditas. Com **66%** das violações rastreadas a configurações incorretas de IaC, essa lacuna de detecção custa em média **US$ 4,5 milhões** por incidente.
+> **O problema:** ferramentas SAST baseadas em regras detectam padrões *conhecidos*, mas falham em anomalias inéditas. Com **66%** das violações rastreadas a configurações incorretas de IaC, essa lacuna custa em média **US$ 4,5 milhões** por incidente.
 
-**TerraVault** resolve isso com uma abordagem de **motor duplo híbrido**:
+**TerraVault** é um scanner híbrido de motor duplo para Terraform:
 
 | Motor | Método | Detecta |
 |-------|--------|---------|
-| **Determinístico** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | 7 padrões de configuração conhecidos |
-| **Probabilístico** | Isolation Forest ML (vetor 7D) | Anomalias de configuração inéditas |
+| **Determinístico** | AST + Regex + SAST (Bandit, GitLeaks, Safety) | 11 classes de configuração incorreta |
+| **Probabilístico** | Isolation Forest (vetor estrutural de 8 características) | Anomalias fora do catálogo de regras |
 
-**Resultados:**
-- 📊 Nota **9,7/10** — Relatório Técnico (Metodologia e Pesquisa)
-- ✅ **72 casos pytest focados** (refatorados de uma suíte verbosa para um conjunto de alto sinal) · **74% de cobertura de linhas** em 1.518 SLOC
-- 🧹 **Pylint 10,00/10** · **0 problemas Flake8** · **0 achados Bandit** · **0 avisos do Safety**
-- ⚡ Scans por arquivo em menos de 1 segundo — adequado para CI gating
-- 🏗️ Clean Architecture · SOLID · Injeção de Dependência · Verificação estática de tipos (Mypy)
-- 🔐 Autenticação bcrypt · Cache/rate limiting Redis · Métricas Prometheus · Saída SARIF v2.1.0 para GitHub Code Scanning
-- 📏 **1.518 SLOC** aplicação (pacote terravault) · **1.360 SLOC** código de teste — proporção saudável de sinal/ruído
+Score de risco: `S = 0,6 · regras + 0,4 · ML`, configurável pelo operador.
 
-**Stack:** Python 3.10+ · FastAPI · PostgreSQL 15 · SQLAlchemy (async) · Redis 7 · Docker · GitHub Actions (CI/CD 5 estágios) · Prometheus · Grafana · Scikit-learn · NumPy · Joblib
+### Benchmark
+
+Em um corpus rotulado de 22 módulos Terraform (16 vulneráveis + 6 endurecidos, 11 categorias):
+
+| Scanner | Precisão | Recall | F1 |
+|---------|:--------:|:------:|:--:|
+| **TerraVault** | **100%** | **100%** | **100%** |
+| Checkov | 100% | 95,7% | 97,8% |
+| tfsec | 100% | 87,0% | 93,0% |
+| Terrascan | 100% | 47,8% | 64,7% |
+
+Única ferramenta do conjunto a detectar segredos hardcoded.
+
+### Treinamento de ML no Google Cloud
+
+Depois da defesa, re-treinei o detector sobre **35.594 vetores reais** — extraídos de **10.639 módulos do Terraform Registry** e **30.303 arquivos públicos do GitHub**, deduplicados por hash de conteúdo — em instâncias GCE que enviam os artefatos ao Cloud Storage e se desligam sozinhas ao terminar. Isso aposentou a limitação de "treinado apenas com dados sintéticos" declarada no manuscrito.
+
+### A ablação — o resultado honesto
+
+Depois medi o que o ML de fato contribui:
+
+| Configuração | Separação seguro / vulnerável |
+|--------------|:-----------------------------:|
+| Apenas regras determinísticas | **33,3 pontos** |
+| Híbrido (regras + ML) | 21,4 pontos |
+| Apenas ML | 3,2 pontos |
+
+O modelo **comprime** a separação das regras em vez de melhorá-la. Ele entrega um sinal ortogonal, fora do catálogo — nada além disso. Publiquei assim mesmo, sem reenquadrar, e fechar essa lacuna é o trabalho que faço agora: usar o modelo para **classificar achados e suprimir falsos positivos** em vez de repetir o que as regras já dizem.
+
+### Engenharia
+
+- **137 casos pytest** · **76,8% de cobertura de linhas** · **Pylint 10,00/10** · 0 Flake8 · 0 Bandit · 0 Safety · 0 Mypy
+- Quality gate em CI com **catraca de não regressão** — piso de cobertura, limite de tamanho de arquivo, guarda de duplicação
+- Scans sub-segundo por arquivo · SARIF v2.1.0 para GitHub Code Scanning
+- Clean Architecture · SOLID · Injeção de Dependência · tipagem estática
+
+**Stack:** Python 3.10+ · FastAPI · PostgreSQL 15 · SQLAlchemy (async) · Redis 7 · Docker · GitHub Actions · Prometheus · Grafana · Scikit-learn · NumPy · Joblib
 
 <a href="https://github.com/oguarni/terravault">
   <img src="https://img.shields.io/badge/Ver_Repositório-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white"/>
@@ -310,15 +382,15 @@ Experiência em análise de segurança através das 7 regras determinísticas do
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">AI Vulnerability Triage</h3>
-      <p align="center"><b>Analista de Segurança · Desenvolvedor Python</b></p>
-      <p>Priorização de alertas de segurança com ML usando Naive Bayes + BERT fine-tuned. <b>67,4% de redução de alertas</b> (568 → 185 críticos) e <b>83,27% de acurácia</b>. API REST Flask com cache Redis e validação Pydantic. <b>435 casos pytest coletados</b>.</p>
-      <p><code>Python</code> <code>Flask</code> <code>PyTorch</code> <code>BERT</code> <code>scikit-learn</code> <code>Redis</code> <code>pytest</code></p>
+      <p align="center"><b>ML · Python · Segurança</b></p>
+      <p>Priorização de alertas de segurança com ML usando Naive Bayes + BERT fine-tuned. <b>67,4% de redução de alertas</b> (568 → 185 críticos) com <b>83,27% de acurácia</b>. API REST Flask com cache Redis e validação Pydantic. <b>435 casos pytest coletados</b>.</p>
+      <p><code>Python</code> <code>Flask</code> <code>PyTorch</code> <code>BERT</code> <code>scikit-learn</code> <code>Redis</code></p>
       <p align="center"><a href="https://github.com/oguarni/ai-vulnerability-triage"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">CresceBR B2B Marketplace</h3>
-      <p align="center"><b>Analista de Testes · Desenvolvedor Python/JS</b></p>
-      <p>Plataforma de compras B2B com validação CNPJ, precificação por faixa, NF-e Módulo 11 e avaliação de fornecedores. <b>106 testes</b> (Vitest + React Testing Library), pipeline CI/CD completo. ~19.733 LOC.</p>
+      <p align="center"><b>Back-end em escala · TypeScript</b></p>
+      <p>Plataforma de compras B2B com validação CNPJ em tempo real, precificação por faixa, NF-e Módulo 11 e rastreamento do ciclo do pedido. <b>~57 mil LOC</b> TypeScript, <b>87 arquivos de teste</b> (Vitest + Jest + Supertest), CI/CD com GitHub Actions.</p>
       <p><code>React 19</code> <code>Express 5</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Vitest</code> <code>Docker</code></p>
       <p align="center"><a href="https://github.com/oguarni/crescebr-b2b-marketplace"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
@@ -326,17 +398,17 @@ Experiência em análise de segurança através das 7 regras determinísticas do
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Kurzgesagt Cypress Tests</h3>
-      <p align="center"><b>QA Analyst · Analista de Testes</b></p>
-      <p>Suíte de automação E2E cobrindo 4 fluxos funcionais com comandos Cypress customizados (<code>cy.waitForContent()</code>, <code>cy.safeClick()</code>), estratégia de retry, gravação de vídeo, captura de tela e relatório HTML. <b>100% de aprovação</b>.</p>
+      <p align="center"><b>QA · Automação E2E</b></p>
+      <p>Suíte E2E cobrindo <b>5 fluxos funcionais</b> — conteúdo da homepage, reprodução de vídeo, busca, navegação e loja — com comandos resilientes customizados (<code>cy.waitForContent()</code>, <code>cy.safeClick()</code>), estratégia de retry, gravação de vídeo, captura de tela em falhas e relatório HTML.</p>
       <p><code>Cypress</code> <code>JavaScript</code> <code>Node.js</code></p>
       <p align="center"><a href="https://github.com/oguarni/automacao-vv-cypress"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Agiliza — Gestão de Tarefas</h3>
-      <p align="center"><b>Desenvolvedor Full-Stack</b></p>
-      <p>Plataforma Kanban com RBAC (Admin/Gerente/Colaborador), drag-and-drop, i18n (PT-BR/EN). Clean Architecture com separação em 4 camadas, injeção de dependência via tsyringe, autenticação JWT + Bcrypt. Testes com Jest.</p>
+      <p align="center"><b>Full-Stack · Clean Architecture</b></p>
+      <p>Plataforma Kanban com RBAC (Admin/Gerente/Colaborador), drag-and-drop e i18n (PT-BR/EN). Clean Architecture estrita em 4 camadas, injeção de dependência via Inversify, autenticação JWT + Bcrypt, 7 suítes Jest, orquestração com Docker Compose.</p>
       <p><code>React 18</code> <code>Express</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code> <code>Jest</code></p>
-      <p align="center"><a href="https://github.com/oguarni/status-point"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
+      <p align="center"><a href="https://github.com/oguarni/agiliza"><img src="https://img.shields.io/badge/Ver_Repo-181717?style=flat-square&logo=github"/></a></p>
     </td>
   </tr>
 </table>
@@ -345,32 +417,41 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 ## 💼 Experiência
 
+### Testador de Software ERP (QA) — PRECISA Software
+**Mai 2026 – Atual** · Dois Vizinhos, PR
+
+- Testo o **ERP Solution** (financeiro, fiscal, pedidos de venda, compras, faturamento) frente a defeitos reportados por clientes: restauro a base de cada cliente em ambiente de **homologação** isolado, comparo a versão anterior com a corrigida e exercito a tela inteira — cada flag marcada e desmarcada, por empresa, período e filtro
+- Encontro regressões que passam despercebidas ao validar **as duas saídas de impressão** — uma correção aplicada à impressão padrão frequentemente não chega à matricial
+- Devolvo cada defeito com uma frase objetiva e um caso reprodutível (rótulos exatos, números, a divergência); documento cada chamado em relatórios versionados com evidências passo a passo
+- Valido dados de relatórios com **SQL**, confirmo desempenho de rotinas sob carga e atuo no domínio fiscal brasileiro — **NF-e/NFC-e/CT-e**, **PIS/COFINS** e a transição **IBS/CBS**
+
+---
+
 ### AWS Cloud Data Engineer (Estágio) — Compass UOL
 **Mai – Out 2025** · Remoto
 
-- Provisionei infraestrutura AWS (EC2, S3, RDS, IAM, Lambda) e desenvolvi automações Python com **Boto3**
-- Migrei pipelines de dados de Pandas para **PySpark** para processamento em escala distribuída com verificações de integridade SQL
-- Apliquei práticas de **least-privilege de IAM** e **RBAC** alinhadas aos requisitos de compliance do Bacen 4658
-- Containerizei ambientes com Docker e desenvolvi compreensão prática de governança cloud e auditoria de permissões
+- Desenvolvi automações **Python/Boto3** para provisionar infraestrutura AWS (EC2, S3, RDS, IAM, Lambda)
+- Migrei pipelines batch de Pandas para **PySpark**, melhorando a vazão em conjuntos de dados maiores
+- Validei integridade de dados com **SQL** em cada fronteira do pipeline e containerizei ambientes com Docker
+- Apliquei controles de **least-privilege de IAM** e RBAC, trabalhando via pull requests e revisão com engenheiros sênior
 
 ---
 
 ### Desenvolvedor Full Stack (Estágio) — Procfy
 **Nov 2023 – Nov 2024** · Dois Vizinhos, PR
 
-- Entreguei funcionalidades em produção em Ruby on Rails / PostgreSQL: filtros de busca granulares, multibusca, seletores de período, atualizações dinâmicas de transações
-- Conduzi **testes manuais com documentação estruturada**, análise de causa raiz e validação de dados SQL
-- Realizei testes de API REST com **Postman** e validei comportamento de funcionalidades antes das entregas em produção
+- Entreguei funcionalidades em produção em **Ruby on Rails / PostgreSQL**: filtros de busca granulares, multibusca, seletores de período, atualizações dinâmicas de transações
+- Realizei testes de API REST com **Postman**, análise de causa raiz em incidentes de produção e validação de dados via SQL
+- Colaborei em revisões de código e documentação escrita
 
 ---
 
 ### Assistente de TI — Ponto Focal Técnico — Serviço de Registro de Imóveis
-**Abr 2021 – Nov 2023** (2 anos e 8 meses) · Tempo integral · Dois Vizinhos, PR
+**Abr 2021 – Nov 2023** (2 anos e 8 meses) · Dois Vizinhos, PR
 
-- **Key User** do **SAEC/ONR** e **ERP IMOB** (Brainsoft): treinamento de usuários, suporte pós-implantação, documentação técnica
-- Executei **testes de integração** entre 5+ sistemas externos (SAEC/ONR, e-Notariado, e-Proc, PJe, Projudi)
-- Implementei controles de acesso físico/lógico, configurei **permissões NTFS** para conformidade com a **LGPD** e gerenciei certificados digitais **ICP-Brasil**
-- Administrei ambiente **Windows Server**: **99%+ de disponibilidade**, **zero achados** em inspeções judiciais (TJPR)
+- Mantive o **ERP IMOB** integrado a sistemas externos de missão crítica (**SAEC/ONR**, **e-Notariado**, **PJe**, **Projudi**) sob fiscalização do TJPR (**Provimento 74/CNJ**)
+- Alcancei **99%+ de disponibilidade** e **zero achados** em inspeções judiciais
+- Primeiro contato para todo incidente técnico: reproduzi e documentei problemas, conduzi análise de causa raiz e treinei usuários nos sistemas integrados
 
 ---
 
@@ -378,15 +459,14 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 | Categoria | Ferramentas & Tecnologias |
 |-----------|--------------------------|
-| **Testes & QA** | Pytest (72 testes focados, 74% cobertura), Vitest, Jest, Cypress (E2E), Postman, Testes Manuais |
-| **Análise de Segurança** | Bandit, GitLeaks, Trivy, Safety, SonarQube, Nmap, Wireshark, Isolation Forest (Scikit-learn), SBOM (CycloneDX) |
-| **Linguagens** | Python, TypeScript, JavaScript, Ruby, SQL, Bash/Shell |
-| **Frameworks** | FastAPI, Express 5, React 19, Ruby on Rails, Material UI (MUI) |
-| **Bancos de Dados** | PostgreSQL, Redis |
-| **Infraestrutura** | Docker, Linux, Windows Server, Terraform |
-| **Cloud** | AWS (EC2, Lambda, S3, IAM, RDS), Boto3, PySpark |
-| **CI/CD & Observabilidade** | GitHub Actions (pipelines de 5 estágios), Prometheus, Grafana |
-| **Compliance** | Provimento 74/CNJ, ICP-Brasil, LGPD, Bacen 4658 |
+| **Testes & QA** | Testes funcionais, de regressão, integração, desempenho e API · Pytest · Cypress · Playwright · Jest · Vitest · Postman · validação de dados via SQL · testes em ERP e cliente-servidor · ciclo de vida de defeitos e validação de correções |
+| **Back-end** | Python (FastAPI, I/O assíncrono, Pydantic, SQLAlchemy) · Node.js 20+ (Express 4 e 5) · Ruby on Rails · REST / OpenAPI 3.0 · JWT/Bcrypt · middleware RBAC · rate limiting |
+| **Machine Learning** | Scikit-learn (Isolation Forest, detecção de anomalias não supervisionada) · NumPy · Joblib · engenharia de características · coleta de corpus em escala de 30 mil+ arquivos · versionamento de modelos com rollback · detecção de drift · estudos de ablação |
+| **Cloud** | AWS (EC2, Lambda, S3, IAM, RDS) via Boto3 · PySpark · Google Cloud (Compute Engine, Cloud Storage, BigQuery, gcloud CLI) |
+| **Segurança** | Bandit · GitLeaks · Trivy · Safety · SonarQube · Nmap · Wireshark · SBOM (CycloneDX) · SARIF |
+| **Bancos de Dados** | PostgreSQL 15 · Redis 7 |
+| **Infraestrutura & CI/CD** | Docker & Compose · Linux · Windows Server · Terraform · GitHub Actions (pipelines de 5 estágios) · Prometheus · Grafana |
+| **Domínio** | NF-e/NFC-e/CT-e · SPED · PIS/COFINS · Reforma Tributária IBS/CBS · Provimento 74/CNJ · LGPD · Bacen 4658 |
 
 ---
 
@@ -394,9 +474,8 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 **Bacharelado em Engenharia de Software** — UTFPR-DV (Dois Vizinhos, PR) · Abr 2022 – Jul 2026
 
-- TCC: **TerraVault** — Scanner Híbrido de Segurança para IaC (**Nota 9,7/10**)
-- Desenvolvi suítes de testes automatizados end-to-end com **Cypress** em projetos acadêmicos práticos
-- Adquiri experiência prática com pipelines CI/CD, Terraform e práticas de desenvolvimento integrado à segurança através de estudo independente e pesquisa acadêmica
+- TCC **TerraVault** (nota **9,7/10**), aprovado pela banca examinadora
+- Desenvolvi suítes **Cypress** ponta a ponta em projetos acadêmicos; CI/CD e Terraform por estudo independente
 
 ---
 
@@ -406,10 +485,12 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 
 | Métrica | Valor | Contexto |
 |:-------:|:-----:|:---------|
-| **Nota do TCC** | 9,7 / 10 | Relatório Técnico do TerraVault |
-| **Qualidade de Código** | Pylint 10,00 / 10 | 0 problemas Flake8, 0 achados Bandit |
-| **Disciplina de Testes** | 74% de cobertura | 72 casos focados em 1.518 SLOC |
-| **Histórico de Compliance** | 0 achados | 2a8m sob supervisão judicial (TJPR) |
+| **Nota do TCC** | 9,7 / 10 | TerraVault, aprovado pela banca |
+| **Benchmark de Detecção** | 100% / 100% / 100% | Precisão / recall / F1 em 22 módulos Terraform rotulados |
+| **Corpus de Treino do ML** | 35.594 vetores | Terraform real do Registry + GitHub público, no GCP |
+| **Qualidade de Código** | Pylint 10,00 / 10 | 0 Flake8 · 0 Bandit · 0 Safety · 0 Mypy |
+| **Disciplina de Testes** | 137 casos · 76,8% | Com catraca em CI que bloqueia regressão de cobertura |
+| **Histórico de Compliance** | 0 achados | 2a8m sob fiscalização judicial (TJPR) |
 | **Disponibilidade de Sistema** | 99%+ | Operações do cartório |
 | **Triagem de Alertas (projeto IA)** | 67,4% de redução | 568 → 185 alertas críticos |
 
@@ -420,13 +501,14 @@ Experiência em análise de segurança através das 7 regras determinísticas do
 ## 🧭 O Que Me Diferencia
 
 ```
-Operações de Compliance (2a8m)  →  Testes & QA (focado e de alto sinal)  →  Análise de Segurança
-            ↓                                    ↓                                    ↓
-   Ambiente de tolerância zero        Pylint 10,00/10 · 0 achados SAST       Ferramentas + compliance
-   sob supervisão judicial            Disciplina acima de volume             vivenciado na prática
+Operação regulada (2a8m)  →  QA fiscal de ERP (atual)  →  Segurança e ML
+          ↓                            ↓                         ↓
+ Tolerância zero a parada     Cobertura da tela inteira,   Medi meu próprio design,
+ falhas tinham consequência   as duas impressões — onde    vi que não ajudava,
+ legal                        os defeitos reais se escondem e publiquei assim
 ```
 
-A maioria dos engenheiros juniores aprende compliance pela documentação. Eu operei sistemas onde falhas tinham consequências legais — e essa disciplina direciona como testo, documento e protejo software hoje.
+Duas coisas são raras em um perfil júnior. Primeiro: testo software fiscal durante uma reforma tributária — conhecimento do domínio fiscal e QA de software quase nunca coexistem na mesma pessoa. Segundo: quando medi se o componente de ML do meu próprio projeto se justificava, ele não se justificou, e eu reportei isso em vez de reenquadrar. Ambos estão nesta página com os números anexados.
 
 ---
 
