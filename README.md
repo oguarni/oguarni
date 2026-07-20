@@ -114,6 +114,20 @@ Kept an ERP integrated with external mission-critical systems under judicial ove
 
 ---
 
+## What Sets Me Apart
+
+```
+Regulated ops (2y8m)  →  QA in production  →  Test automation & ML
+         ↓                      ↓                      ↓
+  Failures carried        Validating fixes       Measured my own design,
+  legal consequences      before they ship       found it didn't help,
+                                                 and published that
+```
+
+Two things are uncommon in a junior profile. I do QA professionally, not only in coursework — I validate other people's fixes before they reach customers. And when I measured whether my own project's ML component earned its place, it did not, so I reported that instead of reframing it. Both are on this page with the numbers attached.
+
+---
+
 ## Education
 
 **B.S. Software Engineering** — UTFPR, Dois Vizinhos · 2022 – 2026
@@ -232,6 +246,20 @@ Mantive um ERP integrado a sistemas externos de missão crítica sob fiscalizaç
 | **ML** | Scikit-learn · Isolation Forest · NumPy · engenharia de características · versionamento de modelos · estudos de ablação |
 | **Cloud & CI/CD** | AWS (Boto3, PySpark) · Google Cloud (GCE, Cloud Storage, BigQuery) · Docker · GitHub Actions · Prometheus |
 | **Dados** | PostgreSQL · Redis |
+
+---
+
+## O Que Me Diferencia
+
+```
+Operação regulada (2a8m)  →  QA em produção  →  Automação de testes & ML
+          ↓                        ↓                      ↓
+  Falhas tinham            Valido correções        Medi meu próprio design,
+  consequência legal       antes de irem ao ar     vi que não ajudava,
+                                                   e publiquei assim
+```
+
+Duas coisas são incomuns em um perfil júnior. Faço QA profissionalmente, não apenas em disciplinas — valido correções de outras pessoas antes de chegarem ao cliente. E quando medi se o componente de ML do meu próprio projeto se justificava, ele não se justificou, e eu reportei isso em vez de reenquadrar. Ambos estão nesta página com os números anexados.
 
 ---
 
