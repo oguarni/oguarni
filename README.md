@@ -14,7 +14,7 @@
 
 # Gabriel Felipe Guarnieri
 
-#### QA & Test Automation · Python / Backend
+#### Software Engineer · QA Automation & Python Backend
 
 <code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>Postman</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
 
@@ -46,7 +46,9 @@
 
 ---
 
-Software Engineer (B.S., UTFPR, 2026), working in QA and building toward test automation and Python backend. I test ERP software professionally, write my own test suites in Python, and I am learning by measuring — including when the measurement says my idea did not work.
+Software Engineer (B.S., UTFPR, 2026). I test software professionally and build Python backends — with security integrated before it reaches production. I write my own test suites, and I learn by measuring — including when the measurement says my idea did not work.
+
+**Long-term objective:** DevSecOps & Cloud Security Engineering.
 
 **Open to:** QA / Test Automation · Python / Backend · Full Stack Jr — Remote / Hybrid / On-site.
 
@@ -56,7 +58,7 @@ Software Engineer (B.S., UTFPR, 2026), working in QA and building toward test au
 
 Hybrid security scanner for Terraform: **11 deterministic rules** + an **Isolation Forest** over an 8-feature structural vector.
 
-**Benchmark** — 22 labeled Terraform modules:
+**Benchmark (home corpus)** — 22 labeled Terraform modules:
 
 | Scanner | Precision | Recall | F1 |
 |---------|:---------:|:------:|:--:|
@@ -66,6 +68,8 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an **Isolati
 | Terrascan | 100% | 47.8% | 64.7% |
 
 **ML on Google Cloud** — retrained over **35,594 real feature vectors** mined from 10,639 Terraform Registry modules and 30,303 public GitHub files, on self-terminating GCE jobs.
+
+**External validity** — on a third-party corpus (KICS fixtures I did not write): **83% recall** within the declared rule scope — the check on the 100% home-corpus result, published as measured.
 
 **The ablation** — rules alone separate safe from vulnerable by **33.3 points**, the hybrid by **21.4**, the model alone by **3.2**. The ML adds an orthogonal signal, not better separation. I published that as measured. Closing that gap is my current work: using the model to classify findings and suppress false positives.
 
@@ -149,7 +153,7 @@ Capstone TerraVault (9.7/10), approved by the examining board. Cypress E2E suite
 
 # Gabriel Felipe Guarnieri
 
-#### QA & Automação de Testes · Python / Back-end
+#### Engenheiro de Software · QA & Automação de Testes · Back-end Python
 
 <code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>Postman</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
 
@@ -181,7 +185,9 @@ Capstone TerraVault (9.7/10), approved by the examining board. Cypress E2E suite
 
 ---
 
-Engenheiro de Software (Bacharel, UTFPR, 2026), atuando em QA e construindo carreira em automação de testes e back-end Python. Testo software ERP profissionalmente, escrevo minhas próprias suítes de teste em Python e aprendo medindo — inclusive quando a medição diz que minha ideia não funcionou.
+Engenheiro de Software (Bacharel, UTFPR, 2026). Testo software profissionalmente e construo back-end em Python — com segurança integrada antes de chegar à produção. Escrevo minhas próprias suítes de teste e aprendo medindo — inclusive quando a medição diz que minha ideia não funcionou.
+
+**Objetivo de longo prazo:** Engenharia DevSecOps & Segurança em Cloud.
 
 **Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack Jr — Remoto / Híbrido / Presencial.
 
@@ -191,7 +197,7 @@ Engenheiro de Software (Bacharel, UTFPR, 2026), atuando em QA e construindo carr
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + **Isolation Forest** sobre um vetor estrutural de 8 características.
 
-**Benchmark** — 22 módulos Terraform rotulados:
+**Benchmark (corpus próprio)** — 22 módulos Terraform rotulados:
 
 | Scanner | Precisão | Recall | F1 |
 |---------|:--------:|:------:|:--:|
@@ -201,6 +207,8 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 | Terrascan | 100% | 47,8% | 64,7% |
 
 **ML no Google Cloud** — re-treinado sobre **35.594 vetores reais**, extraídos de 10.639 módulos do Terraform Registry e 30.303 arquivos públicos do GitHub, em jobs GCE que se desligam sozinhos.
+
+**Validade externa** — em um corpus de terceiros (fixtures do KICS, que eu não escrevi): **83% de recall** dentro do escopo declarado das regras — o teste do resultado 100% do corpus próprio, publicado como medido.
 
 **A ablação** — as regras sozinhas separam seguro de vulnerável por **33,3 pontos**, o híbrido por **21,4** e o modelo sozinho por **3,2**. O ML entrega sinal ortogonal, não separação melhor. Publiquei como medido. Fechar essa lacuna é meu trabalho atual: usar o modelo para classificar achados e suprimir falsos positivos.
 
