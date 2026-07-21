@@ -84,9 +84,11 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an **Isolati
 | Project | What it is | Stack |
 |---------|-----------|-------|
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | ML alert prioritization — Naive Bayes + fine-tuned BERT. 67.4% alert reduction at 83.27% accuracy. 435 pytest cases. | `Python` `Flask` `PyTorch` `BERT` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform, ~57k LOC TypeScript. 87 test files, GitHub Actions CI/CD. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
-| **[Cypress E2E Suite](https://github.com/oguarni/automacao-vv-cypress)** | 5 E2E specs with custom resilient commands, retry strategy, HTML reporting. | `Cypress` `JavaScript` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform live on Firebase Hosting — strict CSP, ~61k LOC TypeScript, 90 test files, GitHub Actions CI/CD. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle (team of 3): deterministic sim engine, 110 Vitest cases with coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy, HTML reporting. | `Cypress` `JavaScript` |
 | **[Agiliza](https://github.com/oguarni/agiliza)** | Kanban platform — 4-layer Clean Architecture, DI via Inversify, JWT/RBAC, Jest. | `React` `Express` `TypeScript` `Docker` |
+| **[Digital Autopsy: IPTV](https://oguarni.github.io/articles/investigation-iptv.html)** | MITM investigation of a pirate TV box — rootkits, botnet traffic, and data exfiltration, published as a bilingual article. | `Network forensics` `MITM` |
 
 ---
 
@@ -223,9 +225,11 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 | Projeto | O que é | Stack |
 |---------|---------|-------|
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Priorização de alertas com ML — Naive Bayes + BERT fine-tuned. 67,4% de redução de alertas, 83,27% de acurácia. 435 casos pytest. | `Python` `Flask` `PyTorch` `BERT` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B, ~57 mil LOC TypeScript. 87 arquivos de teste, CI/CD com GitHub Actions. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
-| **[Suíte E2E Cypress](https://github.com/oguarni/automacao-vv-cypress)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B em produção no Firebase Hosting — CSP estrita, ~61 mil LOC TypeScript, 90 arquivos de teste, CI/CD com GitHub Actions. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador (equipe de 3): motor de simulação determinístico, 110 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
 | **[Agiliza](https://github.com/oguarni/agiliza)** | Plataforma Kanban — Clean Architecture em 4 camadas, DI via Inversify, JWT/RBAC, Jest. | `React` `Express` `TypeScript` `Docker` |
+| **[Autópsia Digital: IPTV](https://oguarni.github.io/articles/investigation-iptv.html)** | Investigação MITM de uma TV Box pirata — rootkits, tráfego de botnet e exfiltração de dados, publicada como artigo bilíngue. | `Forense de rede` `MITM` |
 
 ---
 
