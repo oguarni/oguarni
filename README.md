@@ -71,7 +71,9 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an **Isolati
 
 **External validity** — on a third-party corpus (KICS fixtures I did not write): **83% recall** within the declared rule scope — the check on the 100% home-corpus result, published as measured.
 
-**The ablation** — rules alone separate safe from vulnerable by **33.3 points**, the hybrid by **21.4**, the model alone by **3.2**. The ML adds an orthogonal signal, not better separation. I published that as measured. Closing that gap is my current work: using the model to classify findings and suppress false positives.
+**The ablation** — rules alone separate safe from vulnerable by **33.3 points**, the hybrid by **21.4**, the model alone by **3.2**. The ML adds an orthogonal signal, not better separation. I published that as measured.
+
+**Where the model earns its place** — tested at scale on **18,041 real configs**: among the 437 the rules pass, the Isolation Forest flags the structurally atypical decile at **100% vs 2%** of the typical half (AUC 0.92) — a human-review signal orthogonal to the rules, not a risk verdict. Current work: using it to classify findings and suppress false positives.
 
 **Quality** — 137 pytest cases · 76.8% coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet · SARIF v2.1.0.
 
@@ -212,7 +214,9 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 
 **Validade externa** — em um corpus de terceiros (fixtures do KICS, que eu não escrevi): **83% de recall** dentro do escopo declarado das regras — o teste do resultado 100% do corpus próprio, publicado como medido.
 
-**A ablação** — as regras sozinhas separam seguro de vulnerável por **33,3 pontos**, o híbrido por **21,4** e o modelo sozinho por **3,2**. O ML entrega sinal ortogonal, não separação melhor. Publiquei como medido. Fechar essa lacuna é meu trabalho atual: usar o modelo para classificar achados e suprimir falsos positivos.
+**A ablação** — as regras sozinhas separam seguro de vulnerável por **33,3 pontos**, o híbrido por **21,4** e o modelo sozinho por **3,2**. O ML entrega sinal ortogonal, não separação melhor. Publiquei como medido.
+
+**Onde o modelo se paga** — testado em escala sobre **18.041 configurações reais**: entre as 437 que as regras aprovam, o Isolation Forest aponta o decil estruturalmente atípico a **100% vs 2%** da metade típica (AUC 0,92) — sinal de revisão humana ortogonal às regras, não veredito de risco. Trabalho atual: usá-lo para classificar achados e suprimir falsos positivos.
 
 **Qualidade** — 137 casos pytest · 76,8% de cobertura · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão · SARIF v2.1.0.
 
