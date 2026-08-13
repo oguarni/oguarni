@@ -1,14 +1,12 @@
 <div align="center">
-  <a href="#-english" title="Read in English">
+  <a href="#gabriel-felipe-guarnieri" title="Read in English">
     <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="40" style="vertical-align:middle;" />
   </a>
-  &nbsp;&nbsp;
-  <a href="#-português" title="Ler em Português">
+    
+  <a href="#gabriel-felipe-guarnieri-1" title="Ler em Português">
     <img src="https://flagcdn.com/h40/br.png" alt="Português" height="40" />
   </a>
 </div>
-
-<div id="-english"></div>
 
 <div align="center">
 
@@ -16,21 +14,21 @@
 
 #### Software Engineer · QA Automation & Python Backend
 
-<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>Postman</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
+<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Terraform</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
 
 <p>
   <a href="https://github.com/oguarni/terravault">
     <img src="https://img.shields.io/badge/Capstone-TerraVault_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
-  &nbsp;
+   
   <a href="https://oguarni.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit_Site-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  &nbsp;
+   
   <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  &nbsp;
+   
   <a href="mailto:gfguarnieri@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
@@ -46,9 +44,7 @@
 
 ---
 
-Software Engineer (B.S., UTFPR, 2026). I test software professionally and build Python backends — with security integrated before it reaches production. I write my own test suites, and I learn by measuring — including when the measurement says my idea did not work.
-
-**Long-term objective:** DevSecOps & Cloud Security Engineering.
+Software Engineer (B.S., UTFPR, July 2026). I tested software professionally — functional, regression and API testing on a production ERP — and I build Python backends, with security wired in before release. Heading toward DevSecOps and cloud security.
 
 **Open to:** QA / Test Automation · Python / Backend · Full Stack Jr — Remote / Hybrid / On-site.
 
@@ -56,102 +52,63 @@ Software Engineer (B.S., UTFPR, 2026). I test software professionally and build 
 
 ## TerraVault — Capstone (9.7/10)
 
-Hybrid security scanner for Terraform: **11 deterministic rules** + an **Isolation Forest** over an 8-feature structural vector.
+Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from public Terraform on GCE.
 
-**Benchmark (home corpus)** — 22 labeled Terraform modules:
+**Quality** — 137 pytest cases · 76.80% coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet · SARIF v2.1.0 for GitHub Code Scanning.
 
-| Scanner | Precision | Recall | F1 |
-|---------|:---------:|:------:|:--:|
-| **TerraVault** | **100%** | **100%** | **100%** |
-| Checkov | 100% | 95.7% | 97.8% |
-| tfsec | 100% | 87.0% | 93.0% |
-| Terrascan | 100% | 47.8% | 64.7% |
+**Measured, not claimed** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are in the repo.
 
-**ML on Google Cloud** — retrained over **35,594 real feature vectors** mined from 10,639 Terraform Registry modules and 30,303 public GitHub files, on self-terminating GCE jobs.
-
-**External validity** — on a third-party corpus (KICS fixtures I did not write): **83% recall** within the declared rule scope — the check on the 100% home-corpus result, published as measured.
-
-**The ablation** — rules alone separate safe from vulnerable by **33.3 points**, the hybrid by **21.4**, the model alone by **3.2**. The ML adds an orthogonal signal, not better separation. I published that as measured.
-
-**Where the model earns its place** — tested at scale on **18,041 real configs**: among the 437 the rules pass, the Isolation Forest flags the structurally atypical decile at **100% vs 2%** of the typical half (AUC 0.92) — a human-review signal orthogonal to the rules, not a risk verdict. Current work: using it to classify findings and suppress false positives.
-
-**Quality** — 137 pytest cases · 76.8% coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet · SARIF v2.1.0.
-
-`Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn` `Prometheus`
+`Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
 ---
 
 ## Projects
 
 | Project | What it is | Stack |
-|---------|-----------|-------|
-| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | ML alert prioritization — Naive Bayes + fine-tuned BERT. 67.4% alert reduction at 83.27% accuracy. 435 pytest cases. | `Python` `Flask` `PyTorch` `BERT` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform live on Firebase Hosting — strict CSP, ~61k LOC TypeScript, 90 test files, GitHub Actions CI/CD. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
-| **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle (team of 3): deterministic sim engine, 110 Vitest cases with coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
-| **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy, HTML reporting. | `Cypress` `JavaScript` |
-| **[Agiliza](https://github.com/oguarni/agiliza)** | Kanban platform — 4-layer Clean Architecture, DI via Inversify, JWT/RBAC, Jest. | `React` `Express` `TypeScript` `Docker` |
-| **[Digital Autopsy: IPTV](https://oguarni.github.io/articles/investigation-iptv.html)** | MITM investigation of a pirate TV box — rootkits, botnet traffic, and data exfiltration, published as a bilingual article. | `Network forensics` `MITM` |
+| --- | --- | --- |
+| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Cut 568 dependency alerts to 185 (67.4%) at 83.27% accuracy — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases. | `Python` `Flask` `PyTorch` `Redis` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform live on Firebase Hosting — ~61k LOC TypeScript, 90 test files, strict CSP, GitHub Actions CI/CD. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy and HTML reporting. | `Cypress` `JavaScript` |
+| **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 110 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Isolated attack-and-defense lab built and destroyed by 4 Bash scripts — five Cyber Kill Chain techniques, each answered with cloud-native detection. | `GCP` `Bash` `Nmap` `Wireshark` |
 
 ---
 
 ## Experience
 
-**ERP Software Tester (QA)** — PRECISA Software · May 2026 – Present
-Functional, regression and API testing on an ERP product. Validate fixes against reported defects, verify data with SQL, and document each case with reproducible evidence.
+**ERP Software Tester (QA)** — PRECISA Software · May – Aug 2026
+Functional, regression and performance testing on a production ERP (financial, fiscal, sales orders, purchasing, billing). Validated developer fixes against customer-reported defects through a ticket workflow, checked report data with SQL, documented each case with reproducible evidence. Brazilian fiscal domain: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, IBS/CBS transition. Method: cover the whole screen, not only the reported item — every flag set and unset, and both print layouts, where the surviving defect usually is.
 
 **AWS Cloud Data Engineer, Intern** — Compass UOL · May – Oct 2025 · Remote
-Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pipelines to PySpark and validated data integrity with SQL.
+Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pipelines to PySpark, validated data integrity with SQL.
 
 **Full Stack Developer, Intern** — Procfy · Nov 2023 – Nov 2024
 Shipped features in Ruby on Rails/PostgreSQL. REST API testing with Postman, root cause analysis, SQL validation.
 
 **IT Assistant** — Serviço de Registro de Imóveis · Apr 2021 – Nov 2023
-Kept an ERP integrated with external mission-critical systems under judicial oversight. 99%+ availability, zero findings across inspections.
+Integration testing across court and registry systems (SAEC/ONR, e-Proc, PJe, Projudi) under judicial oversight, LGPD access controls, Windows Server. 99%+ availability, zero findings in inspections.
 
 ---
 
 ## Skills
 
-| | |
-|---|---|
-| **Testing** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · SQL validation · functional, regression, integration & API testing |
-| **Backend** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC |
-| **ML** | Scikit-learn · Isolation Forest · NumPy · feature engineering · model versioning · ablation studies |
-| **Cloud & CI/CD** | AWS (Boto3, PySpark) · Google Cloud (GCE, Cloud Storage, BigQuery) · Docker · GitHub Actions · Prometheus |
-| **Data** | PostgreSQL · Redis |
-
----
-
-## What Sets Me Apart
-
-```
-Regulated ops (2y8m)  →  QA in production  →  Test automation & ML
-         ↓                      ↓                      ↓
-  Failures carried        Validating fixes       Measured my own design,
-  legal consequences      before they ship       found it didn't help,
-                                                 and published that
-```
-
-Two things are uncommon in a junior profile. I do QA professionally, not only in coursework — I validate other people's fixes before they reach customers. And when I measured whether my own project's ML component earned its place, it did not, so I reported that instead of reframing it. Both are on this page with the numbers attached.
+|     |     |
+| --- | --- |
+| **Testing & QA** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · SQL validation · functional, regression, integration & API testing · defect lifecycle and fix validation (homologation/UAT) |
+| **Backend** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
+| **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
+| **ML** | Scikit-learn · Isolation Forest · feature engineering |
 
 ---
 
 ## Education
 
-**B.S. Software Engineering** — UTFPR, Dois Vizinhos · 2022 – 2026
-Capstone TerraVault (9.7/10), approved by the examining board. Cypress E2E suites in coursework.
+**B.S. Software Engineering** — UTFPR, Dois Vizinhos · 2022 – Jul 2026 · graduated
+Capstone: TerraVault (9.7/10), approved by the examining board.
+
+**Containers & Kubernetes Essentials** — Coursera, IBM-authored course · Jul 2026 · [verify](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
 
 ---
-
-<div align="center">
-
-[gfguarnieri@gmail.com](mailto:gfguarnieri@gmail.com) · [LinkedIn](https://www.linkedin.com/in/oguarni/) · [Portfolio](https://oguarni.github.io)
-
-</div>
-
----
-
-<div id="-português"></div>
 
 <div align="center">
 
@@ -159,21 +116,21 @@ Capstone TerraVault (9.7/10), approved by the examining board. Cypress E2E suite
 
 #### Engenheiro de Software · QA & Automação de Testes · Back-end Python
 
-<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>Postman</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
+<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Terraform</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
 
 <p>
   <a href="https://github.com/oguarni/terravault">
     <img src="https://img.shields.io/badge/TCC-TerraVault_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
-  &nbsp;
+   
   <a href="https://oguarni.github.io">
     <img src="https://img.shields.io/badge/Portfólio-Visitar-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  &nbsp;
+   
   <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  &nbsp;
+   
   <a href="mailto:gfguarnieri@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
@@ -189,9 +146,7 @@ Capstone TerraVault (9.7/10), approved by the examining board. Cypress E2E suite
 
 ---
 
-Engenheiro de Software (Bacharel, UTFPR, 2026). Testo software profissionalmente e construo back-end em Python — com segurança integrada antes de chegar à produção. Escrevo minhas próprias suítes de teste e aprendo medindo — inclusive quando a medição diz que minha ideia não funcionou.
-
-**Objetivo de longo prazo:** Engenharia DevSecOps & Segurança em Cloud.
+Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profissionalmente — testes funcionais, de regressão e de API em um ERP em produção — e construo back-end em Python, com segurança integrada antes do release. Caminhando para DevSecOps e segurança em cloud.
 
 **Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack Jr — Remoto / Híbrido / Presencial.
 
@@ -199,48 +154,32 @@ Engenheiro de Software (Bacharel, UTFPR, 2026). Testo software profissionalmente
 
 ## TerraVault — TCC (9,7/10)
 
-Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + **Isolation Forest** sobre um vetor estrutural de 8 características.
+Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos de Terraform público, em GCE.
 
-**Benchmark (corpus próprio)** — 22 módulos Terraform rotulados:
+**Qualidade** — 137 casos pytest · 76,80% de cobertura · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão · SARIF v2.1.0 para o GitHub Code Scanning.
 
-| Scanner | Precisão | Recall | F1 |
-|---------|:--------:|:------:|:--:|
-| **TerraVault** | **100%** | **100%** | **100%** |
-| Checkov | 100% | 95,7% | 97,8% |
-| tfsec | 100% | 87,0% | 93,0% |
-| Terrascan | 100% | 47,8% | 64,7% |
+**Medido, não afirmado** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão no repositório.
 
-**ML no Google Cloud** — re-treinado sobre **35.594 vetores reais**, extraídos de 10.639 módulos do Terraform Registry e 30.303 arquivos públicos do GitHub, em jobs GCE que se desligam sozinhos.
-
-**Validade externa** — em um corpus de terceiros (fixtures do KICS, que eu não escrevi): **83% de recall** dentro do escopo declarado das regras — o teste do resultado 100% do corpus próprio, publicado como medido.
-
-**A ablação** — as regras sozinhas separam seguro de vulnerável por **33,3 pontos**, o híbrido por **21,4** e o modelo sozinho por **3,2**. O ML entrega sinal ortogonal, não separação melhor. Publiquei como medido.
-
-**Onde o modelo se paga** — testado em escala sobre **18.041 configurações reais**: entre as 437 que as regras aprovam, o Isolation Forest aponta o decil estruturalmente atípico a **100% vs 2%** da metade típica (AUC 0,92) — sinal de revisão humana ortogonal às regras, não veredito de risco. Trabalho atual: usá-lo para classificar achados e suprimir falsos positivos.
-
-**Qualidade** — 137 casos pytest · 76,8% de cobertura · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão · SARIF v2.1.0.
-
-`Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn` `Prometheus`
+`Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
 ---
 
 ## Projetos
 
 | Projeto | O que é | Stack |
-|---------|---------|-------|
-| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Priorização de alertas com ML — Naive Bayes + BERT fine-tuned. 67,4% de redução de alertas, 83,27% de acurácia. 435 casos pytest. | `Python` `Flask` `PyTorch` `BERT` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B em produção no Firebase Hosting — CSP estrita, ~61 mil LOC TypeScript, 90 arquivos de teste, CI/CD com GitHub Actions. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
-| **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador (equipe de 3): motor de simulação determinístico, 110 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| --- | --- | --- |
+| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduziu 568 alertas de dependências para 185 (67,4%) com 83,27% de acurácia — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest. | `Python` `Flask` `PyTorch` `Redis` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B em produção no Firebase Hosting — ~61 mil LOC TypeScript, 90 arquivos de teste, CSP estrita, CI/CD com GitHub Actions. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
-| **[Agiliza](https://github.com/oguarni/agiliza)** | Plataforma Kanban — Clean Architecture em 4 camadas, DI via Inversify, JWT/RBAC, Jest. | `React` `Express` `TypeScript` `Docker` |
-| **[Autópsia Digital: IPTV](https://oguarni.github.io/articles/investigation-iptv.html)** | Investigação MITM de uma TV Box pirata — rootkits, tráfego de botnet e exfiltração de dados, publicada como artigo bilíngue. | `Forense de rede` `MITM` |
+| **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 110 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash — cinco técnicas da Cyber Kill Chain, cada uma respondida com detecção nativa da nuvem. | `GCP` `Bash` `Nmap` `Wireshark` |
 
 ---
 
 ## Experiência
 
-**Testador de Software ERP (QA)** — PRECISA Software · Mai 2026 – Atual
-Testes funcionais, de regressão e de API em produto ERP. Valido correções frente a defeitos reportados, verifico dados com SQL e documento cada caso com evidências reprodutíveis.
+**Testador de Software ERP (QA)** — PRECISA Software · Mai – Ago 2026
+Testes funcionais, de regressão e de performance em um ERP em produção (financeiro, fiscal, pedidos de venda, compras, faturamento). Validei correções dos desenvolvedores frente a defeitos reportados por clientes dentro de um fluxo de tickets, conferi dados de relatórios com SQL e documentei cada caso com evidências reprodutíveis. Domínio fiscal brasileiro: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS. Método: cobrir a tela inteira, não só o item reportado — cada flag marcada e desmarcada, e os dois layouts de impressão, que é onde o defeito costuma sobreviver.
 
 **Engenharia de Dados Cloud AWS, Estágio** — Compass UOL · Mai – Out 2025 · Remoto
 Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch para PySpark e validei integridade de dados com SQL.
@@ -249,45 +188,24 @@ Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch 
 Entreguei funcionalidades em Ruby on Rails/PostgreSQL. Testes de API REST com Postman, análise de causa raiz e validação via SQL.
 
 **Assistente de TI** — Serviço de Registro de Imóveis · Abr 2021 – Nov 2023
-Mantive um ERP integrado a sistemas externos de missão crítica sob fiscalização judicial. 99%+ de disponibilidade, zero achados em inspeções.
+Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Proc, PJe, Projudi) sob fiscalização judicial, controles de acesso para a LGPD, Windows Server. 99%+ de disponibilidade, zero achados em inspeções.
 
 ---
 
 ## Competências
 
-| | |
-|---|---|
-| **Testes** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · validação via SQL · testes funcionais, de regressão, integração e API |
-| **Back-end** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC |
-| **ML** | Scikit-learn · Isolation Forest · NumPy · engenharia de características · versionamento de modelos · estudos de ablação |
-| **Cloud & CI/CD** | AWS (Boto3, PySpark) · Google Cloud (GCE, Cloud Storage, BigQuery) · Docker · GitHub Actions · Prometheus |
-| **Dados** | PostgreSQL · Redis |
-
----
-
-## O Que Me Diferencia
-
-```
-Operação regulada (2a8m)  →  QA em produção  →  Automação de testes & ML
-          ↓                        ↓                      ↓
-  Falhas tinham            Valido correções        Medi meu próprio design,
-  consequência legal       antes de irem ao ar     vi que não ajudava,
-                                                   e publiquei assim
-```
-
-Duas coisas são incomuns em um perfil júnior. Faço QA profissionalmente, não apenas em disciplinas — valido correções de outras pessoas antes de chegarem ao cliente. E quando medi se o componente de ML do meu próprio projeto se justificava, ele não se justificou, e eu reportei isso em vez de reenquadrar. Ambos estão nesta página com os números anexados.
+|     |     |
+| --- | --- |
+| **Testes & QA** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · validação via SQL · testes funcionais, de regressão, integração e API · ciclo de vida de defeitos e validação de correções (homologação/UAT) |
+| **Back-end** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
+| **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
+| **ML** | Scikit-learn · Isolation Forest · engenharia de características |
 
 ---
 
 ## Formação
 
-**Bacharelado em Engenharia de Software** — UTFPR, Dois Vizinhos · 2022 – 2026
-TCC TerraVault (9,7/10), aprovado pela banca. Suítes E2E com Cypress em projetos acadêmicos.
+**Bacharelado em Engenharia de Software** — UTFPR, Dois Vizinhos · 2022 – Jul 2026 · graduado
+TCC: TerraVault (9,7/10), aprovado pela banca.
 
----
-
-<div align="center">
-
-[gfguarnieri@gmail.com](mailto:gfguarnieri@gmail.com) · [LinkedIn](https://www.linkedin.com/in/oguarni/) · [Portfólio](https://oguarni.github.io)
-
-</div>
+**Containers & Kubernetes Essentials** — Coursera, curso da IBM · Jul 2026 · [verificar](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
