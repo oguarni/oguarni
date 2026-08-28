@@ -18,7 +18,7 @@
 
 <p>
   <a href="https://github.com/oguarni/terravault">
-    <img src="https://img.shields.io/badge/Capstone-TerraVault_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
+    <img src="https://img.shields.io/badge/Capstone-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
    
   <a href="https://oguarni.github.io">
@@ -50,11 +50,11 @@ Software Engineer (B.S., UTFPR, July 2026). I tested software professionally —
 
 ---
 
-## TerraVault — Capstone (9.7/10)
+## TerraVault — Capstone
 
 Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from public Terraform on GCE.
 
-**Quality** — 137 pytest cases · 76.80% coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet · SARIF v2.1.0 for GitHub Code Scanning.
+**Quality** — 183 pytest cases · 82.8% line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. Regenerate with `make quality-gate`; the numbers come from `gate-metrics.json`.
 
 **Measured, not claimed** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are in the repo.
 
@@ -67,9 +67,9 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Cut 568 dependency alerts to 185 (67.4%) at 83.27% accuracy — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform live on Firebase Hosting — ~61k LOC TypeScript, 90 test files, strict CSP, GitHub Actions CI/CD. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform live at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 101 test files. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy and HTML reporting. | `Cypress` `JavaScript` |
-| **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 110 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 165 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
 | **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Isolated attack-and-defense lab built and destroyed by 4 Bash scripts — five Cyber Kill Chain techniques, each answered with cloud-native detection. | `GCP` `Bash` `Nmap` `Wireshark` |
 
 ---
@@ -104,7 +104,7 @@ Integration testing across court and registry systems (SAEC/ONR, e-Proc, PJe, Pr
 ## Education
 
 **B.S. Software Engineering** — UTFPR, Dois Vizinhos · 2022 – Jul 2026 · graduated
-Capstone: TerraVault (9.7/10), approved by the examining board.
+Capstone: TerraVault — approved by the examining board.
 
 **Containers & Kubernetes Essentials** — Coursera, IBM-authored course · Jul 2026 · [verify](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
 
@@ -120,7 +120,7 @@ Capstone: TerraVault (9.7/10), approved by the examining board.
 
 <p>
   <a href="https://github.com/oguarni/terravault">
-    <img src="https://img.shields.io/badge/TCC-TerraVault_9.7%2F10-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
+    <img src="https://img.shields.io/badge/TCC-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
    
   <a href="https://oguarni.github.io">
@@ -152,11 +152,11 @@ Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profiss
 
 ---
 
-## TerraVault — TCC (9,7/10)
+## TerraVault — TCC
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos de Terraform público, em GCE.
 
-**Qualidade** — 137 casos pytest · 76,80% de cobertura · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão · SARIF v2.1.0 para o GitHub Code Scanning.
+**Qualidade** — 183 casos pytest · 82,8% de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. Números regerados por `make quality-gate`, a partir do `gate-metrics.json`.
 
 **Medido, não afirmado** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão no repositório.
 
@@ -169,9 +169,9 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 | Projeto | O que é | Stack |
 | --- | --- | --- |
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduziu 568 alertas de dependências para 185 (67,4%) com 83,27% de acurácia — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B em produção no Firebase Hosting — ~61 mil LOC TypeScript, 90 arquivos de teste, CSP estrita, CI/CD com GitHub Actions. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B em produção em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 101 arquivos de teste. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
-| **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 110 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
+| **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 165 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
 | **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash — cinco técnicas da Cyber Kill Chain, cada uma respondida com detecção nativa da nuvem. | `GCP` `Bash` `Nmap` `Wireshark` |
 
 ---
@@ -206,6 +206,6 @@ Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Proc, PJ
 ## Formação
 
 **Bacharelado em Engenharia de Software** — UTFPR, Dois Vizinhos · 2022 – Jul 2026 · graduado
-TCC: TerraVault (9,7/10), aprovado pela banca.
+TCC: TerraVault — aprovado pela banca examinadora.
 
 **Containers & Kubernetes Essentials** — Coursera, curso da IBM · Jul 2026 · [verificar](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
