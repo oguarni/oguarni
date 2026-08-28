@@ -1,2 +1,12 @@
 # Local profile README drafts are not repository source.
 /README.new.md
+
+# Machine-local agent and editor state. This repository is public and renders on
+# the GitHub profile; per-machine tool configuration is not part of it.
+.claude/
+.agents/
+.codex/
+.engram/
+.idea/
+.vscode/
+.DS_Store
