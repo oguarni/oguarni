@@ -46,6 +46,8 @@
 
 Software Engineer (B.S., UTFPR, July 2026). I tested software professionally — functional, regression and API testing on a production ERP — and I build Python backends, with security wired in before release. Heading toward DevSecOps and cloud security.
 
+**Agentic Engineer** — I keep the coding agent under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [`claude-code-action` workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) pinned to a commit SHA and restricted to the repository owner, so a public `@claude` comment cannot spend the token.
+
 **Open to:** QA / Test Automation · Python / Backend · Full Stack Jr — Remote / Hybrid / On-site.
 
 ---
@@ -56,7 +58,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 
 **Quality** — 183 pytest cases · 82.8% line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. Regenerate with `make quality-gate`; the numbers come from `gate-metrics.json`.
 
-**Measured, not claimed** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are in the repo.
+**Measured, not claimed** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are [in the repository](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
@@ -77,7 +79,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 ## Experience
 
 **ERP Software Tester (QA)** — PRECISA Software · May – Aug 2026
-Functional, regression and performance testing on a production ERP (financial, fiscal, sales orders, purchasing, billing). Validated developer fixes against customer-reported defects through a ticket workflow, checked report data with SQL, documented each case with reproducible evidence. Brazilian fiscal domain: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, IBS/CBS transition. Method: cover the whole screen, not only the reported item — every flag set and unset, and both print layouts, where the surviving defect usually is.
+Functional, regression and performance testing on a production ERP (financial, fiscal, sales orders, purchasing, billing). Validated developer fixes against customer-reported defects through a ticket workflow, checked report data with SQL, documented each case with reproducible evidence. Fiscal areas covered in testing: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, the IBS/CBS transition. Method: cover the whole screen, not only the reported item — every flag set and unset, and both print layouts, where the surviving defect usually is.
 
 **AWS Cloud Data Engineer, Intern** — Compass UOL · May – Oct 2025 · Remote
 Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pipelines to PySpark, validated data integrity with SQL.
@@ -148,6 +150,8 @@ Capstone: TerraVault — approved by the examining board.
 
 Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profissionalmente — testes funcionais, de regressão e de API em um ERP em produção — e construo back-end em Python, com segurança integrada antes do release. Caminhando para DevSecOps e segurança em cloud.
 
+**Agentic Engineer** — mantenho o agente de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow `claude-code-action`](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) fixado por SHA e restrito ao dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
+
 **Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack Jr — Remoto / Híbrido / Presencial.
 
 ---
@@ -158,7 +162,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 
 **Qualidade** — 183 casos pytest · 82,8% de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. Números regerados por `make quality-gate`, a partir do `gate-metrics.json`.
 
-**Medido, não afirmado** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão no repositório.
+**Medido, não afirmado** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão [no repositório](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
@@ -179,7 +183,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 ## Experiência
 
 **Testador de Software ERP (QA)** — PRECISA Software · Mai – Ago 2026
-Testes funcionais, de regressão e de performance em um ERP em produção (financeiro, fiscal, pedidos de venda, compras, faturamento). Validei correções dos desenvolvedores frente a defeitos reportados por clientes dentro de um fluxo de tickets, conferi dados de relatórios com SQL e documentei cada caso com evidências reprodutíveis. Domínio fiscal brasileiro: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS. Método: cobrir a tela inteira, não só o item reportado — cada flag marcada e desmarcada, e os dois layouts de impressão, que é onde o defeito costuma sobreviver.
+Testes funcionais, de regressão e de performance em um ERP em produção (financeiro, fiscal, pedidos de venda, compras, faturamento). Validei correções dos desenvolvedores frente a defeitos reportados por clientes dentro de um fluxo de tickets, conferi dados de relatórios com SQL e documentei cada caso com evidências reprodutíveis. Áreas fiscais cobertas nos testes: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS. Método: cobrir a tela inteira, não só o item reportado — cada flag marcada e desmarcada, e os dois layouts de impressão, que é onde o defeito costuma sobreviver.
 
 **Engenharia de Dados Cloud AWS, Estágio** — Compass UOL · Mai – Out 2025 · Remoto
 Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch para PySpark e validei integridade de dados com SQL.
