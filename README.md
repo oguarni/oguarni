@@ -35,7 +35,6 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Open_to_Work-Remote_%7C_Hybrid_%7C_On--site-success?style=flat-square"/>
   <img src="https://img.shields.io/badge/Location-Dois_Vizinhos,_PR,_BR-informational?style=flat-square"/>
   <img src="https://img.shields.io/badge/Languages-PT_(Native)_%7C_EN_(Full_Professional)-blueviolet?style=flat-square"/>
 </p>
@@ -48,13 +47,13 @@ Software Engineer (B.S., UTFPR, July 2026). I tested software professionally —
 
 **Agentic Engineer** — I keep the coding agent under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [`claude-code-action` workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) pinned to a commit SHA and restricted to the repository owner, so a public `@claude` comment cannot spend the token.
 
-**Open to:** QA / Test Automation · Python / Backend · Full Stack Jr — Remote / Hybrid / On-site.
+**Open to:** QA / Test Automation · Python / Backend · Full Stack — Remote / Hybrid / On-site.
 
 ---
 
 ## TerraVault — Capstone
 
-Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from public Terraform on GCE.
+Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from the Terraform Registry and public GitHub.
 
 **Quality** — 183 pytest cases · 82.8% line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. Regenerate with `make quality-gate`; the numbers come from `gate-metrics.json`.
 
@@ -69,7 +68,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Scores a 568-item NVD/CVE dataset down to 185 items needing review (67.4%), at 83.27% accuracy on the held-out split — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases, all passing. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform live at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 101 test files. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform published as a live static demo at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 101 test files. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy and HTML reporting. | `Cypress` `JavaScript` |
 | **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 165 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
 | **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Isolated attack-and-defense lab built and destroyed by 4 Bash scripts — five Cyber Kill Chain techniques, each answered with cloud-native detection. | `GCP` `Bash` `Nmap` `Wireshark` |
@@ -87,8 +86,8 @@ Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pip
 **Full Stack Developer, Intern** — Procfy · Nov 2023 – Nov 2024
 Shipped features in Ruby on Rails/PostgreSQL. REST API testing with Postman, root cause analysis, SQL validation.
 
-**IT Assistant** — Serviço de Registro de Imóveis · Apr 2021 – Nov 2023
-Integration testing across court and registry systems (SAEC/ONR, e-Proc, PJe, Projudi) under judicial oversight, LGPD access controls, Windows Server. 99%+ availability, zero findings in inspections.
+**IT Assistant** — Property Registry Office · Apr 2021 – Nov 2023
+Integration testing across court and registry systems (SAEC/ONR, e-Notariado, PJe, Projudi) under judicial oversight, LGPD access controls, Windows Server. 99%+ availability, zero findings in inspections.
 
 ---
 
@@ -139,7 +138,6 @@ Capstone: TerraVault — approved by the examining board.
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Aberto_a_Oportunidades-Remoto_%7C_Híbrido_%7C_Presencial-success?style=flat-square"/>
   <img src="https://img.shields.io/badge/Localização-Dois_Vizinhos,_PR,_BR-informational?style=flat-square"/>
   <img src="https://img.shields.io/badge/Idiomas-PT_(Nativo)_%7C_EN_(Profissional_Completo)-blueviolet?style=flat-square"/>
 </p>
@@ -152,13 +150,13 @@ Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profiss
 
 **Agentic Engineer** — mantenho o agente de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow `claude-code-action`](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) fixado por SHA e restrito ao dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
 
-**Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack Jr — Remoto / Híbrido / Presencial.
+**Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack — Remoto / Híbrido / Presencial.
 
 ---
 
 ## TerraVault — TCC
 
-Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos de Terraform público, em GCE.
+Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos do Terraform Registry e do GitHub público.
 
 **Qualidade** — 183 casos pytest · 82,8% de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. Números regerados por `make quality-gate`, a partir do `gate-metrics.json`.
 
@@ -173,10 +171,10 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 | Projeto | O que é | Stack |
 | --- | --- | --- |
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão (67,4%), com 83,27% de acurácia no conjunto de teste separado — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest, todos passando. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B em produção em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 101 arquivos de teste. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B publicada como demo estática em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 101 arquivos de teste. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
 | **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 165 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
-| **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash — cinco técnicas da Cyber Kill Chain, cada uma respondida com detecção nativa da nuvem. | `GCP` `Bash` `Nmap` `Wireshark` |
+| **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash — cinco técnicas da Cyber Kill Chain, cada uma respondida com detecção cloud-native. | `GCP` `Bash` `Nmap` `Wireshark` |
 
 ---
 
@@ -192,7 +190,7 @@ Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch 
 Entreguei funcionalidades em Ruby on Rails/PostgreSQL. Testes de API REST com Postman, análise de causa raiz e validação via SQL.
 
 **Assistente de TI** — Serviço de Registro de Imóveis · Abr 2021 – Nov 2023
-Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Proc, PJe, Projudi) sob fiscalização judicial, controles de acesso para a LGPD, Windows Server. 99%+ de disponibilidade, zero achados em inspeções.
+Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Notariado, PJe, Projudi) sob fiscalização judicial, controles de acesso para a LGPD, Windows Server. 99%+ de disponibilidade, zero achados em inspeções.
 
 ---
 
@@ -203,7 +201,7 @@ Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Proc, PJ
 | **Testes & QA** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · validação via SQL · testes funcionais, de regressão, integração e API · ciclo de vida de defeitos e validação de correções (homologação/UAT) |
 | **Back-end** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
 | **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
-| **ML** | Scikit-learn · Isolation Forest · engenharia de características |
+| **ML** | Scikit-learn · Isolation Forest · feature engineering |
 
 ---
 
