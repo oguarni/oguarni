@@ -55,7 +55,7 @@ Software Engineer (B.S., UTFPR, July 2026). I tested software professionally —
 
 Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from the Terraform Registry and public GitHub.
 
-**Quality** — 183 pytest cases · 82.8% line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. Regenerate with `make quality-gate`; the numbers come from `gate-metrics.json`.
+**Quality** — 200+ pytest cases · 82%+ line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. Floors, not snapshots: the ratchet only ever raises them. Run `make quality-gate` for the exact figures — it writes `gate-metrics.json`.
 
 **Measured, not claimed** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are [in the repository](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
@@ -68,7 +68,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Scores a 568-item NVD/CVE dataset down to 185 items needing review (67.4%), at 83.27% accuracy on the held-out split — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases, all passing. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform published as a live static demo at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 101 test files. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform published as a live static demo at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 103 test files carrying 2,200+ tests. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy and HTML reporting. | `Cypress` `JavaScript` |
 | **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 165 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
 | **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Isolated attack-and-defense lab built and destroyed by 4 Bash scripts — five Cyber Kill Chain techniques, each answered with cloud-native detection. | `GCP` `Bash` `Nmap` `Wireshark` |
@@ -158,7 +158,7 @@ Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profiss
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos do Terraform Registry e do GitHub público.
 
-**Qualidade** — 183 casos pytest · 82,8% de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. Números regerados por `make quality-gate`, a partir do `gate-metrics.json`.
+**Qualidade** — 200+ casos pytest · 82%+ de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. São pisos, não fotografias: a catraca só os eleva. Rode `make quality-gate` para os números exatos — ele grava o `gate-metrics.json`.
 
 **Medido, não afirmado** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão [no repositório](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
@@ -171,7 +171,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 | Projeto | O que é | Stack |
 | --- | --- | --- |
 | **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão (67,4%), com 83,27% de acurácia no conjunto de teste separado — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest, todos passando. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B publicada como demo estática em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 101 arquivos de teste. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
+| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B publicada como demo estática em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 103 arquivos de teste com mais de 2.200 testes. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
 | **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 165 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
 | **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash — cinco técnicas da Cyber Kill Chain, cada uma respondida com detecção cloud-native. | `GCP` `Bash` `Nmap` `Wireshark` |
