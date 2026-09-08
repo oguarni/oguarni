@@ -3,7 +3,7 @@
     <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="40" style="vertical-align:middle;" />
   </a>
 
-<a href="#gabriel-felipe-guarnieri-1" title="Ler em Português">
+  <a href="#gabriel-felipe-guarnieri-1" title="Ler em Português">
     <img src="https://flagcdn.com/h40/br.png" alt="Português" height="40" />
   </a>
 </div>
@@ -21,15 +21,15 @@
     <img src="https://img.shields.io/badge/Capstone-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
 
-<a href="https://oguarni.github.io">
+  <a href="https://oguarni.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit_Site-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 
-<a href="https://www.linkedin.com/in/oguarni/">
+  <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
-<a href="mailto:gfguarnieri@gmail.com">
+  <a href="mailto:gfguarnieri@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
@@ -124,15 +124,15 @@ Capstone: TerraVault — approved by the examining board.
     <img src="https://img.shields.io/badge/TCC-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
   </a>
 
-<a href="https://oguarni.github.io">
+  <a href="https://oguarni.github.io">
     <img src="https://img.shields.io/badge/Portfólio-Visitar-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 
-<a href="https://www.linkedin.com/in/oguarni/">
+  <a href="https://www.linkedin.com/in/oguarni/">
     <img src="https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
-<a href="mailto:gfguarnieri@gmail.com">
+  <a href="mailto:gfguarnieri@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
