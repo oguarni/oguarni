@@ -84,7 +84,7 @@ Functional, regression and performance testing on a production ERP (financial, f
 Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pipelines to PySpark, validated data integrity with SQL.
 
 **Full Stack Developer, Intern** — Procfy · Nov 2023 – Nov 2024
-Shipped features in Ruby on Rails/PostgreSQL. REST API testing with Postman, root cause analysis, SQL validation.
+Collaborated on features in Ruby on Rails/PostgreSQL. REST API testing with Postman, root cause analysis, SQL validation.
 
 **IT Assistant** — Property Registry Office · Apr 2021 – Nov 2023
 Integration testing across court and registry systems (SAEC/ONR, e-Notariado, PJe, Projudi) under judicial oversight, LGPD access controls, Windows Server. 99%+ availability, zero findings in inspections.
@@ -187,7 +187,7 @@ Testes funcionais, de regressão e de performance em um ERP em produção (finan
 Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch para PySpark e validei integridade de dados com SQL.
 
 **Desenvolvimento Full Stack, Estágio** — Procfy · Nov 2023 – Nov 2024
-Entreguei funcionalidades em Ruby on Rails/PostgreSQL. Testes de API REST com Postman, análise de causa raiz e validação via SQL.
+Colaborei no desenvolvimento de funcionalidades em Ruby on Rails/PostgreSQL. Testes de API REST com Postman, análise de causa raiz e validação via SQL.
 
 **Assistente de TI** — Serviço de Registro de Imóveis · Abr 2021 – Nov 2023
 Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Notariado, PJe, Projudi) sob fiscalização judicial, controles de acesso para a LGPD, Windows Server. 99%+ de disponibilidade, zero achados em inspeções.
