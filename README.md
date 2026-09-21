@@ -43,7 +43,7 @@
 
 ---
 
-Software Engineer (B.S., UTFPR, July 2026). I tested software professionally — functional and regression testing on a production ERP — and I build Python backends, with security wired in before release. Heading toward DevSecOps and cloud security.
+Software Engineer (B.S., UTFPR, July 2026). I've done QA professionally (functional and regression testing on a production ERP), and I build Python backends with security wired in before release. Heading toward DevSecOps and cloud security.
 
 **Agentic Engineer** — I keep the coding agent under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [`claude-code-action` workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) pinned to a commit SHA and restricted to the repository owner, so a public `@claude` comment cannot spend the token.
 
@@ -55,9 +55,9 @@ Software Engineer (B.S., UTFPR, July 2026). I tested software professionally —
 
 Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from the Terraform Registry and public GitHub.
 
-**Quality** — 200+ pytest cases · 82%+ line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. Floors, not snapshots: the ratchet only ever raises them. Run `make quality-gate` for the exact figures — it writes `gate-metrics.json`.
+**Quality** — 200+ pytest cases · 82%+ line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. These are floors, and the ratchet only ever raises them. Run `make quality-gate` for the exact figures; it writes them to `gate-metrics.json`.
 
-**Measured, not claimed** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are [in the repository](https://github.com/oguarni/terravault/tree/main/evaluation/results).
+**Results** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are [in the repository](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
@@ -146,7 +146,7 @@ Capstone: TerraVault — approved by the examining board.
 
 ---
 
-Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profissionalmente — testes funcionais e de regressão em um ERP em produção — e construo back-end em Python, com segurança integrada antes do release. Caminhando para DevSecOps e segurança em cloud.
+Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Já trabalhei como QA, com testes funcionais e de regressão em um ERP em produção, e construo back-ends em Python com a segurança integrada antes do release. Caminhando para DevSecOps e segurança em cloud.
 
 **Agentic Engineer** — mantenho o agente de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow `claude-code-action`](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) fixado por SHA e restrito ao dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
 
@@ -158,9 +158,9 @@ Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Testei software profiss
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos do Terraform Registry e do GitHub público.
 
-**Qualidade** — 200+ casos pytest · 82%+ de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. São pisos, não fotografias: a catraca só os eleva. Rode `make quality-gate` para os números exatos — ele grava o `gate-metrics.json`.
+**Qualidade** — 200+ casos pytest · 82%+ de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. São pisos, e a catraca só os eleva. Rode `make quality-gate` para ver os números exatos; ele grava tudo no `gate-metrics.json`.
 
-**Medido, não afirmado** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão [no repositório](https://github.com/oguarni/terravault/tree/main/evaluation/results).
+**Resultados** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão [no repositório](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
