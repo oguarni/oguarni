@@ -4,7 +4,7 @@
   </a>
 
   <a href="#gabriel-felipe-guarnieri-1" title="Ler em Português">
-    <img src="https://flagcdn.com/h40/br.png" alt="Português" height="40" />
+    <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1f7.png" alt="Português" height="40" style="vertical-align:middle;" />
   </a>
 </div>
 
