@@ -53,6 +53,8 @@ Software Engineer (B.S., UTFPR, July 2026). I've done QA professionally (functio
 
 ## TerraVault — Capstone
 
+> **The problem:** a rule-based scanner only catches what it has a rule for. Misconfiguration is one of the leading causes of cloud breaches, and the average breach cost **$4.99M** in IBM's [*Cost of a Data Breach 2026*](https://www.ibm.com/reports/data-breach).
+
 Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from the Terraform Registry and public GitHub.
 
 **Quality** — 200+ pytest cases · 82%+ line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. These are floors, and the ratchet only ever raises them. Run `make quality-gate` for the exact figures; it writes them to `gate-metrics.json`.
@@ -155,6 +157,8 @@ Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Já trabalhei como QA, 
 ---
 
 ## TerraVault — TCC
+
+> **O problema:** um scanner baseado em regras só pega o que tem regra. Configuração incorreta está entre as principais causas de violações em nuvem, e a violação média custou **US$ 4,99 milhões** no [*Cost of a Data Breach 2026*](https://www.ibm.com/reports/data-breach) da IBM.
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos do Terraform Registry e do GitHub público.
 
