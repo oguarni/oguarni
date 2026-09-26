@@ -99,7 +99,7 @@ Integration testing across court and registry systems (SAEC/ONR, e-Notariado, PJ
 
 |     |     |
 | --- | --- |
-| **Testing & QA** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · SQL validation · functional, regression, integration & API testing · defect lifecycle and fix validation (homologation/UAT) |
+| **Testing & QA** | Pytest · Cypress · Playwright · Jest + Supertest · Vitest · React Testing Library · Postman · SQL validation · coverage gates in CI · Pylint, Mypy & ESLint · functional, regression, integration & API testing · defect lifecycle and fix validation (homologation/UAT) |
 | **Backend** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
 | **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
 | **ML** | Scikit-learn · Isolation Forest · feature engineering |
@@ -206,7 +206,7 @@ Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Notariad
 
 |     |     |
 | --- | --- |
-| **Testes & QA** | Pytest · Cypress · Playwright · Jest · Vitest · Postman · validação via SQL · testes funcionais, de regressão, integração e API · ciclo de vida de defeitos e validação de correções (homologação/UAT) |
+| **Testes & QA** | Pytest · Cypress · Playwright · Jest + Supertest · Vitest · React Testing Library · Postman · validação via SQL · gates de cobertura no CI · Pylint, Mypy e ESLint · testes funcionais, de regressão, integração e API · ciclo de vida de defeitos e validação de correções (homologação/UAT) |
 | **Back-end** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
 | **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
 | **ML** | Scikit-learn · Isolation Forest · feature engineering |
