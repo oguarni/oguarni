@@ -71,7 +71,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Scores a 568-item NVD/CVE dataset down to 185 items needing review (67.4%), at 83.27% accuracy on the held-out split — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases, all passing. | `Python` `Flask` `PyTorch` `Redis` |
+| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Scores a 568-item NVD/CVE dataset down to 185 items needing review, a 67.4% reduction, at 83.27% accuracy on the held-out split — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases, all passing. | `Python` `Flask` `PyTorch` `Redis` |
 | **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform published as a live static demo at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 103 test files carrying 2,200+ tests. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy and HTML reporting. | `Cypress` `JavaScript` |
 | **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 165 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
@@ -82,7 +82,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 ## Experience
 
 **ERP Software Tester (QA)** — PRECISA Software · May – Aug 2026
-Functional, regression and performance testing on a production ERP (financial, fiscal, sales orders, purchasing, billing). Validated developer fixes against customer-reported defects through a ticket workflow, checked report data with SQL, documented each case with reproducible evidence — including stopwatch timings recorded on the tickets raised for slowness. Fiscal areas covered in testing: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, the IBS/CBS transition. Method: cover the whole screen, not only the reported item — every flag set and unset, and both print layouts, where the surviving defect usually is.
+Functional, regression and performance testing on a production ERP (financial, fiscal, sales orders, purchasing, billing). Validated developer fixes against customer-reported defects through a ticket workflow, checked report data with SQL, documented each case with reproducible evidence — including stopwatch timings recorded on the tickets raised for slowness. Fiscal areas covered in testing: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, the IBS/CBS transition. Method: test the whole screen beyond the reported item, with every flag set and unset, and check both print layouts, because a fix made in one often misses the other.
 
 **AWS Cloud Data Engineer, Intern** — Compass UOL · May – Oct 2025 · Remote
 Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pipelines to PySpark, validated data integrity with SQL.
@@ -178,7 +178,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 
 | Projeto | O que é | Stack |
 | --- | --- | --- |
-| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão (67,4%), com 83,27% de acurácia no conjunto de teste separado — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest, todos passando. | `Python` `Flask` `PyTorch` `Redis` |
+| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão, queda de 67,4%, com 83,27% de acurácia no conjunto de teste separado — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest, todos passando. | `Python` `Flask` `PyTorch` `Redis` |
 | **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B publicada como demo estática em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 103 arquivos de teste com mais de 2.200 testes. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
 | **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
 | **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 165 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
@@ -189,7 +189,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 ## Experiência
 
 **Testador de Software ERP (QA)** — PRECISA Software · Mai – Ago 2026
-Testes funcionais, de regressão e de performance em um ERP em produção (financeiro, fiscal, pedidos de venda, compras, faturamento). Validei correções dos desenvolvedores frente a defeitos reportados por clientes dentro de um fluxo de tickets, conferi dados de relatórios com SQL e documentei cada caso com evidências reprodutíveis — incluindo a cronometragem registrada nos chamados abertos por lentidão. Áreas fiscais cobertas nos testes: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS. Método: cobrir a tela inteira, não só o item reportado — cada flag marcada e desmarcada, e os dois layouts de impressão, que é onde o defeito costuma sobreviver.
+Testes funcionais, de regressão e de performance em um ERP em produção (financeiro, fiscal, pedidos de venda, compras, faturamento). Validei correções dos desenvolvedores frente a defeitos reportados por clientes dentro de um fluxo de tickets, conferi dados de relatórios com SQL e documentei cada caso com evidências reprodutíveis — incluindo a cronometragem registrada nos chamados abertos por lentidão. Áreas fiscais cobertas nos testes: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS. Método: testar a tela inteira além do item reportado, com cada flag marcada e desmarcada, e conferir os dois layouts de impressão, porque a correção feita em um costuma não chegar ao outro.
 
 **Engenharia de Dados Cloud AWS, Estágio** — Compass UOL · Mai – Out 2025 · Remoto
 Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch para PySpark e validei integridade de dados com SQL.
