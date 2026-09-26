@@ -45,7 +45,9 @@
 
 Software Engineer (B.S., UTFPR, July 2026). I've done QA professionally (functional and regression testing on a production ERP), and I build Python backends with security wired in before release. Heading toward DevSecOps and cloud security.
 
-**Agentic Engineer** — I keep the coding agent under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [`claude-code-action` workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) pinned to a commit SHA and restricted to the repository owner, so a public `@claude` comment cannot spend the token.
+**Agentic Engineer** — I keep the coding agent under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) that runs `claude-code-action` pinned to a commit SHA and only for the repository owner, so a public `@claude` comment cannot spend the token.
+
+The agent's memory gets the same care. engram-sync, a private tool I wrote in Bash and PowerShell, syncs it between my Linux and Windows machines through Git. It blocks any export that matches known sensitive patterns, and an age-encrypted backup is only accepted with a recent restore drill. The tests run in CI on Ubuntu and on Windows PowerShell 5.1, each behind a pinned linter.
 
 **Open to:** QA / Test Automation · Python / Backend · Full Stack — Remote / Hybrid / On-site.
 
@@ -150,7 +152,9 @@ Capstone: TerraVault — approved by the examining board.
 
 Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Já trabalhei como QA, com testes funcionais e de regressão em um ERP em produção, e construo back-ends em Python com a segurança integrada antes do release. Caminhando para DevSecOps e segurança em cloud.
 
-**Agentic Engineer** — mantenho o agente de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow `claude-code-action`](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) fixado por SHA e restrito ao dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
+**Agentic Engineer** — mantenho o agente de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) que roda a `claude-code-action` fixada por SHA e só para o dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
+
+A memória do agente recebe o mesmo cuidado. O engram-sync, ferramenta privada que escrevi em Bash e PowerShell, sincroniza essa memória entre meus computadores Linux e Windows via Git. Ele barra qualquer exportação que bata com padrões sensíveis conhecidos, e um backup criptografado com age só é aceito com um teste de restauração recente. Os testes rodam no CI em Ubuntu e no Windows PowerShell 5.1, cada um atrás de um linter com versão fixada.
 
 **Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack — Remoto / Híbrido / Presencial.
 
