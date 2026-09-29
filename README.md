@@ -1,9 +1,9 @@
 <div align="center">
-  <a href="#gabriel-felipe-guarnieri" title="Read in English">
+  <a href="#user-content-gabriel-felipe-guarnieri" title="Read in English">
     <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" alt="English" height="40" style="vertical-align:middle;" />
   </a>
 
-  <a href="#gabriel-felipe-guarnieri-1" title="Ler em Português">
+  <a href="#user-content-gabriel-felipe-guarnieri-1" title="Ler em Português">
     <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1f7.png" alt="Português" height="40" style="vertical-align:middle;" />
   </a>
 </div>
