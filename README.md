@@ -12,46 +12,17 @@
 
 # Gabriel Felipe Guarnieri
 
-#### Software Engineer · QA Automation & Python Backend
+Software Engineer · QA & Test Automation · Python Backend
 
-<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Terraform</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
-
-<p>
-  <a href="https://github.com/oguarni/terravault">
-    <img src="https://img.shields.io/badge/Capstone-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
-  </a>
-
-  <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Visit_Site-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-
-  <a href="https://www.linkedin.com/in/oguarni/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-
-  <a href="mailto:gfguarnieri@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Location-Dois_Vizinhos,_PR,_BR-informational?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Languages-PT_(Native)_%7C_EN_(Full_Professional)-blueviolet?style=flat-square"/>
-</p>
+[Portfolio](https://oguarni.github.io) · [CV (PDF)](https://oguarni.github.io/assets/gabriel-guarnieri-cv.pdf) · [LinkedIn](https://www.linkedin.com/in/oguarni/) · [Email](mailto:gfguarnieri@gmail.com)
 
 </div>
 
 ---
 
-Software Engineer (B.S., UTFPR, July 2026). I've done QA professionally (functional and regression testing on a production ERP), and I build Python backends with security wired in before release. Heading toward DevSecOps and cloud security.
+I'm a Software Engineer (B.S., UTFPR, 2026) looking for a role in QA and test automation or in Python backend development. I live in Dois Vizinhos, Brazil, and I'm open to remote, hybrid or on-site work. Portuguese is my first language, and my English is at full professional proficiency.
 
-**Agentic Engineer** — I keep the coding agent under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) that runs `claude-code-action` pinned to a commit SHA and only for the repository owner, so a public `@claude` comment cannot spend the token.
-
-The agent's memory gets the same care. engram-sync, a private tool I wrote in Bash and PowerShell, syncs it between my Linux and Windows machines through Git. It blocks any export that matches known sensitive patterns, and an age-encrypted backup is only accepted with a recent restore drill. The tests run in CI on Ubuntu and on Windows PowerShell 5.1, each behind a pinned linter.
-
-**Open to:** QA / Test Automation · Python / Backend · Full Stack — Remote / Hybrid / On-site.
-
----
+My professional QA work was on a tax and billing ERP at PRECISA Software (May–Aug 2026): functional, regression and performance testing of developer fixes, with SQL checks and reproducible evidence for each case. In academic and personal projects I automate tests with Pytest, Playwright and Cypress and build Python backends with the tests running in CI. Longer term I want to grow into DevSecOps and cloud security, which is where TerraVault comes from.
 
 ## TerraVault — Capstone
 
@@ -59,59 +30,32 @@ The agent's memory gets the same care. engram-sync, a private tool I wrote in Ba
 
 Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from the Terraform Registry and public GitHub.
 
-**Quality** — 200+ pytest cases · 82%+ line coverage · Pylint 10.00/10 · 0 Bandit/Safety/Flake8/Mypy · CI gate with a non-regression ratchet that fails the build on a drop · SARIF v2.1.0 for GitHub Code Scanning. These are floors, and the ratchet only ever raises them. Run `make quality-gate` for the exact figures; it writes them to `gate-metrics.json`.
+**Quality** — 200+ pytest cases · 82%+ line coverage · Pylint 10.00/10 · 0 Bandit/Flake8/Mypy · SARIF v2.1.0 for GitHub Code Scanning. The CI gate fails the build if coverage falls below its recorded floor, which only moves up, if Pylint drops under 10.00, or if Bandit, Flake8 or Mypy report anything. Run `make quality-gate` for the exact figures; it writes them to `gate-metrics.json`.
 
 **Results** — **83% recall** on third-party KICS fixtures inside the declared rule scope; Checkov's broader catalogue still wins the aggregate (F1 73.5 vs 64.4), and the ablation shows the rules, not the ML, doing the separating. All three numbers are [in the repository](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
----
+## Other projects
 
-## Projects
+- **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** (personal) — B2B procurement platform in TypeScript (React 19, Express 5, PostgreSQL), published as a live static demo at [crescebr.com.br](https://crescebr.com.br). A CI job re-measures the deployed site daily and fails below an A security grade; 100+ test files carry 2,200+ tests.
+- **[crash-loop](https://github.com/oguarni/crash-loop)** (course project, team of three) — Browser-playable SRE puzzle in TypeScript with a deterministic simulation engine and 165 Vitest cases under enforced coverage thresholds. [Play it.](https://oguarni.github.io/crash-loop/)
+- **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** (academic) — Scores a 568-item NVD/CVE dataset down to 185 items needing review, a 67.4% reduction, at 83.27% accuracy on the held-out split. Naive Bayes + fine-tuned BERT behind a Flask API with authentication, rate limiting and Redis caching; 435 pytest cases, all passing.
+- **[Cypress E2E suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** (coursework) — 5 end-to-end specs for kurzgesagt.org with custom commands, retries and an HTML report.
+- **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** (academic) — Isolated attack-and-defense lab created and destroyed by 4 Bash scripts: five Cyber Kill Chain techniques, each paired with cloud-native detection.
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Scores a 568-item NVD/CVE dataset down to 185 items needing review, a 67.4% reduction, at 83.27% accuracy on the held-out split — Naive Bayes + fine-tuned BERT behind a validated Flask API. 435 pytest cases, all passing. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | B2B procurement platform published as a live static demo at [crescebr.com.br](https://crescebr.com.br) — strict CSP and a CI job that re-measures the deployed site daily and fails below an A security grade. ~68k LOC TypeScript, 103 test files carrying 2,200+ tests. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
-| **[Cypress E2E Suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 E2E specs with custom resilient commands, retry strategy and HTML reporting. | `Cypress` `JavaScript` |
-| **[crash-loop](https://github.com/oguarni/crash-loop)** | Browser-playable SRE puzzle — deterministic sim engine, 165 Vitest cases with enforced coverage thresholds. [Play it live.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
-| **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Isolated attack-and-defense lab built and destroyed by 4 Bash scripts — five Cyber Kill Chain techniques, each answered with cloud-native detection. | `GCP` `Bash` `Nmap` `Wireshark` |
+## Coding agents
 
----
+**Agentic Engineer** — I keep coding agents under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) that runs `claude-code-action` pinned to a commit SHA and only for the repository owner, so a public `@claude` comment cannot spend the token. Their memory syncs between my Linux and Windows machines through engram-sync, a private Bash and PowerShell tool I wrote. It blocks exports that match known sensitive patterns, accepts an encrypted backup only with a recent restore drill, and runs its tests in CI on Ubuntu and Windows.
 
-## Experience
+## Background
 
-**ERP Software Tester (QA)** — PRECISA Software · May – Aug 2026
-Functional, regression and performance testing on a production ERP (financial, fiscal, sales orders, purchasing, billing). Validated developer fixes against customer-reported defects through a ticket workflow, checked report data with SQL, documented each case with reproducible evidence — including stopwatch timings recorded on the tickets raised for slowness. Fiscal areas covered in testing: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, the IBS/CBS transition. Method: test the whole screen beyond the reported item, with every flag set and unset, and check both print layouts, because a fix made in one often misses the other.
-
-**AWS Cloud Data Engineer, Intern** — Compass UOL · May – Oct 2025 · Remote
-Python/Boto3 automations across EC2, S3, RDS, IAM and Lambda. Migrated batch pipelines to PySpark, validated data integrity with SQL.
-
-**Full Stack Developer, Intern** — Procfy · Nov 2023 – Nov 2024
-Collaborated on features in Ruby on Rails/PostgreSQL. REST API testing with Postman, root cause analysis, SQL validation.
-
-**IT Assistant** — Property Registry Office · Apr 2021 – Nov 2023
-Integration testing across court and registry systems (SAEC/ONR, e-Notariado, PJe, Projudi) under judicial oversight, LGPD access controls, Windows Server. 99%+ availability, zero findings in inspections.
-
----
-
-## Skills
-
-|     |     |
-| --- | --- |
-| **Testing & QA** | Pytest · Cypress · Playwright · Jest + Supertest · Vitest · React Testing Library · Postman · SQL validation · coverage gates in CI · Pylint, Mypy & ESLint · functional, regression, integration & API testing · defect lifecycle and fix validation (homologation/UAT) |
-| **Backend** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
-| **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
-| **ML** | Scikit-learn · Isolation Forest · feature engineering |
-
----
-
-## Education
-
-**B.S. Software Engineering** — UTFPR, Dois Vizinhos · 2022 – Jul 2026 · graduated
-Capstone: TerraVault — approved by the examining board.
-
-**Containers & Kubernetes Essentials** — Coursera, IBM-authored course · Jul 2026 · [verify](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
+- **ERP Software Tester (QA)** — PRECISA Software · May–Aug 2026
+- **AWS Cloud Data Engineer, intern** — Compass UOL · May–Oct 2025 · Python/Boto3 automation, Pandas-to-PySpark pipelines
+- **Full Stack Developer, intern** — Procfy · Nov 2023–Nov 2024 · collaborated on Rails/PostgreSQL features, REST API testing with Postman
+- **IT Assistant** — property registry office · Apr 2021–Nov 2023 · integration testing across court and registry systems under judicial oversight; 99%+ availability, zero findings in inspections
+- **B.S. Software Engineering** — UTFPR · 2022–Jul 2026 · capstone approved by the examining board
+- **Containers & Kubernetes Essentials** — Coursera, IBM-authored course · Jul 2026 · [verify](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
 
 ---
 
@@ -119,46 +63,17 @@ Capstone: TerraVault — approved by the examining board.
 
 # Gabriel Felipe Guarnieri
 
-#### Engenheiro de Software · QA & Automação de Testes · Back-end Python
+Engenheiro de Software · QA e Automação de Testes · Back-end Python
 
-<code>Python</code> · <code>Pytest</code> · <code>Cypress</code> · <code>Playwright</code> · <code>SQL</code> · <code>FastAPI</code> · <code>Terraform</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code>
-
-<p>
-  <a href="https://github.com/oguarni/terravault">
-    <img src="https://img.shields.io/badge/TCC-TerraVault-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="TerraVault"/>
-  </a>
-
-  <a href="https://oguarni.github.io">
-    <img src="https://img.shields.io/badge/Portfólio-Visitar-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-
-  <a href="https://www.linkedin.com/in/oguarni/">
-    <img src="https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-
-  <a href="mailto:gfguarnieri@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Localização-Dois_Vizinhos,_PR,_BR-informational?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Idiomas-PT_(Nativo)_%7C_EN_(Profissional_Completo)-blueviolet?style=flat-square"/>
-</p>
+[Portfólio](https://oguarni.github.io) · [CV (PDF)](https://oguarni.github.io/assets/gabriel-guarnieri-cv-pt.pdf) · [LinkedIn](https://www.linkedin.com/in/oguarni/) · [E-mail](mailto:gfguarnieri@gmail.com)
 
 </div>
 
 ---
 
-Engenheiro de Software (Bacharel, UTFPR, julho de 2026). Já trabalhei como QA, com testes funcionais e de regressão em um ERP em produção, e construo back-ends em Python com a segurança integrada antes do release. Caminhando para DevSecOps e segurança em cloud.
+Sou engenheiro de software (Bacharel, UTFPR, 2026) e procuro vaga em QA e automação de testes ou em desenvolvimento back-end com Python. Moro em Dois Vizinhos (PR) e posso trabalhar remoto, híbrido ou presencial. Tenho inglês em nível de proficiência profissional completa.
 
-**Agentic Engineer** — mantenho o agente de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) que roda a `claude-code-action` fixada por SHA e só para o dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
-
-A memória do agente recebe o mesmo cuidado. O engram-sync, ferramenta privada que escrevi em Bash e PowerShell, sincroniza essa memória entre meus computadores Linux e Windows via Git. Ele barra qualquer exportação que bata com padrões sensíveis conhecidos, e um backup criptografado com age só é aceito com um teste de restauração recente. Os testes rodam no CI em Ubuntu e no Windows PowerShell 5.1, cada um atrás de um linter com versão fixada.
-
-**Aberto a:** QA / Automação de Testes · Python / Back-end · Full Stack — Remoto / Híbrido / Presencial.
-
----
+Meu trabalho profissional em QA foi num ERP fiscal, na PRECISA Software (mai–ago 2026): testes funcionais, de regressão e de desempenho das correções dos desenvolvedores, com conferência em SQL e evidências reprodutíveis de cada caso. Em projetos acadêmicos e pessoais, automatizo testes com Pytest, Playwright e Cypress e construo back-ends em Python com os testes rodando no CI. No longo prazo, quero crescer em DevSecOps e segurança em cloud, e é daí que vem o TerraVault.
 
 ## TerraVault — TCC
 
@@ -166,56 +81,29 @@ A memória do agente recebe o mesmo cuidado. O engram-sync, ferramenta privada q
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos do Terraform Registry e do GitHub público.
 
-**Qualidade** — 200+ casos pytest · 82%+ de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Safety/Flake8/Mypy · quality gate com catraca de não regressão que reprova o build a qualquer queda · SARIF v2.1.0 para o GitHub Code Scanning. São pisos, e a catraca só os eleva. Rode `make quality-gate` para ver os números exatos; ele grava tudo no `gate-metrics.json`.
+**Qualidade** — 200+ casos pytest · 82%+ de cobertura de linhas · Pylint 10,00/10 · 0 Bandit/Flake8/Mypy · SARIF v2.1.0 para o GitHub Code Scanning. O gate de CI reprova o build se a cobertura cair abaixo do piso registrado, que só sobe, se o Pylint ficar abaixo de 10,00 ou se Bandit, Flake8 ou Mypy acusarem qualquer achado. Rode `make quality-gate` para ver os números exatos; ele grava tudo no `gate-metrics.json`.
 
 **Resultados** — **83% de recall** em fixtures de terceiros do KICS, dentro do escopo declarado das regras; o catálogo mais amplo do Checkov ainda vence no agregado (F1 73,5 contra 64,4), e a ablação mostra que quem separa são as regras, não o ML. Os três números estão [no repositório](https://github.com/oguarni/terravault/tree/main/evaluation/results).
 
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Scikit-learn`
 
----
+## Outros projetos
 
-## Projetos
+- **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** (pessoal) — Plataforma de compras B2B em TypeScript (React 19, Express 5, PostgreSQL), publicada como demo estática em [crescebr.com.br](https://crescebr.com.br). Um job de CI remede o site publicado todo dia e reprova abaixo do grau A de segurança; são 100+ arquivos de teste com mais de 2.200 testes.
+- **[crash-loop](https://github.com/oguarni/crash-loop)** (projeto de disciplina, em equipe de três) — Puzzle SRE jogável no navegador, em TypeScript, com motor de simulação determinístico e 165 casos Vitest sob thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/)
+- **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** (acadêmico) — Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão, queda de 67,4%, com 83,27% de acurácia no conjunto de teste separado. Naive Bayes + BERT fine-tuned atrás de uma API Flask com autenticação, rate limiting e cache Redis; 435 casos pytest, todos passando.
+- **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** (trabalho de disciplina) — 5 specs E2E para kurzgesagt.org com comandos customizados, retry e relatório HTML.
+- **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** (acadêmico) — Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash: cinco técnicas da Cyber Kill Chain, cada uma com detecção cloud-native.
 
-| Projeto | O que é | Stack |
-| --- | --- | --- |
-| **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** | Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão, queda de 67,4%, com 83,27% de acurácia no conjunto de teste separado — Naive Bayes + BERT fine-tuned atrás de uma API Flask validada. 435 casos pytest, todos passando. | `Python` `Flask` `PyTorch` `Redis` |
-| **[CresceBR](https://github.com/oguarni/crescebr-b2b-marketplace)** | Plataforma de compras B2B publicada como demo estática em [crescebr.com.br](https://crescebr.com.br) — CSP estrita e job de CI que remede o site publicado todo dia e reprova abaixo do grau A de segurança. ~68 mil LOC TypeScript, 103 arquivos de teste com mais de 2.200 testes. | `Express 5` `React 19` `TypeScript` `PostgreSQL` |
-| **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** | 5 specs E2E com comandos resilientes customizados, retry e relatório HTML. | `Cypress` `JavaScript` |
-| **[crash-loop](https://github.com/oguarni/crash-loop)** | Puzzle SRE jogável no navegador — motor de simulação determinístico, 165 casos Vitest com thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/) | `TypeScript` `Vite` `Vitest` |
-| **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** | Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash — cinco técnicas da Cyber Kill Chain, cada uma respondida com detecção cloud-native. | `GCP` `Bash` `Nmap` `Wireshark` |
+## Agentes de código
 
----
+**Agentic Engineer** — mantenho os agentes de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) que roda a `claude-code-action` fixada por SHA e só para o dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token. A memória deles é sincronizada entre meus computadores Linux e Windows pelo engram-sync, ferramenta privada que escrevi em Bash e PowerShell. Ela barra exportações que batem com padrões sensíveis conhecidos, só aceita um backup criptografado com teste de restauração recente e roda os testes no CI em Ubuntu e Windows.
 
-## Experiência
+## Trajetória
 
-**Testador de Software ERP (QA)** — PRECISA Software · Mai – Ago 2026
-Testes funcionais, de regressão e de performance em um ERP em produção (financeiro, fiscal, pedidos de venda, compras, faturamento). Validei correções dos desenvolvedores frente a defeitos reportados por clientes dentro de um fluxo de tickets, conferi dados de relatórios com SQL e documentei cada caso com evidências reprodutíveis — incluindo a cronometragem registrada nos chamados abertos por lentidão. Áreas fiscais cobertas nos testes: NF-e/NFC-e/CT-e, SPED, PIS/COFINS, transição IBS/CBS. Método: testar a tela inteira além do item reportado, com cada flag marcada e desmarcada, e conferir os dois layouts de impressão, porque a correção feita em um costuma não chegar ao outro.
-
-**Engenharia de Dados Cloud AWS, Estágio** — Compass UOL · Mai – Out 2025 · Remoto
-Automações Python/Boto3 em EC2, S3, RDS, IAM e Lambda. Migrei pipelines batch para PySpark e validei integridade de dados com SQL.
-
-**Desenvolvimento Full Stack, Estágio** — Procfy · Nov 2023 – Nov 2024
-Colaborei no desenvolvimento de funcionalidades em Ruby on Rails/PostgreSQL. Testes de API REST com Postman, análise de causa raiz e validação via SQL.
-
-**Assistente de TI** — Serviço de Registro de Imóveis · Abr 2021 – Nov 2023
-Testes de integração com sistemas judiciais e registrais (SAEC/ONR, e-Notariado, PJe, Projudi) sob fiscalização judicial, controles de acesso para a LGPD, Windows Server. 99%+ de disponibilidade, zero achados em inspeções.
-
----
-
-## Competências
-
-|     |     |
-| --- | --- |
-| **Testes & QA** | Pytest · Cypress · Playwright · Jest + Supertest · Vitest · React Testing Library · Postman · validação via SQL · gates de cobertura no CI · Pylint, Mypy e ESLint · testes funcionais, de regressão, integração e API · ciclo de vida de defeitos e validação de correções (homologação/UAT) |
-| **Back-end** | Python (FastAPI, async, Pydantic, SQLAlchemy) · Node.js/Express · Ruby on Rails · REST/OpenAPI · JWT/RBAC · PostgreSQL · Redis |
-| **Cloud & DevSecOps** | AWS (EC2, S3, RDS, IAM, Lambda, Boto3, PySpark) · GCP (Compute Engine, VPC, BigQuery) · Terraform · Docker · GitHub Actions · Bandit · Trivy · GitLeaks · SARIF |
-| **ML** | Scikit-learn · Isolation Forest · feature engineering |
-
----
-
-## Formação
-
-**Bacharelado em Engenharia de Software** — UTFPR, Dois Vizinhos · 2022 – Jul 2026 · graduado
-TCC: TerraVault — aprovado pela banca examinadora.
-
-**Containers & Kubernetes Essentials** — Coursera, curso da IBM · Jul 2026 · [verificar](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
+- **Testador de Software ERP (QA)** — PRECISA Software · mai–ago 2026
+- **Estágio em Engenharia de Dados Cloud (AWS)** — Compass UOL · mai–out 2025 · automações Python/Boto3, pipelines de Pandas para PySpark
+- **Estágio em Desenvolvimento Full Stack** — Procfy · nov 2023–nov 2024 · colaborei no desenvolvimento de funcionalidades em Rails/PostgreSQL, testes de API REST com Postman
+- **Assistente de TI** — Serviço de Registro de Imóveis · abr 2021–nov 2023 · testes de integração com sistemas judiciais e registrais sob fiscalização judicial; 99%+ de disponibilidade, zero achados em inspeções
+- **Bacharelado em Engenharia de Software** — UTFPR · 2022–jul 2026 · TCC aprovado pela banca examinadora
+- **Containers & Kubernetes Essentials** — Coursera, curso da IBM · jul 2026 · [verificar](https://www.credly.com/badges/3f51aed5-1893-41dd-9fcb-8a752c9fe71d)
