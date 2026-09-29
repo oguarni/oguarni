@@ -46,7 +46,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 
 ## Coding agents
 
-**Agentic Engineer** — I keep coding agents under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) that runs `claude-code-action` pinned to a commit SHA and only for the repository owner, so a public `@claude` comment cannot spend the token. Their memory syncs between my Linux and Windows machines through engram-sync, a private Bash and PowerShell tool I wrote. It blocks exports that match known sensitive patterns, accepts an encrypted backup only with a recent restore drill, and runs its tests in CI on Ubuntu and Windows.
+**Agentic Engineer** — I keep coding agents under the same controls as the code: per-directory `CLAUDE.md` context, [repo-scoped commands](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) committed alongside it, and a [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) that runs `claude-code-action` pinned to a commit SHA and only for the repository owner, so a public `@claude` comment cannot spend the token.
 
 ## Background
 
@@ -97,7 +97,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 
 ## Agentes de código
 
-**Agentic Engineer** — mantenho os agentes de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) que roda a `claude-code-action` fixada por SHA e só para o dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token. A memória deles é sincronizada entre meus computadores Linux e Windows pelo engram-sync, ferramenta privada que escrevi em Bash e PowerShell. Ela barra exportações que batem com padrões sensíveis conhecidos, só aceita um backup criptografado com teste de restauração recente e roda os testes no CI em Ubuntu e Windows.
+**Agentic Engineer** — mantenho os agentes de código sob os mesmos controles do código: contexto `CLAUDE.md` por diretório, [comandos de repositório](https://github.com/oguarni/crescebr-b2b-marketplace/tree/main/.claude/commands) versionados junto dele e um [workflow](https://github.com/oguarni/terravault/blob/main/.github/workflows/claude.yml) que roda a `claude-code-action` fixada por SHA e só para o dono do repositório, de modo que um `@claude` de qualquer visitante não gasta o token.
 
 ## Trajetória
 
