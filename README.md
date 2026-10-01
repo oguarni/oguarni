@@ -26,7 +26,7 @@ My professional QA work was on a tax and billing ERP at PRECISA Software (May–
 
 ## TerraVault — Capstone
 
-> **The problem:** a rule-based scanner only catches what it has a rule for. Misconfiguration is one of the leading causes of cloud breaches, and the average breach cost **$4.99M** in IBM's [*Cost of a Data Breach 2026*](https://www.ibm.com/reports/data-breach).
+> **The problem:** a rule-based scanner only catches what it already knows. Misconfiguration is one of the leading causes of cloud breaches, and the average breach cost **$4.99M** in IBM's [*Cost of a Data Breach 2026*](https://www.ibm.com/reports/data-breach).
 
 Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation Forest trained on **35,594 real feature vectors** mined from the Terraform Registry and public GitHub.
 
@@ -77,7 +77,7 @@ Meu trabalho profissional em QA foi num ERP fiscal, na PRECISA Software (mai–a
 
 ## TerraVault — TCC
 
-> **O problema:** um scanner baseado em regras só pega o que tem regra. Configuração incorreta está entre as principais causas de violações em nuvem, e a violação média custou **US$ 4,99 milhões** no [*Cost of a Data Breach 2026*](https://www.ibm.com/reports/data-breach) da IBM.
+> **O problema:** um scanner baseado em regras só pega o que já tem regra. Configuração incorreta está entre as principais causas de violações em nuvem, e a violação média custou **US$ 4,99 milhões** no [*Cost of a Data Breach 2026*](https://www.ibm.com/reports/data-breach) da IBM.
 
 Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + Isolation Forest treinado sobre **35.594 vetores reais** extraídos do Terraform Registry e do GitHub público.
 
