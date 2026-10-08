@@ -42,7 +42,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 - **[crash-loop](https://github.com/oguarni/crash-loop)** (course project, team of three) — Browser-playable SRE puzzle in TypeScript with a deterministic simulation engine and 165 Vitest cases under enforced coverage thresholds. [Play it.](https://oguarni.github.io/crash-loop/)
 - **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** (academic) — Scores a 568-item NVD/CVE dataset down to 185 items needing review, a 67.4% reduction, at 83.27% accuracy on the held-out split. Naive Bayes + fine-tuned BERT behind a Flask API with authentication, rate limiting and Redis caching; 435 pytest cases, all passing.
 - **[Cypress E2E suite](https://github.com/oguarni/kurzgesagt-cypress-tests)** (coursework) — 5 end-to-end specs for kurzgesagt.org with custom commands, retries and an HTML report.
-- **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** (academic) — Isolated attack-and-defense lab created and destroyed by 4 Bash scripts: five Cyber Kill Chain techniques, each paired with cloud-native detection.
+- **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** (academic) — Isolated attack-and-defense lab created and destroyed by 4 Bash scripts: five Cyber Kill Chain techniques, three of them caught in the lab's own logs.
 
 ## Coding agents
 
@@ -93,7 +93,7 @@ Scanner híbrido de segurança para Terraform: **11 regras determinísticas** + 
 - **[crash-loop](https://github.com/oguarni/crash-loop)** (projeto de disciplina, em equipe de três) — Puzzle SRE jogável no navegador, em TypeScript, com motor de simulação determinístico e 165 casos Vitest sob thresholds de cobertura. [Jogue online.](https://oguarni.github.io/crash-loop/)
 - **[AI Vulnerability Triage](https://github.com/oguarni/ai-vulnerability-triage)** (acadêmico) — Reduz um conjunto NVD/CVE de 568 itens a 185 que exigem revisão, queda de 67,4%, com 83,27% de acurácia no conjunto de teste separado. Naive Bayes + BERT fine-tuned atrás de uma API Flask com autenticação, rate limiting e cache Redis; 435 casos pytest, todos passando.
 - **[Suíte E2E Cypress](https://github.com/oguarni/kurzgesagt-cypress-tests)** (trabalho de disciplina) — 5 specs E2E para kurzgesagt.org com comandos customizados, retry e relatório HTML.
-- **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** (acadêmico) — Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash: cinco técnicas da Cyber Kill Chain, cada uma com detecção cloud-native.
+- **[Cloud Security Lab — GCP](https://github.com/oguarni/cloud-security-lab-gcp)** (acadêmico) — Laboratório isolado de ataque e defesa criado e destruído por 4 scripts Bash: cinco técnicas da Cyber Kill Chain, três delas detectadas nos logs do laboratório.
 
 ## Agentes de código
 
