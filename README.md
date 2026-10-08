@@ -12,7 +12,7 @@
 
 # Gabriel Felipe Guarnieri
 
-Software Engineer · QA & Test Automation · Python Backend
+Software Engineer · QA & Test Automation
 
 [Portfolio](https://oguarni.github.io) · [CV (PDF)](https://oguarni.github.io/assets/gabriel-guarnieri-cv.pdf) · [LinkedIn](https://www.linkedin.com/in/oguarni/) · [Email](mailto:gfguarnieri@gmail.com)
 
@@ -20,7 +20,7 @@ Software Engineer · QA & Test Automation · Python Backend
 
 ---
 
-I'm a Software Engineer (B.S., UTFPR, 2026) looking for a role in QA and test automation or in Python backend development. I live in Dois Vizinhos, Brazil, and I'm open to remote, hybrid or on-site work. Portuguese is my first language, and my English is at full professional proficiency.
+I'm a Software Engineer (B.S., UTFPR, 2026) looking for a role in QA and test automation. I live in Dois Vizinhos, Brazil, and I'm open to remote, hybrid or on-site work. Portuguese is my first language, and my English is at full professional proficiency.
 
 My professional QA work was on a tax and billing ERP at PRECISA Software (May–Aug 2026): functional, regression and performance testing of developer fixes, with reproducible evidence for each case. In academic and personal projects I automate tests with Pytest, Playwright and Cypress and build Python backends with the tests running in CI. Longer term I want to grow into DevSecOps and cloud security, which is where TerraVault comes from.
 
@@ -63,7 +63,7 @@ Hybrid security scanner for Terraform: **11 deterministic rules** + an Isolation
 
 # Gabriel Felipe Guarnieri
 
-Engenheiro de Software · QA e Automação de Testes · Back-end Python
+Engenheiro de Software · QA e Automação de Testes
 
 [Portfólio](https://oguarni.github.io) · [CV (PDF)](https://oguarni.github.io/assets/gabriel-guarnieri-cv-pt.pdf) · [LinkedIn](https://www.linkedin.com/in/oguarni/) · [E-mail](mailto:gfguarnieri@gmail.com)
 
@@ -71,7 +71,7 @@ Engenheiro de Software · QA e Automação de Testes · Back-end Python
 
 ---
 
-Sou engenheiro de software (Bacharel, UTFPR, 2026) e procuro vaga em QA e automação de testes ou em desenvolvimento back-end com Python. Moro em Dois Vizinhos (PR) e posso trabalhar remoto, híbrido ou presencial. Tenho inglês em nível de proficiência profissional completa.
+Sou engenheiro de software (Bacharel, UTFPR, 2026) e procuro vaga em QA e automação de testes. Moro em Dois Vizinhos (PR) e posso trabalhar remoto, híbrido ou presencial. Tenho inglês em nível de proficiência profissional completa.
 
 Meu trabalho profissional em QA foi num ERP fiscal, na PRECISA Software (mai–ago 2026): testes funcionais, de regressão e de desempenho das correções dos desenvolvedores, com evidências reprodutíveis de cada caso. Em projetos acadêmicos e pessoais, automatizo testes com Pytest, Playwright e Cypress e construo back-ends em Python com os testes rodando no CI. No longo prazo, quero crescer em DevSecOps e segurança em cloud, e é daí que vem o TerraVault.
 
